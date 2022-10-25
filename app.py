@@ -1,10 +1,6 @@
-import collections
-from heapq import merge
-from threading import activeCount
 import time
 from openpyxl.styles import Font
 from openpyxl import Workbook, load_workbook
-from distutils.log import debug
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -12,11 +8,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
-from tkinter import messagebox
 import logging
-from openpyxl.cell.cell import MergedCell
 import os
-import tkinter
 from tkinter import messagebox
 
 path = "./FT_a_procesar"
@@ -290,7 +283,13 @@ class LoadFile:
                 time.sleep(1)
                 actions.send_keys(Keys.ENTER)
             time.sleep(2)
-            if talle == "6" or talle == "8" or talle == "10" or talle == "12" or talle == "14":
+            if (
+                talle == "6"
+                or talle == "8"
+                or talle == "10"
+                or talle == "12"
+                or talle == "14"
+            ):
                 actions.send_keys(talle + " (GRISINO C3-C4 NUMEROS)")
                 actions.perform()
             else:
@@ -347,23 +346,23 @@ class LoadFile:
             logging.info("Nueva ficha tecnica")
             logging.info("reading excel..")
 
-            #for idx, i in enumerate(lista_cod_color):
+            # for idx, i in enumerate(lista_cod_color):
             for index, ficha in enumerate(self.fichas):
                 logging.info(f"Cargando ficha: {ficha}")
                 wb = load_workbook(f"./FT_a_procesar/{ficha}", data_only=True)
                 ws = wb.active
 
-                time.sleep(25)
+                time.sleep(35)
 
                 input_coleccion = WebDriverWait(driver, 35).until(
-                    expected_conditions.presence_of_element_located(
-                        (
+                expected_conditions.presence_of_element_located(
+                    (
+                        
                             By.ID,
                             "ext-comp-1254",
-                        )
-                    )
-                )
-                time.sleep(5)
+                )))
+                    
+                time.sleep(10)
                 input_coleccion.click()
                 time.sleep(3)
                 actions = ActionChains(driver)
@@ -427,7 +426,7 @@ class LoadFile:
                         "//table[@id='ext-comp-1324']/tbody/tr[2]/td[2]/em/button",
                     )
                 elif index == 1:
-                        agregar_insumo = driver.find_element(
+                    agregar_insumo = driver.find_element(
                         By.XPATH,
                         "//table[@id='ext-comp-1705']/tbody/tr[2]/td[2]/em/button",
                     )
@@ -736,8 +735,7 @@ class LoadFile:
                 time.sleep(5)
                 btn_si.click()
                 btn_ok = driver.find_element(
-                    By.XPATH,
-                    "//button[contains(text(),'OK')]"
+                    By.XPATH, "//button[contains(text(),'OK')]"
                 )
                 time.sleep(5)
                 btn_ok.click()
@@ -759,14 +757,14 @@ class LoadFile:
 
                 if cod_art_2 != None:
                     logging.info(f"Cargando segundo codigo de producto: {cod_art_2}")
-                    input_coleccion = driver.find_element(
+                    input_coleccion2 = driver.find_element(
                         By.XPATH,
                         "//*[@id='ext-comp-1254']",
                     )
                     actions = ActionChains(driver)
                     coleccion = ws["G1"].value
                     time.sleep(3)
-                    input_coleccion.send_keys(coleccion)
+                    input_coleccion2.send_keys(coleccion)
                     time.sleep(3)
                     actions.send_keys(Keys.ENTER)
                     actions.perform()
@@ -778,7 +776,7 @@ class LoadFile:
                     actions.send_keys(Keys.ARROW_DOWN)
                     actions.send_keys(Keys.ENTER)
                     actions.perform()
-                    time.sleep(3)   
+                    time.sleep(3)
                     actions.send_keys(Keys.TAB)
                     actions.perform()
                     time.sleep(3)
@@ -1095,7 +1093,8 @@ class LoadFile:
                     btn_guardar2.click()
                     time.sleep(2)
                     btn_si2 = driver.find_element(
-                        By.XPATH, "//table[@id='ext-comp-1480']/tbody/tr[2]/td[2]/em/button",
+                        By.XPATH,
+                        "//table[@id='ext-comp-1480']/tbody/tr[2]/td[2]/em/button",
                     )
                     time.sleep(3)
                     btn_si2.click()
@@ -1113,7 +1112,7 @@ class LoadFile:
                     )
                     btn_close2.click()
                     time.sleep(2)
-                    logging.info(f'Ficha: ${ficha} cargada exitosamente')
+                    logging.info(f"Ficha: ${ficha} cargada exitosamente")
             # -------------------------------------------------- --------------------------------------------------------------------------
 
         except (Exception) as error_excepction:

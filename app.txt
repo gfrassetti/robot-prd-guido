@@ -1,0 +1,546 @@
+2022-10-21 19:18:25,148:INFO:...Iniciando...
+2022-10-21 19:18:25,149:INFO:
+
+2022-10-21 19:18:25,149:INFO:====== WebDriver manager ======
+2022-10-21 19:18:26,678:INFO:Current google-chrome version is 106.0.5249
+2022-10-21 19:18:26,678:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-21 19:18:27,196:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-21 19:19:33,329:INFO:...Iniciando...
+2022-10-21 19:19:33,329:INFO:
+
+2022-10-21 19:19:33,330:INFO:====== WebDriver manager ======
+2022-10-21 19:19:34,607:INFO:Current google-chrome version is 106.0.5249
+2022-10-21 19:19:34,607:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-21 19:19:34,719:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-22 12:22:13,879:INFO:...Iniciando...
+2022-10-22 12:22:13,924:INFO:
+
+2022-10-22 12:22:13,925:INFO:====== WebDriver manager ======
+2022-10-22 12:22:15,370:INFO:Current google-chrome version is 106.0.5249
+2022-10-22 12:22:15,371:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-22 12:22:16,748:INFO:Trying to download new driver from https://chromedriver.storage.googleapis.com/106.0.5249.61/chromedriver_win32.zip
+2022-10-22 12:22:19,099:INFO:Driver has been saved in cache [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61]
+2022-10-22 12:23:06,017:INFO:...Iniciando...
+2022-10-22 12:23:06,018:INFO:
+
+2022-10-22 12:23:06,018:INFO:====== WebDriver manager ======
+2022-10-22 12:23:07,293:INFO:Current google-chrome version is 106.0.5249
+2022-10-22 12:23:07,294:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-22 12:23:07,407:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-22 12:28:29,811:INFO:...Iniciando...
+2022-10-22 12:28:29,812:INFO:
+
+2022-10-22 12:28:29,812:INFO:====== WebDriver manager ======
+2022-10-22 12:28:31,290:INFO:Current google-chrome version is 106.0.5249
+2022-10-22 12:28:31,290:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-22 12:28:31,460:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-22 12:45:46,157:INFO:...Iniciando...
+2022-10-22 12:45:46,157:INFO:
+
+2022-10-22 12:45:46,158:INFO:====== WebDriver manager ======
+2022-10-22 12:45:47,724:INFO:Current google-chrome version is 106.0.5249
+2022-10-22 12:45:47,725:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-22 12:45:47,885:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-22 12:47:41,968:INFO:...Iniciando...
+2022-10-22 12:47:41,968:INFO:
+
+2022-10-22 12:47:41,968:INFO:====== WebDriver manager ======
+2022-10-22 12:47:43,446:INFO:Current google-chrome version is 106.0.5249
+2022-10-22 12:47:43,446:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-22 12:47:43,572:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-22 12:48:27,010:INFO:Iniciando sesion..
+2022-10-22 12:48:37,265:INFO:Cargando file...
+2022-10-22 12:54:35,461:INFO:...Iniciando...
+2022-10-22 12:54:35,462:INFO:
+
+2022-10-22 12:54:35,462:INFO:====== WebDriver manager ======
+2022-10-22 12:54:36,712:INFO:Current google-chrome version is 106.0.5249
+2022-10-22 12:54:36,712:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-22 12:54:36,873:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-22 12:56:36,701:INFO:...Iniciando...
+2022-10-22 12:56:36,701:INFO:
+
+2022-10-22 12:56:36,701:INFO:====== WebDriver manager ======
+2022-10-22 12:56:37,938:INFO:Current google-chrome version is 106.0.5249
+2022-10-22 12:56:37,938:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-22 12:56:38,103:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-22 13:11:17,515:INFO:...Iniciando...
+2022-10-22 13:11:17,516:INFO:
+
+2022-10-22 13:11:17,516:INFO:====== WebDriver manager ======
+2022-10-22 13:11:18,800:INFO:Current google-chrome version is 106.0.5249
+2022-10-22 13:11:18,801:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-22 13:11:19,277:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-22 13:24:22,254:INFO:...Iniciando...
+2022-10-22 13:24:22,255:INFO:
+
+2022-10-22 13:24:22,255:INFO:====== WebDriver manager ======
+2022-10-22 13:24:23,603:INFO:Current google-chrome version is 106.0.5249
+2022-10-22 13:24:23,603:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-22 13:24:23,808:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 10:02:42,261:INFO:...Iniciando...
+2022-10-25 10:02:42,261:INFO:
+
+2022-10-25 10:02:42,262:INFO:====== WebDriver manager ======
+2022-10-25 10:02:44,301:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 10:02:44,301:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 10:02:44,612:INFO:Trying to download new driver from https://chromedriver.storage.googleapis.com/106.0.5249.61/chromedriver_win32.zip
+2022-10-25 10:02:47,181:INFO:Driver has been saved in cache [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61]
+2022-10-25 10:02:54,760:INFO:...Iniciando...
+2022-10-25 10:02:54,760:INFO:
+
+2022-10-25 10:02:54,760:INFO:====== WebDriver manager ======
+2022-10-25 10:02:56,227:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 10:02:56,227:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 10:02:56,388:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 10:04:41,103:INFO:...Iniciando...
+2022-10-25 10:04:41,103:INFO:
+
+2022-10-25 10:04:41,104:INFO:====== WebDriver manager ======
+2022-10-25 10:04:42,347:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 10:04:42,347:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 10:04:42,787:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 10:04:45,350:INFO:Iniciando sesion..
+2022-10-25 10:04:45,516:INFO:Entrando...
+2022-10-25 10:04:45,516:INFO:Cargando file...
+2022-10-25 10:05:19,346:INFO:Nueva ficha tecnica
+2022-10-25 10:05:19,346:INFO:reading excel..
+2022-10-25 10:05:19,346:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 12:20:54,257:INFO:...Iniciando...
+2022-10-25 12:20:54,257:INFO:
+
+2022-10-25 12:20:54,258:INFO:====== WebDriver manager ======
+2022-10-25 12:20:55,542:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 12:20:55,542:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 12:20:55,851:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 12:20:59,049:INFO:Iniciando sesion..
+2022-10-25 12:20:59,221:INFO:Entrando...
+2022-10-25 12:20:59,221:INFO:Cargando file...
+2022-10-25 12:21:17,171:INFO:Nueva ficha tecnica
+2022-10-25 12:21:17,171:INFO:reading excel..
+2022-10-25 12:21:17,171:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 12:25:25,118:INFO:...Iniciando...
+2022-10-25 12:25:25,119:INFO:
+
+2022-10-25 12:25:25,119:INFO:====== WebDriver manager ======
+2022-10-25 12:25:26,458:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 12:25:26,458:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 12:25:26,556:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 12:25:29,513:INFO:Iniciando sesion..
+2022-10-25 12:25:29,687:INFO:Entrando...
+2022-10-25 12:25:29,687:INFO:Cargando file...
+2022-10-25 12:25:49,968:INFO:Nueva ficha tecnica
+2022-10-25 12:25:49,968:INFO:reading excel..
+2022-10-25 12:25:49,968:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 12:28:26,117:INFO:...Iniciando...
+2022-10-25 12:28:26,117:INFO:
+
+2022-10-25 12:28:26,117:INFO:====== WebDriver manager ======
+2022-10-25 12:28:27,340:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 12:28:27,340:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 12:28:27,809:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 12:28:30,843:INFO:Iniciando sesion..
+2022-10-25 12:28:31,023:INFO:Entrando...
+2022-10-25 12:28:31,023:INFO:Cargando file...
+2022-10-25 12:28:54,538:INFO:Nueva ficha tecnica
+2022-10-25 12:28:54,539:INFO:reading excel..
+2022-10-25 12:28:54,539:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 12:35:58,313:INFO:...Iniciando...
+2022-10-25 12:35:58,313:INFO:
+
+2022-10-25 12:35:58,313:INFO:====== WebDriver manager ======
+2022-10-25 12:35:59,603:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 12:35:59,603:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 12:35:59,747:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 12:36:04,334:INFO:Iniciando sesion..
+2022-10-25 12:36:04,506:INFO:Entrando...
+2022-10-25 12:36:04,507:INFO:Cargando file...
+2022-10-25 12:36:27,361:INFO:Nueva ficha tecnica
+2022-10-25 12:36:27,361:INFO:reading excel..
+2022-10-25 12:36:27,361:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 12:38:01,474:INFO:...Iniciando...
+2022-10-25 12:38:01,475:INFO:
+
+2022-10-25 12:38:01,475:INFO:====== WebDriver manager ======
+2022-10-25 12:38:02,710:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 12:38:02,711:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 12:38:02,817:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 12:38:06,294:INFO:Iniciando sesion..
+2022-10-25 12:38:06,466:INFO:Entrando...
+2022-10-25 12:38:06,466:INFO:Cargando file...
+2022-10-25 12:38:26,591:INFO:Nueva ficha tecnica
+2022-10-25 12:38:26,591:INFO:reading excel..
+2022-10-25 12:38:26,591:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 12:58:26,513:INFO:...Iniciando...
+2022-10-25 12:58:26,513:INFO:
+
+2022-10-25 12:58:26,513:INFO:====== WebDriver manager ======
+2022-10-25 12:58:27,751:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 12:58:27,752:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 12:58:27,908:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 12:58:30,733:INFO:Iniciando sesion..
+2022-10-25 12:58:30,918:INFO:Entrando...
+2022-10-25 12:58:30,918:INFO:Cargando file...
+2022-10-25 12:58:50,898:INFO:Nueva ficha tecnica
+2022-10-25 12:58:50,898:INFO:reading excel..
+2022-10-25 12:58:50,898:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:04:25,659:INFO:...Iniciando...
+2022-10-25 13:04:25,660:INFO:
+
+2022-10-25 13:04:25,660:INFO:====== WebDriver manager ======
+2022-10-25 13:04:27,007:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:04:27,008:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:04:27,147:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:04:30,342:INFO:Iniciando sesion..
+2022-10-25 13:04:30,520:INFO:Entrando...
+2022-10-25 13:04:30,520:INFO:Cargando file...
+2022-10-25 13:08:19,271:INFO:...Iniciando...
+2022-10-25 13:08:19,272:INFO:
+
+2022-10-25 13:08:19,272:INFO:====== WebDriver manager ======
+2022-10-25 13:08:20,557:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:08:20,557:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:08:20,833:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:08:23,620:INFO:Iniciando sesion..
+2022-10-25 13:08:23,799:INFO:Entrando...
+2022-10-25 13:08:23,799:INFO:Cargando file...
+2022-10-25 13:12:43,606:INFO:...Iniciando...
+2022-10-25 13:12:43,606:INFO:
+
+2022-10-25 13:12:43,606:INFO:====== WebDriver manager ======
+2022-10-25 13:12:44,881:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:12:44,881:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:12:45,090:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:12:48,857:INFO:Iniciando sesion..
+2022-10-25 13:12:49,033:INFO:Entrando...
+2022-10-25 13:12:49,034:INFO:Cargando file...
+2022-10-25 13:13:06,783:INFO:Nueva ficha tecnica
+2022-10-25 13:13:06,783:INFO:reading excel..
+2022-10-25 13:13:06,783:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:14:30,625:INFO:...Iniciando...
+2022-10-25 13:14:30,625:INFO:
+
+2022-10-25 13:14:30,625:INFO:====== WebDriver manager ======
+2022-10-25 13:14:31,837:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:14:31,838:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:14:32,011:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:14:34,296:INFO:Iniciando sesion..
+2022-10-25 13:14:34,473:INFO:Entrando...
+2022-10-25 13:14:34,473:INFO:Cargando file...
+2022-10-25 13:14:56,172:INFO:Nueva ficha tecnica
+2022-10-25 13:14:56,172:INFO:reading excel..
+2022-10-25 13:14:56,172:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:30:59,495:INFO:...Iniciando...
+2022-10-25 13:30:59,495:INFO:
+
+2022-10-25 13:30:59,495:INFO:====== WebDriver manager ======
+2022-10-25 13:31:00,767:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:31:00,768:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:31:00,903:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:31:04,313:INFO:Iniciando sesion..
+2022-10-25 13:31:04,492:INFO:Entrando...
+2022-10-25 13:31:04,492:INFO:Cargando file...
+2022-10-25 13:31:22,929:INFO:Nueva ficha tecnica
+2022-10-25 13:31:22,929:INFO:reading excel..
+2022-10-25 13:31:22,929:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:33:10,974:INFO:...Iniciando...
+2022-10-25 13:33:10,974:INFO:
+
+2022-10-25 13:33:10,974:INFO:====== WebDriver manager ======
+2022-10-25 13:33:12,214:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:33:12,214:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:33:12,312:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:33:15,725:INFO:Iniciando sesion..
+2022-10-25 13:33:15,901:INFO:Entrando...
+2022-10-25 13:33:15,902:INFO:Cargando file...
+2022-10-25 13:33:37,603:INFO:Nueva ficha tecnica
+2022-10-25 13:33:37,603:INFO:reading excel..
+2022-10-25 13:33:37,604:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:34:50,977:INFO:Agregando regla - telas corte
+2022-10-25 13:35:05,457:INFO:Agregando insumos telas
+2022-10-25 13:35:08,516:INFO:Cargando el insumo XTF003
+2022-10-25 13:35:30,932:INFO:Cargando el insumo XTJ000
+2022-10-25 13:43:13,560:INFO:...Iniciando...
+2022-10-25 13:43:13,560:INFO:
+
+2022-10-25 13:43:13,561:INFO:====== WebDriver manager ======
+2022-10-25 13:43:14,950:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:43:14,950:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:43:15,115:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:43:18,265:INFO:Iniciando sesion..
+2022-10-25 13:43:18,474:INFO:Entrando...
+2022-10-25 13:43:18,474:INFO:Cargando file...
+2022-10-25 13:43:37,598:INFO:Nueva ficha tecnica
+2022-10-25 13:43:37,599:INFO:reading excel..
+2022-10-25 13:43:37,599:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:43:51,155:INFO:...Iniciando...
+2022-10-25 13:43:51,155:INFO:
+
+2022-10-25 13:43:51,156:INFO:====== WebDriver manager ======
+2022-10-25 13:43:52,454:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:43:52,454:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:43:52,564:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:43:55,131:INFO:Iniciando sesion..
+2022-10-25 13:43:55,321:INFO:Entrando...
+2022-10-25 13:43:55,322:INFO:Cargando file...
+2022-10-25 13:44:16,187:INFO:Nueva ficha tecnica
+2022-10-25 13:44:16,187:INFO:reading excel..
+2022-10-25 13:44:16,187:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:44:44,796:INFO:...Iniciando...
+2022-10-25 13:44:44,796:INFO:
+
+2022-10-25 13:44:44,797:INFO:====== WebDriver manager ======
+2022-10-25 13:44:46,128:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:44:46,128:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:44:46,244:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:44:50,657:INFO:Iniciando sesion..
+2022-10-25 13:44:50,859:INFO:Entrando...
+2022-10-25 13:44:50,859:INFO:Cargando file...
+2022-10-25 13:45:29,825:INFO:...Iniciando...
+2022-10-25 13:45:29,825:INFO:
+
+2022-10-25 13:45:29,826:INFO:====== WebDriver manager ======
+2022-10-25 13:45:31,079:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:45:31,079:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:45:31,188:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:45:33,727:INFO:Iniciando sesion..
+2022-10-25 13:45:33,910:INFO:Entrando...
+2022-10-25 13:45:33,911:INFO:Cargando file...
+2022-10-25 13:45:50,360:INFO:Nueva ficha tecnica
+2022-10-25 13:45:50,360:INFO:reading excel..
+2022-10-25 13:45:50,360:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:46:32,756:INFO:...Iniciando...
+2022-10-25 13:46:32,757:INFO:
+
+2022-10-25 13:46:32,757:INFO:====== WebDriver manager ======
+2022-10-25 13:46:34,489:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:46:34,489:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:46:34,599:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:46:38,023:INFO:Iniciando sesion..
+2022-10-25 13:46:38,246:INFO:Entrando...
+2022-10-25 13:46:38,246:INFO:Cargando file...
+2022-10-25 13:46:58,557:INFO:Nueva ficha tecnica
+2022-10-25 13:46:58,558:INFO:reading excel..
+2022-10-25 13:46:58,558:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:48:12,692:INFO:Agregando regla - telas corte
+2022-10-25 13:48:21,267:INFO:...Iniciando...
+2022-10-25 13:48:21,268:INFO:
+
+2022-10-25 13:48:21,268:INFO:====== WebDriver manager ======
+2022-10-25 13:48:22,637:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:48:22,637:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:48:22,806:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:48:25,823:INFO:Iniciando sesion..
+2022-10-25 13:48:26,006:INFO:Entrando...
+2022-10-25 13:48:26,007:INFO:Cargando file...
+2022-10-25 13:48:44,908:INFO:Nueva ficha tecnica
+2022-10-25 13:48:44,908:INFO:reading excel..
+2022-10-25 13:48:44,908:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:48:54,070:INFO:...Iniciando...
+2022-10-25 13:48:54,071:INFO:
+
+2022-10-25 13:48:54,071:INFO:====== WebDriver manager ======
+2022-10-25 13:48:55,383:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:48:55,384:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:48:55,540:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:48:59,537:INFO:Iniciando sesion..
+2022-10-25 13:48:59,720:INFO:Entrando...
+2022-10-25 13:48:59,720:INFO:Cargando file...
+2022-10-25 13:49:22,182:INFO:Nueva ficha tecnica
+2022-10-25 13:49:22,182:INFO:reading excel..
+2022-10-25 13:49:22,182:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:51:17,918:INFO:...Iniciando...
+2022-10-25 13:51:17,919:INFO:
+
+2022-10-25 13:51:17,919:INFO:====== WebDriver manager ======
+2022-10-25 13:51:19,215:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:51:19,216:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:51:19,327:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:51:49,916:INFO:Iniciando sesion..
+2022-10-25 13:51:50,099:INFO:Entrando...
+2022-10-25 13:51:50,100:INFO:Cargando file...
+2022-10-25 13:52:08,104:INFO:Nueva ficha tecnica
+2022-10-25 13:52:08,105:INFO:reading excel..
+2022-10-25 13:52:08,105:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:54:42,901:INFO:...Iniciando...
+2022-10-25 13:54:42,901:INFO:
+
+2022-10-25 13:54:42,901:INFO:====== WebDriver manager ======
+2022-10-25 13:54:44,286:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:54:44,287:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:54:44,786:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:54:48,241:INFO:Iniciando sesion..
+2022-10-25 13:54:48,429:INFO:Entrando...
+2022-10-25 13:54:48,430:INFO:Cargando file...
+2022-10-25 13:55:09,820:INFO:Nueva ficha tecnica
+2022-10-25 13:55:09,821:INFO:reading excel..
+2022-10-25 13:55:09,821:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:56:36,094:INFO:...Iniciando...
+2022-10-25 13:56:36,095:INFO:
+
+2022-10-25 13:56:36,095:INFO:====== WebDriver manager ======
+2022-10-25 13:56:37,388:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:56:37,388:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:56:37,488:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:56:44,827:INFO:Iniciando sesion..
+2022-10-25 13:56:44,997:INFO:Entrando...
+2022-10-25 13:56:44,997:INFO:Cargando file...
+2022-10-25 13:57:08,130:INFO:...Iniciando...
+2022-10-25 13:57:08,130:INFO:
+
+2022-10-25 13:57:08,130:INFO:====== WebDriver manager ======
+2022-10-25 13:57:09,490:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:57:09,490:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:57:09,610:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:57:12,770:INFO:Iniciando sesion..
+2022-10-25 13:57:12,954:INFO:Entrando...
+2022-10-25 13:57:12,954:INFO:Cargando file...
+2022-10-25 13:57:30,072:INFO:Nueva ficha tecnica
+2022-10-25 13:57:30,072:INFO:reading excel..
+2022-10-25 13:57:30,072:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 13:59:34,857:INFO:...Iniciando...
+2022-10-25 13:59:34,857:INFO:
+
+2022-10-25 13:59:34,858:INFO:====== WebDriver manager ======
+2022-10-25 13:59:36,109:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 13:59:36,122:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 13:59:36,625:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 13:59:39,598:INFO:Iniciando sesion..
+2022-10-25 13:59:39,781:INFO:Entrando...
+2022-10-25 13:59:39,781:INFO:Cargando file...
+2022-10-25 13:59:58,921:INFO:Nueva ficha tecnica
+2022-10-25 13:59:58,921:INFO:reading excel..
+2022-10-25 13:59:58,921:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 14:01:33,251:INFO:...Iniciando...
+2022-10-25 14:01:33,251:INFO:
+
+2022-10-25 14:01:33,251:INFO:====== WebDriver manager ======
+2022-10-25 14:01:34,517:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 14:01:34,517:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 14:01:34,788:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 14:01:38,263:INFO:Iniciando sesion..
+2022-10-25 14:01:38,449:INFO:Entrando...
+2022-10-25 14:01:38,449:INFO:Cargando file...
+2022-10-25 14:01:58,968:INFO:Nueva ficha tecnica
+2022-10-25 14:01:58,969:INFO:reading excel..
+2022-10-25 14:01:58,969:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 14:06:51,045:INFO:...Iniciando...
+2022-10-25 14:06:51,046:INFO:
+
+2022-10-25 14:06:51,047:INFO:====== WebDriver manager ======
+2022-10-25 14:06:52,481:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 14:06:52,482:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 14:06:53,020:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 14:06:56,093:INFO:Iniciando sesion..
+2022-10-25 14:06:56,273:INFO:Entrando...
+2022-10-25 14:06:56,273:INFO:Cargando file...
+2022-10-25 14:07:14,507:INFO:Nueva ficha tecnica
+2022-10-25 14:07:14,507:INFO:reading excel..
+2022-10-25 14:07:14,507:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 14:10:18,837:INFO:...Iniciando...
+2022-10-25 14:10:18,837:INFO:
+
+2022-10-25 14:10:18,838:INFO:====== WebDriver manager ======
+2022-10-25 14:10:20,214:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 14:10:20,214:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 14:10:20,320:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 14:10:22,784:INFO:Iniciando sesion..
+2022-10-25 14:10:22,978:INFO:Entrando...
+2022-10-25 14:10:22,978:INFO:Cargando file...
+2022-10-25 14:10:42,178:INFO:Nueva ficha tecnica
+2022-10-25 14:10:42,178:INFO:reading excel..
+2022-10-25 14:10:42,178:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 14:11:07,143:INFO:...Iniciando...
+2022-10-25 14:11:07,143:INFO:
+
+2022-10-25 14:11:07,144:INFO:====== WebDriver manager ======
+2022-10-25 14:11:08,375:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 14:11:08,376:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 14:11:08,481:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 14:11:11,090:INFO:Iniciando sesion..
+2022-10-25 14:11:11,272:INFO:Entrando...
+2022-10-25 14:11:11,272:INFO:Cargando file...
+2022-10-25 14:11:43,169:INFO:Nueva ficha tecnica
+2022-10-25 14:11:43,170:INFO:reading excel..
+2022-10-25 14:11:43,170:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 14:15:08,512:INFO:...Iniciando...
+2022-10-25 14:15:08,513:INFO:
+
+2022-10-25 14:15:08,513:INFO:====== WebDriver manager ======
+2022-10-25 14:15:09,844:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 14:15:09,844:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 14:15:10,006:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 14:15:14,422:INFO:Iniciando sesion..
+2022-10-25 14:15:14,589:INFO:Entrando...
+2022-10-25 14:15:14,589:INFO:Cargando file...
+2022-10-25 14:15:33,657:INFO:Nueva ficha tecnica
+2022-10-25 14:15:33,657:INFO:reading excel..
+2022-10-25 14:15:33,657:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 14:31:34,001:INFO:...Iniciando...
+2022-10-25 14:31:34,001:INFO:
+
+2022-10-25 14:31:34,002:INFO:====== WebDriver manager ======
+2022-10-25 14:31:35,241:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 14:31:35,242:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 14:31:35,395:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 14:31:38,148:INFO:Iniciando sesion..
+2022-10-25 14:31:38,321:INFO:Entrando...
+2022-10-25 14:31:38,321:INFO:Cargando file...
+2022-10-25 14:31:56,598:INFO:Nueva ficha tecnica
+2022-10-25 14:31:56,599:INFO:reading excel..
+2022-10-25 14:31:56,599:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 14:41:30,977:INFO:...Iniciando...
+2022-10-25 14:41:30,977:INFO:
+
+2022-10-25 14:41:30,978:INFO:====== WebDriver manager ======
+2022-10-25 14:41:32,380:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 14:41:32,381:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 14:41:32,705:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 14:41:35,944:INFO:Iniciando sesion..
+2022-10-25 14:41:36,110:INFO:Entrando...
+2022-10-25 14:41:36,110:INFO:Cargando file...
+2022-10-25 14:42:01,224:INFO:Nueva ficha tecnica
+2022-10-25 14:42:01,224:INFO:reading excel..
+2022-10-25 14:42:01,224:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 14:43:42,526:INFO:...Iniciando...
+2022-10-25 14:43:42,526:INFO:
+
+2022-10-25 14:43:42,526:INFO:====== WebDriver manager ======
+2022-10-25 14:43:43,865:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 14:43:43,865:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 14:43:43,974:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 14:43:47,596:INFO:Iniciando sesion..
+2022-10-25 14:43:47,803:INFO:Entrando...
+2022-10-25 14:43:47,804:INFO:Cargando file...
+2022-10-25 14:44:08,268:INFO:Nueva ficha tecnica
+2022-10-25 14:44:08,268:INFO:reading excel..
+2022-10-25 14:44:08,268:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 14:45:27,299:INFO:Agregando regla - telas corte
+2022-10-25 14:45:41,777:INFO:Agregando insumos telas
+2022-10-25 14:45:44,824:INFO:Cargando el insumo XTF003
+2022-10-25 14:46:07,209:INFO:Cargando el insumo XTJ000
+2022-10-25 14:46:25,535:INFO:Carga de insumos terminada
+2022-10-25 14:46:27,540:INFO:Carga de insumos terminada
+2022-10-25 14:46:29,553:INFO:Carga de insumos terminada
+2022-10-25 14:46:32,571:INFO:Carga de insumos terminada
+2022-10-25 14:46:32,571:INFO:Comenzando carga de confeccion...
+2022-10-25 14:46:44,951:INFO:Cargnado insumo por talle...
+2022-10-25 14:46:45,961:INFO:Cargando inusmo por talle: XAE049
+2022-10-25 14:47:10,761:INFO:Cargando inusmo por talle: XAE049
+2022-10-25 14:47:35,595:INFO:Cargando inusmo por talle: XAE049
+2022-10-25 14:48:00,564:INFO:Cargando inusmo por talle: XAE049
+2022-10-25 14:48:24,556:INFO:Carga de inusmo: XAE049 terminada
+2022-10-25 14:48:28,581:INFO:Cargando inusmo por talle: XAE861
+2022-10-25 14:48:49,124:INFO:Carga de insumo por talle finalizada...
+2022-10-25 14:48:49,125:INFO:Carga de inusmo: XAE861 terminada
+2022-10-25 14:49:10,348:INFO:Ficha Guardada
+2022-10-25 14:49:19,424:INFO:Cargando segundo codigo de producto: G4GL05
+2022-10-25 14:49:45,259:INFO:Agregando entrada
+2022-10-25 14:49:47,501:INFO:Cargando insumos...
+2022-10-25 14:49:53,572:INFO:Cargando el insumo XTF003
+2022-10-25 14:50:16,190:INFO:Cargando el insumo XTJ000
+2022-10-25 14:50:34,692:INFO:Carga de insumo None finalizada
+2022-10-25 14:50:36,707:INFO:Carga de insumos terminada
+2022-10-25 14:50:38,720:INFO:Carga de insumos terminada
+2022-10-25 14:50:40,732:INFO:Carga de insumos terminada
+2022-10-25 14:50:44,736:INFO:Comenzando carga de confeccion...
