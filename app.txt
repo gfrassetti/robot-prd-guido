@@ -544,3 +544,546 @@
 2022-10-25 14:50:38,720:INFO:Carga de insumos terminada
 2022-10-25 14:50:40,732:INFO:Carga de insumos terminada
 2022-10-25 14:50:44,736:INFO:Comenzando carga de confeccion...
+2022-10-25 18:48:15,989:INFO:...Iniciando...
+2022-10-25 18:48:15,989:INFO:
+
+2022-10-25 18:48:15,989:INFO:====== WebDriver manager ======
+2022-10-25 18:48:17,413:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 18:48:17,413:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 18:48:17,726:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 18:49:03,677:INFO:Iniciando sesion..
+2022-10-25 18:49:03,935:INFO:Entrando...
+2022-10-25 18:49:03,935:INFO:Cargando file...
+2022-10-25 18:49:40,675:INFO:Nueva ficha tecnica
+2022-10-25 18:49:40,675:INFO:reading excel..
+2022-10-25 18:49:40,675:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 18:50:58,467:INFO:Agregando regla - telas corte
+2022-10-25 18:51:12,931:INFO:Agregando insumos telas
+2022-10-25 18:51:15,976:INFO:Cargando el insumo XTF003
+2022-10-25 18:51:38,360:INFO:Cargando el insumo XTJ000
+2022-10-25 18:51:56,653:INFO:Carga de insumos terminada
+2022-10-25 18:51:58,660:INFO:Carga de insumos terminada
+2022-10-25 18:52:00,673:INFO:Carga de insumos terminada
+2022-10-25 18:52:03,689:INFO:Carga de insumos terminada
+2022-10-25 18:52:03,690:INFO:Comenzando carga de confeccion...
+2022-10-25 18:52:16,025:INFO:Cargnado insumo por talle...
+2022-10-25 18:52:17,035:INFO:Cargando inusmo por talle: XAE049
+2022-10-25 18:52:41,787:INFO:Cargando inusmo por talle: XAE049
+2022-10-25 18:53:06,650:INFO:Cargando inusmo por talle: XAE049
+2022-10-25 18:53:31,542:INFO:Cargando inusmo por talle: XAE049
+2022-10-25 18:53:55,488:INFO:Carga de inusmo: XAE049 terminada
+2022-10-25 18:53:59,513:INFO:Cargando inusmo por talle: XAE861
+2022-10-25 18:54:19,993:INFO:Carga de insumo por talle finalizada...
+2022-10-25 18:54:19,993:INFO:Carga de inusmo: XAE861 terminada
+2022-10-25 18:54:41,215:INFO:Ficha Guardada
+2022-10-25 18:54:50,294:INFO:Cargando segundo codigo de producto: G4GL05
+2022-10-25 18:55:15,787:INFO:Agregando entrada
+2022-10-25 19:08:53,626:INFO:...Iniciando...
+2022-10-25 19:08:53,626:INFO:
+
+2022-10-25 19:08:53,626:INFO:====== WebDriver manager ======
+2022-10-25 19:08:54,943:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 19:08:54,943:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 19:08:55,093:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 19:08:57,982:INFO:Iniciando sesion..
+2022-10-25 19:08:58,131:INFO:Entrando...
+2022-10-25 19:08:58,131:INFO:Cargando file...
+2022-10-25 19:09:33,820:INFO:Nueva ficha tecnica
+2022-10-25 19:09:33,820:INFO:reading excel..
+2022-10-25 19:09:33,820:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 19:19:52,639:INFO:...Iniciando...
+2022-10-25 19:19:52,639:INFO:
+
+2022-10-25 19:19:52,639:INFO:====== WebDriver manager ======
+2022-10-25 19:19:53,871:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 19:19:53,871:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 19:19:54,062:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 19:19:57,220:INFO:Iniciando sesion..
+2022-10-25 19:19:57,402:INFO:Entrando...
+2022-10-25 19:19:57,403:INFO:Cargando file...
+2022-10-25 19:20:18,761:INFO:Nueva ficha tecnica
+2022-10-25 19:20:18,761:INFO:reading excel..
+2022-10-25 19:20:18,761:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 19:21:37,373:INFO:Agregando regla - telas corte
+2022-10-25 19:21:51,862:INFO:Agregando insumos telas
+2022-10-25 19:21:54,944:INFO:Cargando el insumo XTH000
+2022-10-25 19:22:17,407:INFO:Cargando el insumo XTH000
+2022-10-25 19:24:11,111:INFO:...Iniciando...
+2022-10-25 19:24:11,112:INFO:
+
+2022-10-25 19:24:11,112:INFO:====== WebDriver manager ======
+2022-10-25 19:24:12,547:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 19:24:12,547:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 19:24:12,653:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 19:24:15,412:INFO:Iniciando sesion..
+2022-10-25 19:24:15,611:INFO:Entrando...
+2022-10-25 19:24:15,612:INFO:Cargando file...
+2022-10-25 19:24:32,668:INFO:Nueva ficha tecnica
+2022-10-25 19:24:32,668:INFO:reading excel..
+2022-10-25 19:24:32,668:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 19:29:27,801:INFO:...Iniciando...
+2022-10-25 19:29:27,801:INFO:
+
+2022-10-25 19:29:27,802:INFO:====== WebDriver manager ======
+2022-10-25 19:29:29,173:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 19:29:29,173:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 19:29:29,338:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 19:29:32,122:INFO:Iniciando sesion..
+2022-10-25 19:29:32,371:INFO:Entrando...
+2022-10-25 19:29:32,371:INFO:Cargando file...
+2022-10-25 19:29:56,415:INFO:Nueva ficha tecnica
+2022-10-25 19:29:56,415:INFO:reading excel..
+2022-10-25 19:29:56,415:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 19:33:29,356:INFO:...Iniciando...
+2022-10-25 19:33:29,356:INFO:
+
+2022-10-25 19:33:29,357:INFO:====== WebDriver manager ======
+2022-10-25 19:33:30,589:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 19:33:30,589:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 19:33:30,917:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 19:33:33,634:INFO:Iniciando sesion..
+2022-10-25 19:33:33,849:INFO:Entrando...
+2022-10-25 19:33:33,849:INFO:Cargando file...
+2022-10-25 19:33:52,432:INFO:Nueva ficha tecnica
+2022-10-25 19:33:52,433:INFO:reading excel..
+2022-10-25 19:33:52,433:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 19:34:11,686:INFO:...Iniciando...
+2022-10-25 19:34:11,687:INFO:
+
+2022-10-25 19:34:11,687:INFO:====== WebDriver manager ======
+2022-10-25 19:34:12,932:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 19:34:12,932:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 19:34:13,060:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 19:34:16,105:INFO:Iniciando sesion..
+2022-10-25 19:34:16,302:INFO:Entrando...
+2022-10-25 19:34:16,302:INFO:Cargando file...
+2022-10-25 19:34:42,426:INFO:Nueva ficha tecnica
+2022-10-25 19:34:42,426:INFO:reading excel..
+2022-10-25 19:34:42,426:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 19:38:10,807:INFO:...Iniciando...
+2022-10-25 19:38:10,808:INFO:
+
+2022-10-25 19:38:10,808:INFO:====== WebDriver manager ======
+2022-10-25 19:38:12,097:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 19:38:12,098:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 19:38:12,260:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 19:38:16,995:INFO:Iniciando sesion..
+2022-10-25 19:38:17,172:INFO:Entrando...
+2022-10-25 19:38:17,172:INFO:Cargando file...
+2022-10-25 19:38:37,449:INFO:Nueva ficha tecnica
+2022-10-25 19:38:37,449:INFO:reading excel..
+2022-10-25 19:38:37,449:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 19:40:43,301:INFO:...Iniciando...
+2022-10-25 19:40:43,301:INFO:
+
+2022-10-25 19:40:43,313:INFO:====== WebDriver manager ======
+2022-10-25 19:40:44,619:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 19:40:44,620:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 19:40:44,740:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 19:40:47,451:INFO:Iniciando sesion..
+2022-10-25 19:40:47,738:INFO:Entrando...
+2022-10-25 19:40:47,738:INFO:Cargando file...
+2022-10-25 19:41:05,471:INFO:Nueva ficha tecnica
+2022-10-25 19:41:05,471:INFO:reading excel..
+2022-10-25 19:41:05,471:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 19:44:07,447:INFO:...Iniciando...
+2022-10-25 19:44:07,448:INFO:
+
+2022-10-25 19:44:07,448:INFO:====== WebDriver manager ======
+2022-10-25 19:44:08,716:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 19:44:08,717:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 19:44:08,861:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 19:44:12,088:INFO:Iniciando sesion..
+2022-10-25 19:44:12,282:INFO:Entrando...
+2022-10-25 19:44:12,282:INFO:Cargando file...
+2022-10-25 19:44:32,507:INFO:Nueva ficha tecnica
+2022-10-25 19:44:32,507:INFO:reading excel..
+2022-10-25 19:44:32,507:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 19:45:50,193:INFO:Agregando regla - telas corte
+2022-10-25 19:46:04,660:INFO:Agregando insumos telas
+2022-10-25 19:46:07,718:INFO:Cargando el insumo XTF003
+2022-10-25 19:46:30,149:INFO:Cargando el insumo XTJ000
+2022-10-25 19:46:48,459:INFO:Carga de insumos terminada
+2022-10-25 19:46:50,465:INFO:Carga de insumos terminada
+2022-10-25 19:46:52,477:INFO:Carga de insumos terminada
+2022-10-25 19:46:55,494:INFO:Carga de insumos terminada
+2022-10-25 19:46:55,494:INFO:Comenzando carga de confeccion...
+2022-10-25 19:47:07,860:INFO:Cargnado insumo por talle...
+2022-10-25 19:47:08,871:INFO:Cargando inusmo por talle: XAE049
+2022-10-25 19:47:33,669:INFO:Cargando inusmo por talle: XAE049
+2022-10-25 19:47:58,485:INFO:Cargando inusmo por talle: XAE049
+2022-10-25 19:48:23,409:INFO:Cargando inusmo por talle: XAE049
+2022-10-25 19:48:47,386:INFO:Carga de inusmo: XAE049 terminada
+2022-10-25 19:48:51,411:INFO:Cargando inusmo por talle: XAE861
+2022-10-25 19:49:11,954:INFO:Carga de insumo por talle finalizada...
+2022-10-25 19:49:11,954:INFO:Carga de inusmo: XAE861 terminada
+2022-10-25 19:49:33,195:INFO:Ficha Guardada
+2022-10-25 19:49:42,284:INFO:Cargando segundo codigo de producto: G4GL05
+2022-10-25 19:50:08,073:INFO:Agregando entrada
+2022-10-25 19:50:10,311:INFO:Cargando insumos...
+2022-10-25 19:50:16,371:INFO:Cargando el insumo XTF003
+2022-10-25 19:50:39,050:INFO:Cargando el insumo XTJ000
+2022-10-25 19:50:57,590:INFO:Carga de insumo None finalizada
+2022-10-25 19:50:59,600:INFO:Carga de insumos terminada
+2022-10-25 19:51:01,612:INFO:Carga de insumos terminada
+2022-10-25 19:51:03,625:INFO:Carga de insumos terminada
+2022-10-25 19:51:07,628:INFO:Comenzando carga de confeccion...
+2022-10-25 19:56:53,196:INFO:...Iniciando...
+2022-10-25 19:56:53,196:INFO:
+
+2022-10-25 19:56:53,197:INFO:====== WebDriver manager ======
+2022-10-25 19:56:54,451:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 19:56:54,451:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 19:56:54,606:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 19:56:57,663:INFO:Iniciando sesion..
+2022-10-25 19:56:57,845:INFO:Entrando...
+2022-10-25 19:56:57,845:INFO:Cargando file...
+2022-10-25 19:57:17,910:INFO:Nueva ficha tecnica
+2022-10-25 19:57:17,910:INFO:reading excel..
+2022-10-25 19:57:17,910:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 19:59:13,698:INFO:...Iniciando...
+2022-10-25 19:59:13,699:INFO:
+
+2022-10-25 19:59:13,699:INFO:====== WebDriver manager ======
+2022-10-25 19:59:14,994:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 19:59:14,995:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 19:59:15,105:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 19:59:18,710:INFO:Iniciando sesion..
+2022-10-25 19:59:18,907:INFO:Entrando...
+2022-10-25 19:59:18,907:INFO:Cargando file...
+2022-10-25 19:59:40,474:INFO:Nueva ficha tecnica
+2022-10-25 19:59:40,474:INFO:reading excel..
+2022-10-25 19:59:40,475:INFO:Cargando ficha: G276 CANGURO PALOMA - RUSTICO ELASTANO - APROBADO - IMPRESO (2).xlsm
+2022-10-25 20:05:47,526:INFO:...Iniciando...
+2022-10-25 20:05:47,527:INFO:
+
+2022-10-25 20:05:47,527:INFO:====== WebDriver manager ======
+2022-10-25 20:05:48,770:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:05:48,771:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:05:48,928:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:05:51,873:INFO:Iniciando sesion..
+2022-10-25 20:05:52,061:INFO:Entrando...
+2022-10-25 20:05:52,061:INFO:Cargando file...
+2022-10-25 20:06:08,871:INFO:Nueva ficha tecnica
+2022-10-25 20:06:08,872:INFO:reading excel..
+2022-10-25 20:06:08,872:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:06:21,069:INFO:...Iniciando...
+2022-10-25 20:06:21,070:INFO:
+
+2022-10-25 20:06:21,070:INFO:====== WebDriver manager ======
+2022-10-25 20:06:22,284:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:06:22,284:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:06:22,382:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:06:27,867:INFO:Iniciando sesion..
+2022-10-25 20:06:28,055:INFO:Entrando...
+2022-10-25 20:06:28,055:INFO:Cargando file...
+2022-10-25 20:06:55,219:INFO:Nueva ficha tecnica
+2022-10-25 20:06:55,219:INFO:reading excel..
+2022-10-25 20:06:55,219:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:08:28,607:INFO:...Iniciando...
+2022-10-25 20:08:28,607:INFO:
+
+2022-10-25 20:08:28,607:INFO:====== WebDriver manager ======
+2022-10-25 20:08:29,837:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:08:29,838:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:08:30,008:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:08:34,126:INFO:Iniciando sesion..
+2022-10-25 20:08:34,323:INFO:Entrando...
+2022-10-25 20:08:34,323:INFO:Cargando file...
+2022-10-25 20:08:55,226:INFO:Nueva ficha tecnica
+2022-10-25 20:08:55,226:INFO:reading excel..
+2022-10-25 20:08:55,226:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:09:22,434:INFO:...Iniciando...
+2022-10-25 20:09:22,434:INFO:
+
+2022-10-25 20:09:22,434:INFO:====== WebDriver manager ======
+2022-10-25 20:09:23,691:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:09:23,691:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:09:23,808:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:09:27,389:INFO:Iniciando sesion..
+2022-10-25 20:09:27,575:INFO:Entrando...
+2022-10-25 20:09:27,575:INFO:Cargando file...
+2022-10-25 20:09:57,351:INFO:Nueva ficha tecnica
+2022-10-25 20:09:57,351:INFO:reading excel..
+2022-10-25 20:09:57,351:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:11:50,436:INFO:...Iniciando...
+2022-10-25 20:11:50,436:INFO:
+
+2022-10-25 20:11:50,436:INFO:====== WebDriver manager ======
+2022-10-25 20:11:51,689:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:11:51,689:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:11:51,850:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:11:54,842:INFO:Iniciando sesion..
+2022-10-25 20:11:55,022:INFO:Entrando...
+2022-10-25 20:11:55,023:INFO:Cargando file...
+2022-10-25 20:12:15,173:INFO:Nueva ficha tecnica
+2022-10-25 20:12:15,173:INFO:reading excel..
+2022-10-25 20:12:15,174:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:13:40,592:INFO:...Iniciando...
+2022-10-25 20:13:40,592:INFO:
+
+2022-10-25 20:13:40,592:INFO:====== WebDriver manager ======
+2022-10-25 20:13:41,868:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:13:41,868:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:13:41,984:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:13:45,366:INFO:Iniciando sesion..
+2022-10-25 20:13:45,584:INFO:Entrando...
+2022-10-25 20:13:45,584:INFO:Cargando file...
+2022-10-25 20:14:09,659:INFO:Nueva ficha tecnica
+2022-10-25 20:14:09,659:INFO:reading excel..
+2022-10-25 20:14:09,659:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:16:12,718:INFO:...Iniciando...
+2022-10-25 20:16:12,718:INFO:
+
+2022-10-25 20:16:12,718:INFO:====== WebDriver manager ======
+2022-10-25 20:16:13,942:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:16:13,942:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:16:14,048:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:16:17,024:INFO:Iniciando sesion..
+2022-10-25 20:16:17,214:INFO:Entrando...
+2022-10-25 20:16:17,214:INFO:Cargando file...
+2022-10-25 20:16:33,442:INFO:Nueva ficha tecnica
+2022-10-25 20:16:33,442:INFO:reading excel..
+2022-10-25 20:16:33,442:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:16:50,405:INFO:...Iniciando...
+2022-10-25 20:16:50,406:INFO:
+
+2022-10-25 20:16:50,406:INFO:====== WebDriver manager ======
+2022-10-25 20:16:51,641:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:16:51,641:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:16:51,814:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:16:55,837:INFO:Iniciando sesion..
+2022-10-25 20:16:56,024:INFO:Entrando...
+2022-10-25 20:16:56,024:INFO:Cargando file...
+2022-10-25 20:17:13,520:INFO:Nueva ficha tecnica
+2022-10-25 20:17:13,520:INFO:reading excel..
+2022-10-25 20:17:13,520:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:17:21,069:INFO:...Iniciando...
+2022-10-25 20:17:21,069:INFO:
+
+2022-10-25 20:17:21,069:INFO:====== WebDriver manager ======
+2022-10-25 20:17:22,289:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:17:22,290:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:17:22,443:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:17:25,845:INFO:Iniciando sesion..
+2022-10-25 20:17:26,037:INFO:Entrando...
+2022-10-25 20:17:26,038:INFO:Cargando file...
+2022-10-25 20:17:45,023:INFO:Nueva ficha tecnica
+2022-10-25 20:17:45,023:INFO:reading excel..
+2022-10-25 20:17:45,023:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:20:08,544:INFO:...Iniciando...
+2022-10-25 20:20:08,544:INFO:
+
+2022-10-25 20:20:08,544:INFO:====== WebDriver manager ======
+2022-10-25 20:20:09,786:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:20:09,786:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:20:10,037:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:20:13,276:INFO:Iniciando sesion..
+2022-10-25 20:20:13,474:INFO:Entrando...
+2022-10-25 20:20:13,474:INFO:Cargando file...
+2022-10-25 20:20:30,867:INFO:Nueva ficha tecnica
+2022-10-25 20:20:30,867:INFO:reading excel..
+2022-10-25 20:20:30,868:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:22:23,526:INFO:...Iniciando...
+2022-10-25 20:22:23,527:INFO:
+
+2022-10-25 20:22:23,527:INFO:====== WebDriver manager ======
+2022-10-25 20:22:24,733:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:22:24,733:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:22:24,899:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:22:27,648:INFO:Iniciando sesion..
+2022-10-25 20:22:27,843:INFO:Entrando...
+2022-10-25 20:22:27,843:INFO:Cargando file...
+2022-10-25 20:22:56,437:INFO:...Iniciando...
+2022-10-25 20:22:56,437:INFO:
+
+2022-10-25 20:22:56,437:INFO:====== WebDriver manager ======
+2022-10-25 20:22:57,727:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:22:57,727:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:22:57,830:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:23:00,367:INFO:Iniciando sesion..
+2022-10-25 20:23:00,557:INFO:Entrando...
+2022-10-25 20:23:00,557:INFO:Cargando file...
+2022-10-25 20:23:19,309:INFO:Nueva ficha tecnica
+2022-10-25 20:23:19,309:INFO:reading excel..
+2022-10-25 20:23:19,309:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:23:27,207:INFO:...Iniciando...
+2022-10-25 20:23:27,207:INFO:
+
+2022-10-25 20:23:27,207:INFO:====== WebDriver manager ======
+2022-10-25 20:23:28,443:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:23:28,443:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:23:28,548:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:23:31,491:INFO:Iniciando sesion..
+2022-10-25 20:23:31,683:INFO:Entrando...
+2022-10-25 20:23:31,683:INFO:Cargando file...
+2022-10-25 20:23:58,367:INFO:...Iniciando...
+2022-10-25 20:23:58,367:INFO:
+
+2022-10-25 20:23:58,368:INFO:====== WebDriver manager ======
+2022-10-25 20:23:59,951:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:23:59,951:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:24:00,072:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:24:03,802:INFO:Iniciando sesion..
+2022-10-25 20:24:04,005:INFO:Entrando...
+2022-10-25 20:24:04,005:INFO:Cargando file...
+2022-10-25 20:24:26,395:INFO:Nueva ficha tecnica
+2022-10-25 20:24:26,395:INFO:reading excel..
+2022-10-25 20:24:26,395:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:25:59,654:INFO:...Iniciando...
+2022-10-25 20:25:59,655:INFO:
+
+2022-10-25 20:25:59,655:INFO:====== WebDriver manager ======
+2022-10-25 20:26:00,938:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:26:00,938:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:26:01,050:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:26:03,423:INFO:Iniciando sesion..
+2022-10-25 20:26:03,619:INFO:Entrando...
+2022-10-25 20:26:03,619:INFO:Cargando file...
+2022-10-25 20:26:21,281:INFO:Nueva ficha tecnica
+2022-10-25 20:26:21,281:INFO:reading excel..
+2022-10-25 20:26:21,281:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:26:33,802:INFO:...Iniciando...
+2022-10-25 20:26:33,803:INFO:
+
+2022-10-25 20:26:33,803:INFO:====== WebDriver manager ======
+2022-10-25 20:26:35,039:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:26:35,039:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:26:35,147:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:26:37,618:INFO:Iniciando sesion..
+2022-10-25 20:26:37,818:INFO:Entrando...
+2022-10-25 20:26:37,818:INFO:Cargando file...
+2022-10-25 20:26:56,342:INFO:Nueva ficha tecnica
+2022-10-25 20:26:56,343:INFO:reading excel..
+2022-10-25 20:26:56,343:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:27:53,986:INFO:...Iniciando...
+2022-10-25 20:27:53,986:INFO:
+
+2022-10-25 20:27:53,986:INFO:====== WebDriver manager ======
+2022-10-25 20:27:55,222:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:27:55,223:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:27:55,368:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:27:57,796:INFO:Iniciando sesion..
+2022-10-25 20:27:58,002:INFO:Entrando...
+2022-10-25 20:27:58,002:INFO:Cargando file...
+2022-10-25 20:28:15,150:INFO:Nueva ficha tecnica
+2022-10-25 20:28:15,150:INFO:reading excel..
+2022-10-25 20:28:15,150:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:28:23,667:INFO:...Iniciando...
+2022-10-25 20:28:23,668:INFO:
+
+2022-10-25 20:28:23,668:INFO:====== WebDriver manager ======
+2022-10-25 20:28:24,885:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:28:24,885:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:28:24,987:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:28:27,747:INFO:Iniciando sesion..
+2022-10-25 20:28:27,941:INFO:Entrando...
+2022-10-25 20:28:27,941:INFO:Cargando file...
+2022-10-25 20:28:43,919:INFO:Nueva ficha tecnica
+2022-10-25 20:28:43,919:INFO:reading excel..
+2022-10-25 20:28:43,919:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:29:22,274:INFO:...Iniciando...
+2022-10-25 20:29:22,274:INFO:
+
+2022-10-25 20:29:22,274:INFO:====== WebDriver manager ======
+2022-10-25 20:29:23,520:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:29:23,520:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:29:23,670:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:29:26,564:INFO:Iniciando sesion..
+2022-10-25 20:29:26,755:INFO:Entrando...
+2022-10-25 20:29:26,756:INFO:Cargando file...
+2022-10-25 20:29:45,254:INFO:Nueva ficha tecnica
+2022-10-25 20:29:45,254:INFO:reading excel..
+2022-10-25 20:29:45,254:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:30:41,528:INFO:...Iniciando...
+2022-10-25 20:30:41,528:INFO:
+
+2022-10-25 20:30:41,528:INFO:====== WebDriver manager ======
+2022-10-25 20:30:42,886:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:30:42,887:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:30:43,003:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:30:46,695:INFO:Iniciando sesion..
+2022-10-25 20:30:46,882:INFO:Entrando...
+2022-10-25 20:30:46,883:INFO:Cargando file...
+2022-10-25 20:31:06,730:INFO:Nueva ficha tecnica
+2022-10-25 20:31:06,730:INFO:reading excel..
+2022-10-25 20:31:06,730:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:32:01,284:INFO:...Iniciando...
+2022-10-25 20:32:01,284:INFO:
+
+2022-10-25 20:32:01,284:INFO:====== WebDriver manager ======
+2022-10-25 20:32:02,530:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:32:02,530:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:32:02,646:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:32:05,500:INFO:Iniciando sesion..
+2022-10-25 20:32:05,728:INFO:Entrando...
+2022-10-25 20:32:05,729:INFO:Cargando file...
+2022-10-25 20:32:24,549:INFO:Nueva ficha tecnica
+2022-10-25 20:32:24,549:INFO:reading excel..
+2022-10-25 20:32:24,549:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:35:52,570:INFO:...Iniciando...
+2022-10-25 20:35:52,570:INFO:
+
+2022-10-25 20:35:52,571:INFO:====== WebDriver manager ======
+2022-10-25 20:35:53,866:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:35:53,866:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:35:54,023:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:35:57,218:INFO:Iniciando sesion..
+2022-10-25 20:35:57,412:INFO:Entrando...
+2022-10-25 20:35:57,412:INFO:Cargando file...
+2022-10-25 20:36:19,242:INFO:Nueva ficha tecnica
+2022-10-25 20:36:19,242:INFO:reading excel..
+2022-10-25 20:36:19,242:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:38:27,392:INFO:...Iniciando...
+2022-10-25 20:38:27,392:INFO:
+
+2022-10-25 20:38:27,393:INFO:====== WebDriver manager ======
+2022-10-25 20:38:28,627:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:38:28,627:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:38:28,732:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:38:31,657:INFO:Iniciando sesion..
+2022-10-25 20:38:31,857:INFO:Entrando...
+2022-10-25 20:38:31,857:INFO:Cargando file...
+2022-10-25 20:38:49,843:INFO:Nueva ficha tecnica
+2022-10-25 20:38:49,843:INFO:reading excel..
+2022-10-25 20:38:49,843:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:40:07,724:INFO:Agregando regla - telas corte
+2022-10-25 20:40:22,229:INFO:Agregando insumos telas
+2022-10-25 20:40:25,294:INFO:Cargando el insumo XTH000
+2022-10-25 20:40:41,998:INFO:...Iniciando...
+2022-10-25 20:40:41,999:INFO:
+
+2022-10-25 20:40:41,999:INFO:====== WebDriver manager ======
+2022-10-25 20:40:43,234:INFO:Current google-chrome version is 106.0.5249
+2022-10-25 20:40:43,234:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-25 20:40:43,358:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-25 20:40:46,815:INFO:Iniciando sesion..
+2022-10-25 20:40:47,005:INFO:Entrando...
+2022-10-25 20:40:47,005:INFO:Cargando file...
+2022-10-25 20:41:03,746:INFO:Nueva ficha tecnica
+2022-10-25 20:41:03,747:INFO:reading excel..
+2022-10-25 20:41:03,747:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-25 20:42:21,554:INFO:Agregando regla - telas corte
+2022-10-25 20:42:36,027:INFO:Agregando insumos telas
+2022-10-25 20:42:39,078:INFO:Cargando el insumo XTH000
+2022-10-25 20:43:01,494:INFO:Cargando el insumo XTH000
+2022-10-26 09:57:34,056:INFO:...Iniciando...
+2022-10-26 09:57:34,078:INFO:
+
+2022-10-26 09:57:34,078:INFO:====== WebDriver manager ======
+2022-10-26 09:57:35,436:INFO:Current google-chrome version is 106.0.5249
+2022-10-26 09:57:35,437:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-26 09:57:36,811:INFO:Trying to download new driver from https://chromedriver.storage.googleapis.com/106.0.5249.61/chromedriver_win32.zip
+2022-10-26 09:57:39,567:INFO:Driver has been saved in cache [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61]
+2022-10-26 09:58:20,216:INFO:Iniciando sesion..
+2022-10-26 09:58:20,357:INFO:Entrando...
+2022-10-26 09:58:20,357:INFO:Cargando file...
+2022-10-26 09:58:55,022:INFO:Nueva ficha tecnica
+2022-10-26 09:58:55,023:INFO:reading excel..
+2022-10-26 09:58:55,023:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-26 10:00:15,046:INFO:Agregando regla - telas corte
+2022-10-26 10:00:29,657:INFO:Agregando insumos telas
+2022-10-26 10:00:32,709:INFO:Cargando el insumo XTH000
+2022-10-26 10:00:55,125:INFO:Cargando el insumo XTH000
+2022-10-26 10:01:17,541:INFO:Cargando el insumo XTH000
+2022-10-26 10:01:39,956:INFO:Cargando el insumo XTH000

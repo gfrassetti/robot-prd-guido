@@ -1,3 +1,4 @@
+from gc import collect
 import time
 from openpyxl.styles import Font
 from openpyxl import Workbook, load_workbook
@@ -352,25 +353,34 @@ class LoadFile:
                 wb = load_workbook(f"./FT_a_procesar/{ficha}", data_only=True)
                 ws = wb.active
 
-                time.sleep(35)
+                time.sleep(36)
 
                 input_coleccion = WebDriverWait(driver, 35).until(
-                expected_conditions.presence_of_element_located(
-                    (
-                        
+                    expected_conditions.presence_of_element_located(
+                        (
                             By.ID,
                             "ext-comp-1254",
-                )))
-                    
-                time.sleep(10)
+                        )
+                    )
+                )
+
+                time.sleep(6)
                 input_coleccion.click()
                 time.sleep(3)
                 actions = ActionChains(driver)
-                coleccion = ws["G1"].value
-                time.sleep(1)
+                coleccion_parte1 = ws["B1"].value
+                coleccion_parte2 = ws["B2"].value
+                coleccion_parte3 = ws["L5"].value
+                time.sleep(2)
+                coleccion = (
+                    f"{coleccion_parte1} {coleccion_parte2[0]} - {coleccion_parte3}"
+                )
+                print("Coleccion: ", coleccion)
+                time.sleep(2)
                 actions.send_keys(coleccion)
                 time.sleep(3)
                 actions.send_keys(Keys.ENTER)
+                time.sleep(2)
                 actions.perform()
                 time.sleep(3)
                 actions.send_keys(Keys.TAB)
