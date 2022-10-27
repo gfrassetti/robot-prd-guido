@@ -94,7 +94,7 @@ class LoadFile:
         return cod_color.split("-", 1)[1]
 
     def loop_cod_color(self, rango_cod_color, lista_cod_color, celda, rango_str, ws):
-        # Iterar por cod de color
+        # comprobar si la celda esta mergeada para elegir un color o varios
         merged_cell_ranges = ws.merged_cells.ranges
         merged_cell_ranges_list = list(map(str, merged_cell_ranges))
         merged_cells = []
@@ -668,6 +668,7 @@ class LoadFile:
 
                 talles_value = ws["P2"].value
                 talles = [str(x) for x in talles_value.split(" - ")]
+                talles2 = []
 
                 talles_value_2 = ws["P3"].value
                 """ Talles segundo cod de prod """
