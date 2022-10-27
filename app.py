@@ -90,6 +90,9 @@ class LoadFile:
                 if i.value != None:
                     lista.append(i.value)
 
+    def split_cod_color(self, cod_color):
+        return cod_color.split("-", 1)[1]
+
     def loop_cod_color(self, rango_cod_color, lista_cod_color, celda, rango_str, ws):
         # Iterar por cod de color
         merged_cell_ranges = ws.merged_cells.ranges
@@ -153,12 +156,12 @@ class LoadFile:
                 )
             logging.info("Carga de insumo por talle finalizada...")
 
-    def load_insumo(self, actions, insumo, color_insumo, cantidad):
+    def load_insumo(self, actions, insumo, cod_color_insumo, cantidad):
         if insumo != None:
 
             logging.info(f"Cargando el insumo {insumo}")
             time.sleep(2)
-            actions.send_keys(insumo + "." + color_insumo)
+            actions.send_keys(insumo + "." + cod_color_insumo)
             actions.perform()
             time.sleep(2)
             actions.send_keys(Keys.ENTER)
@@ -347,26 +350,19 @@ class LoadFile:
             logging.info("Nueva ficha tecnica")
             logging.info("reading excel..")
 
-            # for idx, i in enumerate(lista_cod_color):
             for index, ficha in enumerate(self.fichas):
                 logging.info(f"Cargando ficha: {ficha}")
                 wb = load_workbook(f"./FT_a_procesar/{ficha}", data_only=True)
                 ws = wb.active
 
-                time.sleep(36)
+                time.sleep(60)
 
-                input_coleccion = WebDriverWait(driver, 35).until(
-                    expected_conditions.presence_of_element_located(
-                        (
-                            By.ID,
-                            "ext-comp-1254",
-                        )
-                    )
+                input_coleccion = driver.find_element(
+                    By.XPATH,
+                    "//input[@id='ext-comp-1254']",
                 )
-
-                time.sleep(6)
+                time.sleep(10)
                 input_coleccion.click()
-                time.sleep(3)
                 actions = ActionChains(driver)
                 coleccion_parte1 = ws["B1"].value
                 coleccion_parte2 = ws["B2"].value
@@ -449,26 +445,37 @@ class LoadFile:
                 actions.perform()
 
                 insumo_1 = ws["I6"].value
-                color_inusmo = ws["L7"].value
-                color_insumo2 = ws["L9"].value
+
+                cod_color_inusmo = ws["L7"].value
+
+                cod_color_insumo2 = ws["L9"].value
+
+                # Cantidad
                 cantidad_insumo_1 = str(ws["J6"].value)
                 cantidad_insumo_2 = ws["J8"].value
 
                 time.sleep(2)
-                self.load_insumo(actions, insumo_1, color_inusmo, cantidad_insumo_1)
+                self.load_insumo(
+                    actions,
+                    insumo_1,
+                    self.split_cod_color(cod_color_inusmo),
+                    cantidad_insumo_1,
+                )
                 time.sleep(2)
                 insumo_2 = ws["I8"].value
                 insumo_3 = ws["I10"].value
-                color_insumo3 = ws["L11"].value
+
+                cod_color_insumo3 = ws["L11"].value
+
                 cantidad_insumo_3 = ws["J10"].value
                 insumo_4 = ws["I12"].value
                 insumo_5 = ws["I14"].value
                 insumo_6 = ws["I16"].value
-                color_insumo4 = ws["N5"].value
-                # XTA004
-                color_insumo5 = ws["N5"].value
-                # XTD001
-                color_insumo6 = ws["N5"].value
+                cod_color_insumo4 = ws["L13"].value
+
+                cod_color_insumo5 = ws["L15"].value
+                cod_color_insumo6 = ws["L17"].value
+
                 cantidad_insumo_4 = str(ws["J12"].value)
                 cantidad_insumo_5 = str(ws["J14"].value)
                 cantidad_insumo_6 = str(ws["J16"].value)
@@ -482,7 +489,10 @@ class LoadFile:
                     actions.perform()
                     time.sleep(2)
                     self.load_insumo(
-                        actions, insumo_2, color_insumo2, cantidad_insumo_2
+                        actions,
+                        insumo_2,
+                        self.split_cod_color(cod_color_insumo2),
+                        cantidad_insumo_2,
                     )
                 else:
                     actions.send_keys(Keys.ESCAPE)
@@ -500,7 +510,10 @@ class LoadFile:
                     actions.perform()
                     time.sleep(2)
                     self.load_insumo(
-                        actions, insumo_3, color_insumo3, cantidad_insumo_3
+                        actions,
+                        insumo_3,
+                        self.split_cod_color(cod_color_insumo3),
+                        cantidad_insumo_3,
                     )
                 else:
                     actions.send_keys(Keys.ESCAPE)
@@ -518,7 +531,10 @@ class LoadFile:
                     actions.perform()
                     time.sleep(2)
                     self.load_insumo(
-                        actions, insumo_4, color_insumo4, cantidad_insumo_4
+                        actions,
+                        insumo_4,
+                        self.split_cod_color(cod_color_insumo4),
+                        cantidad_insumo_4,
                     )
 
                 else:
@@ -537,7 +553,10 @@ class LoadFile:
                     actions.perform()
                     time.sleep(2)
                     self.load_insumo(
-                        actions, insumo_5, color_insumo5, cantidad_insumo_5
+                        actions,
+                        insumo_5,
+                        self.split_cod_color(cod_color_insumo5),
+                        cantidad_insumo_5,
                     )
 
                 else:
@@ -556,7 +575,10 @@ class LoadFile:
                     actions.perform()
                     time.sleep(2)
                     self.load_insumo(
-                        actions, insumo_6, color_insumo6, cantidad_insumo_6
+                        actions,
+                        insumo_6,
+                        self.split_cod_color(cod_color_insumo6),
+                        cantidad_insumo_6,
                     )
                 else:
                     actions.send_keys(Keys.ESCAPE)
@@ -642,10 +664,13 @@ class LoadFile:
 
                 talles_value = ws["P2"].value
                 talles = [str(x) for x in talles_value.split(" - ")]
-
-                """ Talles segundo cod de prod """
+                
                 talles_value_2 = ws["P3"].value
-                talles2 = [str(x) for x in talles_value_2.split(" - ")]
+                """ Talles segundo cod de prod """
+                if talles_value_2 != None:
+                    talles2 = [str(x) for x in talles_value_2.split(" - ")]
+                else:
+                    pass    
 
                 # LOOPS
                 self.loop(rango_colores, lista_colores)
@@ -861,7 +886,7 @@ class LoadFile:
                         actions.perform()
                         time.sleep(2)
                         self.load_insumo(
-                            actions, insumo_2, color_insumo2, cantidad_insumo_2
+                            actions, insumo_2, cod_color_insumo2, cantidad_insumo_2
                         )
                     else:
                         actions.send_keys(Keys.ESCAPE)
