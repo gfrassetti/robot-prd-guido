@@ -2027,3 +2027,31 @@
 2022-10-27 10:57:38,405:INFO:Cargando inusmo por talle: XAE942
 2022-10-27 10:57:54,983:INFO:Carga de insumo por talle finalizada...
 2022-10-27 10:57:54,983:INFO:Carga de inusmo: XAE942 terminada
+2022-10-27 11:07:48,404:INFO:...Iniciando...
+2022-10-27 11:07:48,404:INFO:
+
+2022-10-27 11:07:48,405:INFO:====== WebDriver manager ======
+2022-10-27 11:07:49,669:INFO:Current google-chrome version is 106.0.5249
+2022-10-27 11:07:49,670:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-27 11:07:49,821:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-27 11:07:54,936:INFO:Iniciando sesion..
+2022-10-27 11:07:55,119:INFO:Entrando...
+2022-10-27 11:07:55,119:INFO:Cargando file...
+2022-10-27 11:08:15,601:INFO:Nueva ficha tecnica
+2022-10-27 11:08:15,601:INFO:reading excel..
+2022-10-27 11:08:15,601:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-27 11:10:00,485:INFO:Agregando regla - telas corte
+2022-10-27 11:10:14,936:INFO:Agregando insumos telas
+2022-10-27 11:10:17,993:INFO:Cargando el insumo XTH000
+2022-10-27 11:10:40,394:INFO:Cargando el insumo XTH000
+2022-10-27 11:11:02,778:INFO:Cargando el insumo XTH000
+2022-10-27 11:11:25,147:INFO:Cargando el insumo XTH000
+2022-10-27 11:11:47,532:INFO:Cargando el insumo XTH000
+2022-10-27 11:12:06,927:INFO:Carga de insumos terminada
+2022-10-27 11:12:06,927:INFO:Comenzando carga de confeccion...
+2022-10-27 11:12:19,314:INFO:Cargando inusmo por talle: XPB000
+2022-10-27 11:12:35,749:INFO:Carga de insumo por talle finalizada...
+2022-10-27 11:12:35,750:INFO:Carga de inusmo: XPB000 terminada
+2022-10-27 11:12:37,751:INFO:Cargnado insumo por talle...
+2022-10-27 11:12:38,761:INFO:Cargando inusmo por talle: XAE216
+2022-10-27 11:13:02,414:INFO:Cargando inusmo por talle: XAE216

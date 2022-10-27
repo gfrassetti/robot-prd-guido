@@ -257,13 +257,7 @@ class LoadFile:
             actions.send_keys(Keys.TAB)
             actions.perform()
             time.sleep(1)
-            actions.send_keys(
-                insumo
-                + "."
-                + cod_color_insumo
-                + "."
-                + talle
-            )
+            actions.send_keys(insumo + "." + cod_color_insumo + "." + talle)
             actions.perform()
             time.sleep(3)
             actions.send_keys(Keys.ENTER)
@@ -299,13 +293,13 @@ class LoadFile:
             ):
                 actions.send_keys(talle + " (GRISINO C3-C4 NUMEROS)")
                 actions.perform()
-            elif talle == "1" or talle == "2" or talle =="3" or talle == "4":
+            elif talle == "1" or talle == "2" or talle == "3" or talle == "4":
                 actions.send_keys(talle + " (GRISINO C1-C2 NUMEROS)")
                 actions.perform()
                 time.sleep(1)
             else:
-                actions.send_keys(talle + " ((GRISINO C0 ABCDE))")
-                actions.perform()        
+                actions.send_keys(talle + " (GRISINO C0 ABCDE)")
+                actions.perform()
             time.sleep(2)
 
     def load_new(self):
