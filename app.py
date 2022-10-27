@@ -294,13 +294,16 @@ class LoadFile:
                 or talle == "14"
             ):
                 actions.send_keys(talle + " (GRISINO C3-C4 NUMEROS)")
+                time.sleep(1)
                 actions.perform()
             elif talle == "1" or talle == "2" or talle == "3" or talle == "4":
                 actions.send_keys(talle + " (GRISINO C1-C2 NUMEROS)")
+                time.sleep(1)
                 actions.perform()
                 time.sleep(1)
             else:
                 actions.send_keys(talle + " (GRISINO C0 ABCDE)")
+                time.sleep(1)
                 actions.perform()
             time.sleep(2)
 
