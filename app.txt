@@ -1957,3 +1957,38 @@
 2022-10-27 10:11:58,357:INFO:Cargando inusmo por talle: XAE942
 2022-10-27 10:12:15,000:INFO:Carga de insumo por talle finalizada...
 2022-10-27 10:12:15,001:INFO:Carga de inusmo: XAE942 terminada
+2022-10-27 10:40:22,861:INFO:...Iniciando...
+2022-10-27 10:40:22,862:INFO:
+
+2022-10-27 10:40:22,862:INFO:====== WebDriver manager ======
+2022-10-27 10:40:24,344:INFO:Current google-chrome version is 106.0.5249
+2022-10-27 10:40:24,344:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-27 10:40:24,530:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-27 10:40:29,692:INFO:Iniciando sesion..
+2022-10-27 10:40:29,869:INFO:Entrando...
+2022-10-27 10:40:29,869:INFO:Cargando file...
+2022-10-27 10:40:46,870:INFO:Nueva ficha tecnica
+2022-10-27 10:40:46,870:INFO:reading excel..
+2022-10-27 10:40:46,871:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-27 10:42:31,913:INFO:Agregando regla - telas corte
+2022-10-27 10:42:46,369:INFO:Agregando insumos telas
+2022-10-27 10:42:49,421:INFO:Cargando el insumo XTH000
+2022-10-27 10:43:11,822:INFO:Cargando el insumo XTH000
+2022-10-27 10:43:34,175:INFO:Cargando el insumo XTH000
+2022-10-27 10:43:56,545:INFO:Cargando el insumo XTH000
+2022-10-27 10:44:18,960:INFO:Cargando el insumo XTH000
+2022-10-27 10:44:38,325:INFO:Carga de insumos terminada
+2022-10-27 10:44:38,325:INFO:Comenzando carga de confeccion...
+2022-10-27 10:44:50,726:INFO:Cargando inusmo por talle: XPB000
+2022-10-27 10:45:07,164:INFO:Carga de insumo por talle finalizada...
+2022-10-27 10:45:07,164:INFO:Carga de inusmo: XPB000 terminada
+2022-10-27 10:45:09,179:INFO:Cargnado insumo por talle...
+2022-10-27 10:45:10,189:INFO:Cargando inusmo por talle: XAE216
+2022-10-27 10:45:35,298:INFO:Cargando inusmo por talle: XAE216
+2022-10-27 10:46:00,423:INFO:Cargando inusmo por talle: XAE216
+2022-10-27 10:46:25,673:INFO:Cargando inusmo por talle: XAE216
+2022-10-27 10:46:50,598:INFO:Cargando inusmo por talle: XAE216
+2022-10-27 10:47:15,148:INFO:Carga de inusmo: XAE216 terminada
+2022-10-27 10:47:17,161:INFO:Cargando inusmo por talle: XAE942
+2022-10-27 10:47:33,863:INFO:Carga de insumo por talle finalizada...
+2022-10-27 10:47:33,863:INFO:Carga de inusmo: XAE942 terminada

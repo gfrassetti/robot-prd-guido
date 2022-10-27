@@ -263,7 +263,6 @@ class LoadFile:
                 + cod_color_insumo
                 + "."
                 + talle
-                + " - Etiqueta GRISINO Marca y Talle"
             )
             actions.perform()
             time.sleep(3)
