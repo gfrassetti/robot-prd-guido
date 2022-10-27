@@ -299,10 +299,13 @@ class LoadFile:
             ):
                 actions.send_keys(talle + " (GRISINO C3-C4 NUMEROS)")
                 actions.perform()
-            else:
+            elif talle == "1" or talle == "2" or talle =="3" or talle == "4":
                 actions.send_keys(talle + " (GRISINO C1-C2 NUMEROS)")
                 actions.perform()
                 time.sleep(1)
+            else:
+                actions.send_keys(talle + " ((GRISINO C0 ABCDE))")
+                actions.perform()        
             time.sleep(2)
 
     def load_new(self):
