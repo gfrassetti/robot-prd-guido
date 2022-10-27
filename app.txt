@@ -1902,3 +1902,58 @@
 2022-10-27 09:51:03,182:INFO:Nueva ficha tecnica
 2022-10-27 09:51:03,182:INFO:reading excel..
 2022-10-27 09:51:03,182:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-27 09:54:29,910:INFO:...Iniciando...
+2022-10-27 09:54:29,910:INFO:
+
+2022-10-27 09:54:29,911:INFO:====== WebDriver manager ======
+2022-10-27 09:54:31,327:INFO:Current google-chrome version is 106.0.5249
+2022-10-27 09:54:31,327:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-27 09:54:31,436:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-27 09:56:50,900:INFO:...Iniciando...
+2022-10-27 09:56:50,901:INFO:
+
+2022-10-27 09:56:50,901:INFO:====== WebDriver manager ======
+2022-10-27 09:56:52,435:INFO:Current google-chrome version is 106.0.5249
+2022-10-27 09:56:52,436:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-27 09:56:52,641:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-27 09:56:57,890:INFO:Iniciando sesion..
+2022-10-27 09:56:58,052:INFO:Entrando...
+2022-10-27 09:56:58,052:INFO:Cargando file...
+2022-10-27 09:57:30,027:INFO:Nueva ficha tecnica
+2022-10-27 09:57:30,028:INFO:reading excel..
+2022-10-27 09:57:30,028:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-27 10:04:57,767:INFO:...Iniciando...
+2022-10-27 10:04:57,767:INFO:
+
+2022-10-27 10:04:57,767:INFO:====== WebDriver manager ======
+2022-10-27 10:04:59,140:INFO:Current google-chrome version is 106.0.5249
+2022-10-27 10:04:59,140:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-27 10:04:59,608:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-27 10:05:04,915:INFO:Iniciando sesion..
+2022-10-27 10:05:05,090:INFO:Entrando...
+2022-10-27 10:05:05,090:INFO:Cargando file...
+2022-10-27 10:05:27,218:INFO:Nueva ficha tecnica
+2022-10-27 10:05:27,219:INFO:reading excel..
+2022-10-27 10:05:27,219:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-27 10:07:12,503:INFO:Agregando regla - telas corte
+2022-10-27 10:07:27,006:INFO:Agregando insumos telas
+2022-10-27 10:07:30,074:INFO:Cargando el insumo XTH000
+2022-10-27 10:07:52,490:INFO:Cargando el insumo XTH000
+2022-10-27 10:08:14,875:INFO:Cargando el insumo XTH000
+2022-10-27 10:08:37,275:INFO:Cargando el insumo XTH000
+2022-10-27 10:08:59,691:INFO:Cargando el insumo XTH000
+2022-10-27 10:09:19,135:INFO:Carga de insumos terminada
+2022-10-27 10:09:19,135:INFO:Comenzando carga de confeccion...
+2022-10-27 10:09:31,535:INFO:Cargando inusmo por talle: XPB000
+2022-10-27 10:09:47,947:INFO:Carga de insumo por talle finalizada...
+2022-10-27 10:09:47,947:INFO:Carga de inusmo: XPB000 terminada
+2022-10-27 10:09:49,957:INFO:Cargnado insumo por talle...
+2022-10-27 10:09:50,967:INFO:Cargando inusmo por talle: XAE216
+2022-10-27 10:10:16,154:INFO:Cargando inusmo por talle: XAE216
+2022-10-27 10:10:41,373:INFO:Cargando inusmo por talle: XAE216
+2022-10-27 10:11:06,669:INFO:Cargando inusmo por talle: XAE216
+2022-10-27 10:11:32,106:INFO:Cargando inusmo por talle: XAE216
+2022-10-27 10:11:56,344:INFO:Carga de inusmo: XAE216 terminada
+2022-10-27 10:11:58,357:INFO:Cargando inusmo por talle: XAE942
+2022-10-27 10:12:15,000:INFO:Carga de insumo por talle finalizada...
+2022-10-27 10:12:15,001:INFO:Carga de inusmo: XAE942 terminada

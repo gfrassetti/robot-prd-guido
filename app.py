@@ -664,8 +664,6 @@ class LoadFile:
                 lista_colores = []
                 rango_colores = ws["L4":"T4"]
 
-                # siempre van a estar en estas celdas??
-
                 talles_value = ws["P2"].value
                 talles = [str(x) for x in talles_value.split(" - ")]
                 talles2 = []
