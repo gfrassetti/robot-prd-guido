@@ -770,6 +770,7 @@ class LoadFile:
                 )
                 time.sleep(5)
                 btn_si.click()
+
                 btn_ok = driver.find_element(
                     By.XPATH, "//button[contains(text(),'OK')]"
                 )
@@ -779,7 +780,7 @@ class LoadFile:
                 time.sleep(5)
                 btn_close = driver.find_element(
                     By.XPATH,
-                    "//div[@id='ext-comp-1485']/div/div/div/div/div",
+                    "//div[@id='ext-comp-1498']/div/div/div/div/div",
                 )
                 time.sleep(2)
                 btn_close.click()
