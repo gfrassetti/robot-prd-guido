@@ -645,8 +645,8 @@ class LoadFile:
                 cantidad_insumo_confeccion_2 = ws["J27"].value
                 cantidad_insumo_confeccion_3 = ws["J28"].value
 
-                descripcion_validacion_1 = ws["B26"].value
-                descripcion_validacion_2 = ws["B27"].value
+                descripcion_validacion_1 = ws["B22"].value
+                descripcion_validacion_2 = ws["B26"].value
                 descripcion_validacion_3 = ws["B28"].value
 
                 rango_cod_color_str = "L26:U26"

@@ -1809,3 +1809,39 @@
 2022-10-27 09:30:17,091:INFO:Iniciando sesion..
 2022-10-27 09:30:17,269:INFO:Entrando...
 2022-10-27 09:30:17,269:INFO:Cargando file...
+2022-10-27 09:31:03,654:INFO:...Iniciando...
+2022-10-27 09:31:03,655:INFO:
+
+2022-10-27 09:31:03,655:INFO:====== WebDriver manager ======
+2022-10-27 09:31:05,130:INFO:Current google-chrome version is 106.0.5249
+2022-10-27 09:31:05,130:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-27 09:31:05,253:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-27 09:31:08,919:INFO:Iniciando sesion..
+2022-10-27 09:31:09,125:INFO:Entrando...
+2022-10-27 09:31:09,125:INFO:Cargando file...
+2022-10-27 09:31:29,986:INFO:Nueva ficha tecnica
+2022-10-27 09:31:29,986:INFO:reading excel..
+2022-10-27 09:31:29,986:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-27 09:32:55,337:INFO:...Iniciando...
+2022-10-27 09:32:55,337:INFO:
+
+2022-10-27 09:32:55,338:INFO:====== WebDriver manager ======
+2022-10-27 09:32:56,757:INFO:Current google-chrome version is 106.0.5249
+2022-10-27 09:32:56,757:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-27 09:32:56,915:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-27 09:33:01,344:INFO:Iniciando sesion..
+2022-10-27 09:33:01,539:INFO:Entrando...
+2022-10-27 09:33:01,539:INFO:Cargando file...
+2022-10-27 09:33:25,674:INFO:Nueva ficha tecnica
+2022-10-27 09:33:25,674:INFO:reading excel..
+2022-10-27 09:33:25,674:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-10-27 09:35:32,050:INFO:...Iniciando...
+2022-10-27 09:35:32,051:INFO:
+
+2022-10-27 09:35:32,051:INFO:====== WebDriver manager ======
+2022-10-27 09:35:33,750:INFO:Current google-chrome version is 106.0.5249
+2022-10-27 09:35:33,750:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-10-27 09:35:33,983:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache
+2022-10-27 09:35:38,217:INFO:Iniciando sesion..
+2022-10-27 09:35:38,404:INFO:Entrando...
+2022-10-27 09:35:38,404:INFO:Cargando file...
