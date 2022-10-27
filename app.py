@@ -267,9 +267,11 @@ class LoadFile:
             actions.perform()
             time.sleep(2)
             actions.send_keys(cantidad)
+            time.sleep(2)
             actions.perform()
-            time.sleep(3)
+            time.sleep(2)
             actions.send_keys(Keys.ENTER)
+            time.sleep(1)
             actions.perform()
             time.sleep(3)
             if isCombined:
