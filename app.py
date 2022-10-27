@@ -632,29 +632,29 @@ class LoadFile:
                 nueva_entrada_bordado.click()
                 time.sleep(1)
                 # ------------------------------------------------------  confeccion ----------------------------------------------------------------------------
-                insumo_confeccion_1 = ws["I26"].value
-                insumo_confeccion_2 = ws["I27"].value
+                insumo_confeccion_1 = ws["I22"].value
+                insumo_confeccion_2 = ws["I26"].value
                 insumo_confeccion_3 = ws["I28"].value
-                insumo_confeccion_4 = ws["I34"].value
+                insumo_confeccion_4 = ws["I30"].value
 
-                isCombined1 = ws["L26"]
-                isCombined2 = ws["L27"]
+                isCombined1 = ws["L22"]
+                isCombined2 = ws["L26"]
                 isCombined3 = ws["L28"]
 
-                cantidad_insumo_confeccion_1 = ws["J26"].value
-                cantidad_insumo_confeccion_2 = ws["J27"].value
+                cantidad_insumo_confeccion_1 = ws["J22"].value
+                cantidad_insumo_confeccion_2 = ws["J26"].value
                 cantidad_insumo_confeccion_3 = ws["J28"].value
 
                 descripcion_validacion_1 = ws["B22"].value
                 descripcion_validacion_2 = ws["B26"].value
                 descripcion_validacion_3 = ws["B28"].value
 
-                rango_cod_color_str = "L26:U26"
-                rango_cod_color2_str = "L27:U27"
+                rango_cod_color_str = "L22:U22"
+                rango_cod_color2_str = "L26:U26"
                 rango_cod_color3_str = "L28:U28"
 
-                rango_cod_color = ws["L26":"U26"]
-                rango_cod_color2 = ws["L27":"U27"]
+                rango_cod_color = ws["L22":"U22"]
+                rango_cod_color2 = ws["L26":"U26"]
                 rango_cod_color3 = ws["L28":"U28"]
 
                 lista_cod_color_1 = []
