@@ -104,14 +104,18 @@ class LoadFile:
 
         if rango_str in merged_cells:
             print("Cell is Merged!")
-            lista_cod_color.append(celda.value)
+            merged_cell_cod_color = self.split_cod_color(celda.value)
+            lista_cod_color.append(merged_cell_cod_color)
+            print("109: ", lista_cod_color)
             return True
         else:
             print("Cell is not merged")
             for cod in rango_cod_color:
                 for i in cod:
                     if i.value != None:
-                        lista_cod_color.append(i.value)
+                        single_cod_color = self.split_cod_color(i.value)
+                        lista_cod_color.append(single_cod_color)
+                        print("116: ", lista_cod_color)
             return False
 
     def comprobar_y_cargar(
@@ -664,13 +668,13 @@ class LoadFile:
 
                 talles_value = ws["P2"].value
                 talles = [str(x) for x in talles_value.split(" - ")]
-                
+
                 talles_value_2 = ws["P3"].value
                 """ Talles segundo cod de prod """
                 if talles_value_2 != None:
                     talles2 = [str(x) for x in talles_value_2.split(" - ")]
                 else:
-                    pass    
+                    pass
 
                 # LOOPS
                 self.loop(rango_colores, lista_colores)
@@ -1148,6 +1152,8 @@ class LoadFile:
                     btn_close2.click()
                     time.sleep(2)
                     logging.info(f"Ficha: ${ficha} cargada exitosamente")
+                else:
+                    pass
             # -------------------------------------------------- --------------------------------------------------------------------------
 
         except (Exception) as error_excepction:
