@@ -661,7 +661,6 @@ class LoadFile:
                 descripcion_validacion_5 = ws["B32"].value
                 descripcion_validacion_6 = ws["B34"].value
 
-
                 rango_cod_color_str = "L22:U22"
                 rango_cod_color2_str = "L26:U26"
                 rango_cod_color3_str = "L28:U28"
@@ -834,7 +833,36 @@ class LoadFile:
                         combinado_6,
                         agregar_insumo,
                     )
-                    logging.info(f"Carga de inusmo: {insumo_confeccion_6} terminada")                                        
+                    logging.info(f"Carga de inusmo: {insumo_confeccion_6} terminada")
+
+                """ Elasticos """
+                insumo_elastico_1 = ws["I36"].value
+                lista_cod_color_elastico_1 = []
+                rango_cod_color_elastico_1 = ws["L36":"U26"]
+                isCombined_elastico_1 = ws["L36"]
+                rango_cod_color1_str_elastico = "L36:U36"
+                descripcion_validacion_1_elastico = ws["B36"].value
+                cantidad_elastico_1 = ws["J36"].value
+
+                combinado_elastico_1 = self.loop_cod_color(
+                    rango_cod_color_elastico_1,
+                    lista_cod_color_elastico_1,
+                    isCombined_elastico_1,
+                    rango_cod_color1_str_elastico,
+                    ws,
+                )
+
+                self.comprobar_y_cargar(
+                    actions,
+                    descripcion_validacion_1_elastico,
+                    talles,
+                    lista_cod_color_elastico_1,
+                    cantidad_elastico_1,
+                    insumo_elastico_1,
+                    lista_colores,
+                    combinado_elastico_1,
+                    agregar_insumo,
+                )
 
                 time.sleep(2)
                 actions.send_keys(Keys.ESCAPE)
@@ -1087,7 +1115,7 @@ class LoadFile:
                     nueva_entrada_bordado2.click()
                     time.sleep(1)
 
-                    #Variables de insumos aca
+                    # Variables de insumos aca
 
                     lista_colores = []
                     rango_colores = ws["L4":"T4"]
@@ -1206,7 +1234,9 @@ class LoadFile:
                             combinado_4,
                             agregar_insumo,
                         )
-                        logging.info(f"Carga de inusmo: {insumo_confeccion_4} terminada")
+                        logging.info(
+                            f"Carga de inusmo: {insumo_confeccion_4} terminada"
+                        )
                     if insumo_confeccion_5 != None:
                         self.comprobar_y_cargar(
                             actions,
@@ -1219,7 +1249,9 @@ class LoadFile:
                             combinado_5,
                             agregar_insumo,
                         )
-                        logging.info(f"Carga de inusmo: {insumo_confeccion_5} termi6ada")
+                        logging.info(
+                            f"Carga de inusmo: {insumo_confeccion_5} termi6ada"
+                        )
 
                     if insumo_confeccion_6 != None:
                         self.comprobar_y_cargar(
@@ -1233,7 +1265,33 @@ class LoadFile:
                             combinado_6,
                             agregar_insumo,
                         )
-                        logging.info(f"Carga de inusmo: {insumo_confeccion_6} terminada")  
+                        logging.info(
+                            f"Carga de inusmo: {insumo_confeccion_6} terminada"
+                        )
+
+                    """"""""""""""""""""""""" Elasticos """""""""""""
+
+                    cantidad_elastico_1_cod_2 = ws["K36"].value
+                    
+                    combinado_elastico_1 = self.loop_cod_color(
+                        rango_cod_color_elastico_1,
+                        lista_cod_color_elastico_1,
+                        isCombined_elastico_1,
+                        rango_cod_color1_str_elastico,
+                        ws,
+                    )
+
+                    self.comprobar_y_cargar(
+                        actions,
+                        descripcion_validacion_1_elastico,
+                        talles2,
+                        lista_cod_color_elastico_1,
+                        cantidad_elastico_1_cod_2,
+                        insumo_elastico_1,
+                        lista_colores,
+                        combinado_elastico_1,
+                        agregar_insumo,
+                    )
 
                     time.sleep(2)
                     actions.send_keys(Keys.ESCAPE)
