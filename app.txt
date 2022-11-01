@@ -38,3 +38,9 @@
 2022-11-01 00:10:12,849:INFO:====== WebDriver manager ======
 2022-11-01 00:10:14,113:INFO:Current google-chrome version is 106.0.5249
 2022-11-01 00:10:14,114:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
+2022-11-01 00:11:20,148:INFO:...Iniciando...
+2022-11-01 00:11:20,148:INFO:
+
+2022-11-01 00:11:20,148:INFO:====== WebDriver manager ======
+2022-11-01 00:11:21,464:INFO:Current google-chrome version is 106.0.5249
+2022-11-01 00:11:21,465:INFO:Get LATEST chromedriver version for 106.0.5249 google-chrome
