@@ -49,9 +49,9 @@ driver.get("http://grisinobftestfinal:8001/maer/")  # cambiar url aca
 
 
 class Login:
-    def __init__(self, user, password):
+    def __init__(self, user, Falseword):
         self.user = user
-        self.password = password
+        self.Falseword = Falseword
 
     def login(self):
         try:
@@ -64,12 +64,12 @@ class Login:
 
             login_user.send_keys(self.user)
 
-            password_user = WebDriverWait(driver, 10).until(
+            Falseword_user = WebDriverWait(driver, 10).until(
                 expected_conditions.presence_of_element_located(
                     (By.ID, "ext-comp-1004")
                 )
             )
-            password_user.send_keys(self.password)
+            Falseword_user.send_keys(self.Falseword)
 
             login_btn = driver.find_element(By.ID, "ext-gen31")
             login_btn.click()
@@ -87,11 +87,14 @@ class LoadFile:
         # Iterar por cod de color
         for cod in rango:
             for i in cod:
-                if i.value != None:
+                if i.value is not None:
                     lista.append(i.value)
 
     def split_cod_color(self, cod_color):
-        return cod_color.split("-", 1)[1]
+        if cod_color is not None:
+            return cod_color.split("-", 1)[1]
+        else:
+            return ""    
 
     def loop_cod_color(self, rango_cod_color, lista_cod_color, celda, rango_str, ws):
         # comprobar si la celda esta mergeada para elegir un color o varios
@@ -112,7 +115,7 @@ class LoadFile:
             print("Cell is not merged")
             for cod in rango_cod_color:
                 for i in cod:
-                    if i.value != None:
+                    if i.value is not None:
                         single_cod_color = self.split_cod_color(i.value)
                         lista_cod_color.append(single_cod_color)
                         print("116: ", lista_cod_color)
@@ -161,11 +164,12 @@ class LoadFile:
             logging.info("Carga de insumo por talle finalizada...")
 
     def load_insumo(self, actions, insumo, cod_color_insumo, cantidad):
-        if insumo != None:
+        if insumo is not None:
 
             logging.info(f"Cargando el insumo {insumo}")
             time.sleep(2)
             actions.send_keys(insumo + "." + cod_color_insumo)
+            time.sleep(2)
             actions.perform()
             time.sleep(2)
             actions.send_keys(Keys.ENTER)
@@ -194,49 +198,49 @@ class LoadFile:
     def load_insumo2(
         self, actions, insumo, i, cantidad, color, isCombined, agregar_insumo
     ):
-        if insumo != None:
-            logging.info(f"Cargando inusmo por talle: {insumo}")
-            agregar_insumo.click()
-            time.sleep(2)
-            actions.send_keys(Keys.TAB)
+        time.sleep(1)
+        logging.info(f"Cargando inusmo por talle: {insumo}")
+        agregar_insumo.click()
+        time.sleep(2)
+        actions.send_keys(Keys.TAB)
+        actions.perform()
+        time.sleep(1)
+        print(f"Cargando cod de color: {i}")
+        actions.send_keys(insumo + "." + i)
+        actions.perform()
+        time.sleep(2)
+        actions.send_keys(Keys.ENTER)
+        actions.perform()
+        time.sleep(2)
+        actions.send_keys(Keys.TAB)
+        actions.perform()
+        time.sleep(2)
+        actions.send_keys(cantidad)
+        actions.perform()
+        time.sleep(2)
+        actions.send_keys(Keys.ENTER)
+        actions.perform()
+        time.sleep(2)
+        if isCombined:
+            actions.send_keys(Keys.ENTER)
+            print(f"Cargando color Todos")
             actions.perform()
-            time.sleep(1)
-            print(f"Cargando cod de color: {i}")
-            actions.send_keys(insumo + "." + i)
+        else:
+            print("Color a cargar: ", color)
+            actions.send_keys(color)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(Keys.ARROW_DOWN)
             actions.perform()
             time.sleep(2)
             actions.send_keys(Keys.ENTER)
             actions.perform()
-            time.sleep(2)
-            actions.send_keys(Keys.TAB)
-            actions.perform()
-            time.sleep(2)
-            actions.send_keys(cantidad)
-            actions.perform()
-            time.sleep(2)
-            actions.send_keys(Keys.ENTER)
-            actions.perform()
-            time.sleep(2)
-            if isCombined:
-                actions.send_keys(Keys.ENTER)
-                print(f"Cargando color Todos")
-                actions.perform()
-            else:
-                print("Color a cargar: ", color)
-                actions.send_keys(color)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(Keys.ARROW_DOWN)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(Keys.ENTER)
-                actions.perform()
-            time.sleep(2)
-            actions.send_keys("Todos")
-            actions.perform()
-            time.sleep(1)
-            actions.send_keys(Keys.ESCAPE)
-            actions.perform()
+        time.sleep(2)
+        actions.send_keys("Todos")
+        actions.perform()
+        time.sleep(1)
+        actions.send_keys(Keys.ESCAPE)
+        actions.perform()
 
     def load_insumo_por_talle(
         self,
@@ -249,7 +253,7 @@ class LoadFile:
         isCombined,
         agregar_insumo,
     ):
-        if insumo != None:
+        if insumo is not None:
             logging.info(f"Cargando inusmo por talle: {insumo}")
             time.sleep(2)
             agregar_insumo.click()
@@ -279,7 +283,7 @@ class LoadFile:
                 print(f"Cargando color 'Todos' para insumo {insumo}")
                 actions.perform()
             else:
-                print("Color a cargar: ", color + 'para insumo: ' , insumo)
+                print("Color a cargar: ", color + "para insumo: ", insumo)
                 actions.send_keys(color)
                 time.sleep(1)
                 actions.perform()
@@ -359,13 +363,13 @@ class LoadFile:
                 wb = load_workbook(f"./FT_a_procesar/{ficha}", data_only=True)
                 ws = wb.active
 
-                time.sleep(60)
+                time.sleep(40)
 
                 input_coleccion = driver.find_element(
                     By.XPATH,
                     "//input[@id='ext-comp-1254']",
                 )
-                time.sleep(10)
+                time.sleep(5)
                 input_coleccion.click()
                 actions = ActionChains(driver)
                 coleccion_parte1 = ws["B1"].value
@@ -378,7 +382,7 @@ class LoadFile:
                 print("Coleccion: ", coleccion)
                 time.sleep(2)
                 actions.send_keys(coleccion)
-                time.sleep(3)
+                time.sleep(2)
                 actions.send_keys(Keys.ENTER)
                 time.sleep(2)
                 actions.perform()
@@ -412,7 +416,9 @@ class LoadFile:
                 time.sleep(5)
                 logging.info("Agregando regla - telas corte")
                 btn_add_rule.click()
+                time.sleep(2)
                 actions.send_keys("100 - CORTE")
+                time.sleep(2)
                 actions.perform()
                 time.sleep(1)
                 actions.send_keys(Keys.ENTER)
@@ -486,7 +492,7 @@ class LoadFile:
 
                 # Si insumo existe.. agregar otro
                 # Se puede hacer una fx decoradora -----------------------------------------------------------
-                if insumo_2 != None:
+                if insumo_2 is not None:
                     agregar_insumo.click()
                     actions.send_keys(Keys.TAB)
                     time.sleep(2)
@@ -507,7 +513,7 @@ class LoadFile:
 
                 time.sleep(2)
 
-                if insumo_3 != None:
+                if insumo_3 is not None:
                     agregar_insumo.click()
                     actions.send_keys(Keys.TAB)
                     time.sleep(2)
@@ -528,7 +534,7 @@ class LoadFile:
 
                 time.sleep(2)
 
-                if insumo_4 != None:
+                if insumo_4 is not None:
                     agregar_insumo.click()
                     actions.send_keys(Keys.TAB)
                     time.sleep(2)
@@ -550,7 +556,7 @@ class LoadFile:
 
                 time.sleep(2)
 
-                if insumo_5 != None:
+                if insumo_5 is not None:
                     agregar_insumo.click()
                     actions.send_keys(Keys.TAB)
                     time.sleep(2)
@@ -572,7 +578,7 @@ class LoadFile:
 
                 time.sleep(2)
 
-                if insumo_6 != None:
+                if insumo_6 is not None:
                     agregar_insumo.click()
                     actions.send_keys(Keys.TAB)
                     time.sleep(2)
@@ -592,7 +598,6 @@ class LoadFile:
                     actions.perform()
                     logging.info("Carga de insumos terminada")
 
-
                 # ----------------------------------------------     300 - bordados      -----------------------------------------------------------------------------------------------
                 logging.info("Comenzando carga de bordados...")
                 time.sleep(1)
@@ -606,15 +611,23 @@ class LoadFile:
                         )
                     )
                 )
-                
-                proceso_corte.send_keys("300 - BORDADO")
-                time.sleep(1)
+                descripcion_validacion_1_bordado = ws["B22"].value
+                time.sleep(2)
+                if descripcion_validacion_1_bordado == "BORDADO":
+                    proceso_corte.send_keys("300 - BORDADO")
+                else:
+                    proceso_corte.send_keys("400 - ESTAMPADO")
+
+                time.sleep(2)
                 actions.send_keys(Keys.ARROW_DOWN)
                 actions.perform()
+                time.sleep(2)
                 actions.send_keys(Keys.ARROW_DOWN)
                 actions.perform()
+                time.sleep(2)
                 actions.send_keys(Keys.ENTER)
                 actions.perform()
+                time.sleep(2)
                 actions.send_keys(Keys.ESCAPE)
                 actions.perform()
 
@@ -640,6 +653,9 @@ class LoadFile:
                 insumo_confeccion_3 = ws["I30"].value
                 insumo_confeccion_4 = ws["I32"].value
                 insumo_confeccion_5 = ws["I34"].value
+                insumo_elastico_1 = ws["I36"].value
+                insumo_hilo_1 = ws["I74"].value
+                insumo_conf_1 = ws["I76"].value
 
                 isCombined1_bordado = ws["L22"]
                 isCombined2_bordado = ws["L24"]
@@ -657,9 +673,21 @@ class LoadFile:
                 cantidad_insumo_confeccion_4 = ws["J32"].value
                 cantidad_insumo_confeccion_5 = ws["J34"].value
 
+                #CANTIDADES SEGUNDO COD DE PROD
+                cantidad_insumo_bordado_1_cod_2 = ws["K22"].value
+                cantidad_insumo_bordado_2_cod_2 = ws["K24"].value
+                cantidad_insumo_confeccion_1_cod_2 = ws["K26"].value
+                cantidad_insumo_confeccion_2_cod_2 = ws["K28"].value
+                cantidad_insumo_confeccion_3_cod_2 = ws["K30"].value
+                cantidad_insumo_confeccion_4_cod_2 = ws["K32"].value
+                cantidad_insumo_confeccion_5_cod_2 = ws["K34"].value
+
+
+
+
                 descripcion_validacion_1_bordado = ws["B22"].value
                 descripcion_validacion_2_bordado = ws["B24"].value
-                
+
                 descripcion_validacion_1 = ws["B26"].value
                 descripcion_validacion_2 = ws["B28"].value
                 descripcion_validacion_3 = ws["B30"].value
@@ -691,6 +719,48 @@ class LoadFile:
                 lista_cod_color_5 = []
                 lista_cod_color_6 = []
 
+                time.sleep(3)
+
+                """ Elasticos vars """
+
+                lista_cod_color_elastico_1 = []
+                rango_cod_color_elastico_1 = ws["L36":"U36"]
+                isCombined_elastico_1 = ws["L36"]
+                rango_cod_color1_str_elastico = "L36:U36"
+                descripcion_validacion_1_elastico = ws["B36"].value
+                cantidad_elastico_1 = ws["J36"].value
+                cantidad_elastico_1_cod_2 = ws["K36"].value
+                cod_color_elastico_1 = ws["L36"].value
+
+                """ Hilos """
+                lista_cod_color_hilo_1 = []
+                rango_cod_color_hilo_1 = ws["L74":"U74"]
+                isCombined_hilo_1 = ws["L74"]
+                rango_cod_color1_str_hilo = "L74:U74"
+                descripcion_validacion_1_hilo = ws["B74"].value
+                cantidad_hilo_1 = ws["J74"].value
+                cantidad_hilo_1_cod_2 = ws["K74"].value
+                cod_color_hilo_1 = ws["L74"].value
+
+                """ Confeccion """
+                lista_cod_color_confeccion_1 = []
+                rango_cod_color_confeccion_1 = ws["L64":"U26"]
+                isCombined_confeccion_1 = ws["L76"]
+                rango_cod_color1_str_confeccion = "L64:U76"
+                descripcion_validacion_1_confeccion = ws["B76"].value
+                cantidad_confeccion_1 = ws["J76"].value
+                cantidad_confeccion_1_cod_2 = ws["K76"].value
+                cod_color_confeccion_1 = ws["L76"].value      
+
+
+                combinado_elastico_1 = self.loop_cod_color(
+                    rango_cod_color_elastico_1,
+                    lista_cod_color_elastico_1,
+                    isCombined_elastico_1,
+                    rango_cod_color1_str_elastico,
+                    ws,
+                )
+                time.sleep(3)
                 lista_colores = []
                 rango_colores = ws["L4":"T4"]
 
@@ -700,10 +770,10 @@ class LoadFile:
 
                 talles_value_2 = ws["P3"].value
                 """ Talles segundo cod de prod """
-                if talles_value_2 != None:
+                if talles_value_2 is not None:
                     talles2 = [str(x) for x in talles_value_2.split(" - ")]
                 else:
-                    pass
+                    False
 
                 # LOOPS
                 self.loop(rango_colores, lista_colores)
@@ -724,8 +794,8 @@ class LoadFile:
                     rango_cod_color_str_bordado2,
                     ws,
                 )
-
-                if insumo_bordado_1 != None:
+                time.sleep(3)
+                if insumo_bordado_1 is not None:
                     self.comprobar_y_cargar(
                         actions,
                         descripcion_validacion_1_bordado,
@@ -738,7 +808,7 @@ class LoadFile:
                         agregar_insumo,
                     )
                     logging.info(f"Carga de inusmo: {insumo_bordado_1} terminada")
-                else: 
+                else:
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
                     actions.send_keys(Keys.ESCAPE)
@@ -746,7 +816,7 @@ class LoadFile:
 
                 time.sleep(2)
 
-                if insumo_bordado_2 != None:
+                if insumo_bordado_2 is not None:
                     self.comprobar_y_cargar(
                         actions,
                         descripcion_validacion_2_bordado,
@@ -759,12 +829,11 @@ class LoadFile:
                         agregar_insumo,
                     )
                     logging.info(f"Carga de inusmo: {insumo_bordado_2} terminada")
-                else: 
+                else:
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
-
                 # ------------------------------------------------------200  confeccion ----------------------------------------------------------------------------
                 logging.info("Comenzando carga de confeccion...")
                 time.sleep(1)
@@ -778,8 +847,8 @@ class LoadFile:
                         )
                     )
                 )
-                
-                proceso_corte.send_keys("200 - CONFECCION")
+
+                proceso_corte.send_keys("600 - PREPARACION P/ TALLER")
                 time.sleep(1)
                 actions.send_keys(Keys.ARROW_DOWN)
                 actions.perform()
@@ -791,6 +860,16 @@ class LoadFile:
                 actions.perform()
 
                 time.sleep(3)
+                nueva_entrada_prep_taller = WebDriverWait(driver, 35).until(
+                    expected_conditions.presence_of_element_located(
+                        (
+                            By.XPATH,
+                            "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div[3]/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button",
+                        )
+                    )
+                )
+                nueva_entrada_prep_taller.click()
+                time.sleep(1)
 
                 combinado_1 = self.loop_cod_color(
                     rango_cod_color1,
@@ -828,12 +907,9 @@ class LoadFile:
                     rango_cod_color5_str,
                     ws,
                 )
-
-
                 # FX
-
                 time.sleep(2)
-                if insumo_confeccion_1 != None:
+                if insumo_confeccion_1 is not None:
                     self.comprobar_y_cargar(
                         actions,
                         descripcion_validacion_1,
@@ -846,10 +922,10 @@ class LoadFile:
                         agregar_insumo,
                     )
                     logging.info(f"Carga de inusmo: {insumo_confeccion_1} terminada")
+                else:
+                    False
 
-                time.sleep(2)
-
-                if insumo_confeccion_2 != None:
+                if insumo_confeccion_2 is not None:
                     self.comprobar_y_cargar(
                         actions,
                         descripcion_validacion_2,
@@ -862,10 +938,11 @@ class LoadFile:
                         agregar_insumo,
                     )
                     logging.info(f"Carga de inusmo: {insumo_confeccion_2} terminada")
-
+                else:
+                    False
                 time.sleep(2)
 
-                if insumo_confeccion_3 != None:
+                if insumo_confeccion_3 is not None:
                     self.comprobar_y_cargar(
                         actions,
                         descripcion_validacion_3,
@@ -878,8 +955,11 @@ class LoadFile:
                         agregar_insumo,
                     )
                     logging.info(f"Carga de inusmo: {insumo_confeccion_3} terminada")
+                else:
+                    False
 
-                if insumo_confeccion_4 != None:
+                if insumo_confeccion_4 is not None:
+                    print(f"Paso por el {insumo_confeccion_4}")
                     self.comprobar_y_cargar(
                         actions,
                         descripcion_validacion_4,
@@ -892,8 +972,11 @@ class LoadFile:
                         agregar_insumo,
                     )
                     logging.info(f"Carga de inusmo: {insumo_confeccion_4} terminada")
+                else:
+                    False
 
-                if insumo_confeccion_5 != None:
+                if insumo_confeccion_5 is not None:
+                    print(f"Paso por el {insumo_confeccion_5}")
                     self.comprobar_y_cargar(
                         actions,
                         descripcion_validacion_5,
@@ -906,43 +989,54 @@ class LoadFile:
                         agregar_insumo,
                     )
                     logging.info(f"Carga de inusmo: {insumo_confeccion_5} termiada")
-
+                else:
+                    False
 
                 """ Elasticos """
-                insumo_elastico_1 = ws["I36"].value
-                lista_cod_color_elastico_1 = []
-                rango_cod_color_elastico_1 = ws["L36":"U26"]
-                isCombined_elastico_1 = ws["L36"]
-                rango_cod_color1_str_elastico = "L36:U36"
-                descripcion_validacion_1_elastico = ws["B36"].value
-                cantidad_elastico_1 = ws["J36"].value
+                time.sleep(3)
+                if insumo_elastico_1 is not None:
+                    agregar_insumo.click()
+                    actions.send_keys(Keys.TAB)
+                    actions.perform()
+                    time.sleep(1)
+                    self.load_insumo(actions, insumo_elastico_1, self.split_cod_color(cod_color_elastico_1), cantidad_elastico_1)
+                    logging.info(f"Carga de inusmo: {insumo_elastico_1} termiada")  
+                else:
+                    False 
+                
+                """ Hilos """
 
-                combinado_elastico_1 = self.loop_cod_color(
-                    rango_cod_color_elastico_1,
-                    lista_cod_color_elastico_1,
-                    isCombined_elastico_1,
-                    rango_cod_color1_str_elastico,
-                    ws,
-                )
+                print(f'insumo hilo : {insumo_hilo_1}')
+                if insumo_hilo_1 is not None:
+                    time.sleep(2)
+                    agregar_insumo.click()
+                    actions.send_keys(Keys.TAB)
+                    actions.perform()
+                    time.sleep(1)
+                    self.load_insumo(actions, insumo_hilo_1, self.split_cod_color(cod_color_hilo_1), cantidad_hilo_1)
+                    actions.send_keys(Keys.ESCAPE)
+                    actions.perform()                
+                    logging.info(f"Carga de inusmo: {insumo_hilo_1} termiada")                
+                else:
+                    False
+            
+                """ Confeccion """
+                if insumo_conf_1 is not None:
+                    agregar_insumo.click()
+                    actions.send_keys(Keys.TAB)
+                    actions.perform()
+                    time.sleep(1)
+                    self.load_insumo(actions, insumo_conf_1, self.split_cod_color(cod_color_confeccion_1), cantidad_confeccion_1)
+                    actions.send_keys(Keys.ESCAPE)
+                    actions.perform()                
+                    logging.info(f"Carga de inusmo: {insumo_conf_1} termiada")                
+                else:
+                    False 
 
-                self.comprobar_y_cargar(
-                    actions,
-                    descripcion_validacion_1_elastico,
-                    talles,
-                    lista_cod_color_elastico_1,
-                    cantidad_elastico_1,
-                    insumo_elastico_1,
-                    lista_colores,
-                    combinado_elastico_1,
-                    agregar_insumo,
-                )
-
-                time.sleep(2)
                 actions.send_keys(Keys.ESCAPE)
                 actions.perform()
                 actions.send_keys(Keys.ESCAPE)
-                actions.perform()
-
+                actions.perform()             
                 # --------------------------------------------------- GUARDA PRIMERA PARTE -----------------------------------------------------
                 time.sleep(2)
                 btn_guardar = driver.find_element(
@@ -979,8 +1073,10 @@ class LoadFile:
 
                 cod_art_2 = ws["B3"].value
 
-                if cod_art_2 != None:
-                    logging.info(f"Cargando ficha:{ficha} con segundo codigo de producto: {cod_art_2}")
+                if cod_art_2 is not None:
+                    logging.info(
+                        f"Cargando ficha:{ficha} con segundo codigo de producto: {cod_art_2}"
+                    )
                     input_coleccion2 = driver.find_element(
                         By.XPATH,
                         "//*[@id='ext-comp-1254']",
@@ -1046,7 +1142,12 @@ class LoadFile:
                     cantidad_insumo_2 = str(ws["K8"].value)
 
                     time.sleep(2)
-                    self.load_insumo(actions, insumo_1, self.split_cod_color(cod_color_inusmo), cantidad_insumo_1)
+                    self.load_insumo(
+                        actions,
+                        insumo_1,
+                        self.split_cod_color(cod_color_inusmo),
+                        cantidad_insumo_1,
+                    )
                     time.sleep(2)
                     insumo_2 = ws["I8"].value
                     insumo_3 = ws["I10"].value
@@ -1066,7 +1167,7 @@ class LoadFile:
 
                     # Si insumo existe.. agregar otro
                     # Se puede hacer una fx decoradora -----------------------------------------------------------
-                    if insumo_2 != None:
+                    if insumo_2 is not None:
                         agregar_insumo2.click()
                         actions.send_keys(Keys.TAB)
                         time.sleep(2)
@@ -1084,7 +1185,7 @@ class LoadFile:
 
                     time.sleep(2)
 
-                    if insumo_3 != None:
+                    if insumo_3 is not None:
                         agregar_insumo2.click()
                         actions.send_keys(Keys.TAB)
                         time.sleep(2)
@@ -1102,7 +1203,7 @@ class LoadFile:
 
                     time.sleep(2)
 
-                    if insumo_4 != None:
+                    if insumo_4 is not None:
                         agregar_insumo2.click()
                         actions.send_keys(Keys.TAB)
                         time.sleep(2)
@@ -1111,7 +1212,6 @@ class LoadFile:
                         self.load_insumo(
                             actions, insumo_4, color_insumo4, cantidad_insumo_4
                         )
-
                     else:
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
@@ -1121,7 +1221,7 @@ class LoadFile:
 
                     time.sleep(2)
 
-                    if insumo_5 != None:
+                    if insumo_5 is not None:
                         agregar_insumo2.click()
                         actions.send_keys(Keys.TAB)
                         time.sleep(2)
@@ -1140,7 +1240,7 @@ class LoadFile:
 
                     time.sleep(2)
 
-                    if insumo_6 != None:
+                    if insumo_6 is not None:
                         agregar_insumo2.click()
                         actions.send_keys(Keys.TAB)
                         time.sleep(2)
@@ -1158,7 +1258,7 @@ class LoadFile:
 
                     time.sleep(4)
 
-                # ----------------------------------------------     300 - bordados      -----------------------------------------------------------------------------------------------
+                    # ----------------------------------------------     300 - bordados      -----------------------------------------------------------------------------------------------
                     logging.info("Comenzando carga de bordados...")
                     time.sleep(1)
                     btn_add_rule.click()
@@ -1171,38 +1271,49 @@ class LoadFile:
                             )
                         )
                     )
-                    
-                    proceso_corte.send_keys("300 - BORDADO")
-                    time.sleep(1)
+
+                    descripcion_validacion_1_bordado = ws["B22"].value
+                    time.sleep(2)
+                    if descripcion_validacion_1_bordado == "BORDADO":
+                        proceso_corte.send_keys("300 - BORDADO")
+                    else:
+                        proceso_corte.send_keys("400 - ESTAMPADO")
+
+                    time.sleep(2)
                     actions.send_keys(Keys.ARROW_DOWN)
                     actions.perform()
+                    time.sleep(2)
                     actions.send_keys(Keys.ARROW_DOWN)
                     actions.perform()
+                    time.sleep(2)
                     actions.send_keys(Keys.ENTER)
                     actions.perform()
+                    time.sleep(2)
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
 
                     time.sleep(3)
 
+
+                    
                     # /html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div[2]/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button
                     nueva_entrada_bordado.click()
                     time.sleep(1)
 
-                    if insumo_bordado_1 != None:
+                    if insumo_bordado_1 is not None:
                         self.comprobar_y_cargar(
                             actions,
                             descripcion_validacion_1_bordado,
                             talles2,
                             lista_cod_color_1_bordado,
-                            cantidad_insumo_bordado_1,
+                            cantidad_insumo_bordado_1_cod_2,
                             insumo_bordado_1,
                             lista_colores,
                             combinado_1_bordado,
                             agregar_insumo,
                         )
                         logging.info(f"Carga de inusmo: {insumo_bordado_1} terminada")
-                    else: 
+                    else:
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
                         actions.send_keys(Keys.ESCAPE)
@@ -1210,20 +1321,20 @@ class LoadFile:
 
                     time.sleep(2)
 
-                    if insumo_bordado_2 != None:
+                    if insumo_bordado_2 is not None:
                         self.comprobar_y_cargar(
                             actions,
                             descripcion_validacion_2_bordado,
                             talles2,
                             lista_cod_color_2_bordado,
-                            cantidad_insumo_bordado_2,
+                            cantidad_insumo_bordado_2_cod_2,
                             insumo_bordado_2,
                             lista_colores,
                             combinado_2_bordado,
                             agregar_insumo,
                         )
                         logging.info(f"Carga de inusmo: {insumo_bordado_2} terminada")
-                    else: 
+                    else:
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
                         actions.send_keys(Keys.ESCAPE)
@@ -1233,19 +1344,33 @@ class LoadFile:
                     time.sleep(1)
                     btn_add_rule.click()
                     time.sleep(1)
-                    actions.send_keys("200 - CONFECCION")
+                    actions.send_keys("600 - PREPARACION P/ TALLER")
                     actions.perform()
-                    time.sleep(1)
+                    time.sleep(2)
                     actions.send_keys(Keys.ARROW_DOWN)
                     actions.perform()
+                    time.sleep(2)
                     actions.send_keys(Keys.ARROW_DOWN)
                     actions.perform()
+                    time.sleep(2)
                     actions.send_keys(Keys.ENTER)
                     actions.perform()
+                    time.sleep(2)
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
 
                     time.sleep(3)
+
+                    nueva_entrada_prep_taller = WebDriverWait(driver, 35).until(
+                        expected_conditions.presence_of_element_located(
+                            (
+                                By.XPATH,
+                                "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div[3]/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button",
+                            )
+                        )
+                    )
+                    nueva_entrada_prep_taller.click()
+                    time.sleep(1)
 
                     # /html/body/div[4]/div[2]/div/div/div/div[1]/div[9]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div[2]/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button
                     nueva_entrada_bordado2 = driver.find_element(
@@ -1267,13 +1392,13 @@ class LoadFile:
                     # FX
                     time.sleep(1)
 
-                    if insumo_confeccion_1 != None:
+                    if insumo_confeccion_1 is not None:
                         self.comprobar_y_cargar(
                             actions,
                             descripcion_validacion_1,
                             talles2,
                             lista_cod_color_1,
-                            cantidad_insumo_confeccion_1,
+                            cantidad_insumo_confeccion_1_cod_2,
                             insumo_confeccion_1,
                             lista_colores,
                             combinado_1,
@@ -1285,13 +1410,13 @@ class LoadFile:
 
                     time.sleep(2)
 
-                    if insumo_confeccion_2 != None:
+                    if insumo_confeccion_2 is not None:
                         self.comprobar_y_cargar(
                             actions,
                             descripcion_validacion_2,
                             talles2,
                             lista_cod_color_2,
-                            cantidad_insumo_confeccion_2,
+                            cantidad_insumo_confeccion_2_cod_2,
                             insumo_confeccion_2,
                             lista_colores,
                             combinado_2,
@@ -1303,13 +1428,13 @@ class LoadFile:
 
                     time.sleep(2)
 
-                    if insumo_confeccion_3 != None:
+                    if insumo_confeccion_3 is not None:
                         self.comprobar_y_cargar(
                             actions,
                             descripcion_validacion_3,
                             talles2,
                             lista_cod_color_3,
-                            cantidad_insumo_confeccion_3,
+                            cantidad_insumo_confeccion_3_cod_2,
                             insumo_confeccion_3,
                             lista_colores,
                             combinado_3,
@@ -1319,13 +1444,13 @@ class LoadFile:
                             f"Carga de inusmo: {insumo_confeccion_3} terminada"
                         )
 
-                    if insumo_confeccion_4 != None:
+                    if insumo_confeccion_4 is not None:
                         self.comprobar_y_cargar(
                             actions,
                             descripcion_validacion_4,
                             talles2,
                             lista_cod_color_4,
-                            cantidad_insumo_confeccion_4,
+                            cantidad_insumo_confeccion_4_cod_2,
                             insumo_confeccion_4,
                             lista_colores,
                             combinado_4,
@@ -1334,13 +1459,13 @@ class LoadFile:
                         logging.info(
                             f"Carga de inusmo: {insumo_confeccion_4} terminada"
                         )
-                    if insumo_confeccion_5 != None:
+                    if insumo_confeccion_5 is not None:
                         self.comprobar_y_cargar(
                             actions,
                             descripcion_validacion_5,
                             talles2,
                             lista_cod_color_5,
-                            cantidad_insumo_confeccion_5,
+                            cantidad_insumo_confeccion_5_cod_2,
                             insumo_confeccion_5,
                             lista_colores,
                             combinado_5,
@@ -1350,35 +1475,48 @@ class LoadFile:
                             f"Carga de inusmo: {insumo_confeccion_5} termi6ada"
                         )
 
-                    """"""""""""""""""""""""" Elasticos """""""""""""
 
-                    cantidad_elastico_1_cod_2 = ws["K36"].value
+                    """ Elasticos """
+                    time.sleep(3)
+                    if insumo_elastico_1 is not None:
+                        agregar_insumo.click()
+                        actions.send_keys(Keys.TAB)
+                        actions.perform()
+                        time.sleep(1)
+                        self.load_insumo(actions, insumo_elastico_1, self.split_cod_color(cod_color_elastico_1), cantidad_elastico_1_cod_2)
+                        logging.info(f"Carga de inusmo: {insumo_elastico_1} termiada")  
+                    else:
+                        False 
+                    
+                    """ Hilos """
+                    if insumo_hilo_1 is not None:
+                        agregar_insumo.click()
+                        actions.send_keys(Keys.TAB)
+                        actions.perform()
+                        time.sleep(1)
+                        self.load_insumo(actions, insumo_hilo_1, self.split_cod_color(cod_color_hilo_1), cantidad_hilo_1_cod_2)
+                        actions.send_keys(Keys.ESCAPE)
+                        actions.perform()                
+                        logging.info(f"Carga de inusmo: {insumo_hilo_1} termiada")                
 
-                    combinado_elastico_1 = self.loop_cod_color(
-                        rango_cod_color_elastico_1,
-                        lista_cod_color_elastico_1,
-                        isCombined_elastico_1,
-                        rango_cod_color1_str_elastico,
-                        ws,
-                    )
+                
+                    """ Confeccion """
+                    if insumo_conf_1 is not None:
+                        agregar_insumo.click()
+                        actions.send_keys(Keys.TAB)
+                        actions.perform()
+                        time.sleep(1)
+                        self.load_insumo(actions, insumo_conf_1, self.split_cod_color(cod_color_confeccion_1), cantidad_confeccion_1_cod_2)
+                        actions.send_keys(Keys.ESCAPE)
+                        actions.perform()                
+                        logging.info(f"Carga de inusmo: {insumo_conf_1} termiada")                
 
-                    self.comprobar_y_cargar(
-                        actions,
-                        descripcion_validacion_1_elastico,
-                        talles2,
-                        lista_cod_color_elastico_1,
-                        cantidad_elastico_1_cod_2,
-                        insumo_elastico_1,
-                        lista_colores,
-                        combinado_elastico_1,
-                        agregar_insumo,
-                    )
 
-                    time.sleep(2)
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
                     actions.send_keys(Keys.ESCAPE)
-                    actions.perform()
+                    actions.perform()             
+
 
                     # --------------------------------------------------- GUARDA SEGUNDA PARTE -----------------------------------------------------
                     time.sleep(3)
@@ -1411,11 +1549,11 @@ class LoadFile:
                     time.sleep(2)
                     logging.info(f"Ficha: ${ficha} cargada exitosamente")
                 else:
-                    pass
+                    False
             # -------------------------------------------------- --------------------------------------------------------------------------
 
         except (Exception) as error_excepction:
-            logging.info("Error: ", error_excepction)
+            logging.info(f"Error: {error_excepction} , {Exception}")
             print(error_excepction)
 
 
