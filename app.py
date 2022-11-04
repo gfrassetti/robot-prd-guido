@@ -757,7 +757,7 @@ class LoadFile:
 
                 """ Avios de lav y confecc """
                 cod_color_avios_lav_con_1 = ws["L79"].value
-                cantidad_avios_lav_con_1 = ws["J77"].value
+                cantidad_avios_lav_con_1 = ws["J79"].value
 
 
                 combinado_elastico_1 = self.loop_cod_color(

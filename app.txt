@@ -8585,3 +8585,86 @@ Backtrace:
 2022-11-04 10:24:18,866:INFO:Carga de inusmo: XPC000 termiada
 2022-11-04 10:24:26,636:INFO:Cargando el insumo XAM000
 2022-11-04 10:24:36,854:INFO:Error: object of type 'NoneType' has no len() , <class 'Exception'>
+2022-11-04 11:45:18,257:INFO:...Iniciando...
+2022-11-04 11:45:18,257:INFO:
+
+2022-11-04 11:45:18,257:INFO:====== WebDriver manager ======
+2022-11-04 11:45:19,585:INFO:Current google-chrome version is 107.0.5304
+2022-11-04 11:45:19,585:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
+2022-11-04 11:45:19,870:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
+2022-11-04 11:45:52,761:INFO:Iniciando sesion..
+2022-11-04 11:45:52,777:INFO:Cargando file...
+2022-11-04 11:45:54,791:INFO:Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.88)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0065ACD3+2075859]
+	Ordinal0 [0x005EEE61+1633889]
+	Ordinal0 [0x004EB7BD+571325]
+	Ordinal0 [0x004D2E1A+470554]
+	Ordinal0 [0x0053AA0B+895499]
+	Ordinal0 [0x0054AC96+961686]
+	Ordinal0 [0x00537136+880950]
+	Ordinal0 [0x0050FEFD+720637]
+	Ordinal0 [0x00510F3F+724799]
+	GetHandleVerifier [0x0090EED2+2769538]
+	GetHandleVerifier [0x00900D95+2711877]
+	GetHandleVerifier [0x006EA03A+521194]
+	GetHandleVerifier [0x006E8DA0+516432]
+	Ordinal0 [0x005F682C+1665068]
+	Ordinal0 [0x005FB128+1683752]
+	Ordinal0 [0x005FB215+1683989]
+	Ordinal0 [0x00606484+1729668]
+	BaseThreadInitThunk [0x771DFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x774F7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x774F7B8E+238]
+ , <class 'Exception'>
+2022-11-04 11:45:56,708:INFO:...Iniciando...
+2022-11-04 11:45:56,708:INFO:
+
+2022-11-04 11:45:56,709:INFO:====== WebDriver manager ======
+2022-11-04 11:45:57,949:INFO:Current google-chrome version is 107.0.5304
+2022-11-04 11:45:57,950:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
+2022-11-04 11:45:58,061:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
+2022-11-04 11:48:37,608:INFO:...Iniciando...
+2022-11-04 11:48:37,609:INFO:
+
+2022-11-04 11:48:37,609:INFO:====== WebDriver manager ======
+2022-11-04 11:48:38,839:INFO:Current google-chrome version is 107.0.5304
+2022-11-04 11:48:38,840:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
+2022-11-04 11:48:38,979:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
+2022-11-04 11:48:56,204:INFO:Iniciando sesion..
+2022-11-04 11:48:56,424:INFO:Entrando...
+2022-11-04 11:48:56,424:INFO:Cargando file...
+2022-11-04 11:49:10,168:INFO:reading excel..
+2022-11-04 11:49:10,168:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-11-04 11:50:28,875:INFO:Agregando regla - telas corte
+2022-11-04 11:50:47,320:INFO:Agregando insumos telas
+2022-11-04 11:50:50,377:INFO:Cargando el insumo XTH000
+2022-11-04 11:51:14,821:INFO:Cargando el insumo XTH000
+2022-11-04 11:51:39,203:INFO:Cargando el insumo XTH000
+2022-11-04 11:52:03,585:INFO:Cargando el insumo XTH000
+2022-11-04 11:52:28,091:INFO:Cargando el insumo XTH000
+2022-11-04 11:52:49,507:INFO:Carga de insumos terminada
+2022-11-04 11:52:49,507:INFO:Comenzando carga de bordados...
+2022-11-04 11:53:19,039:INFO:Cargando inusmo por talle: XPB000
+2022-11-04 11:53:35,507:INFO:Carga de insumo por talle finalizada...
+2022-11-04 11:53:35,508:INFO:Carga de inusmo: XPB000 terminada
+2022-11-04 11:53:37,526:INFO:Comenzando carga de confeccion...
+2022-11-04 11:53:47,276:INFO:Cargnado insumo por talle...
+2022-11-04 11:53:48,287:INFO:Cargando inusmo por talle: XAE216
+2022-11-04 11:54:14,943:INFO:Cargando inusmo por talle: XAE216
+2022-11-04 11:54:41,600:INFO:Cargando inusmo por talle: XAE216
+2022-11-04 11:55:08,336:INFO:Cargando inusmo por talle: XAE216
+2022-11-04 11:55:35,071:INFO:Cargando inusmo por talle: XAE216
+2022-11-04 11:56:00,812:INFO:Carga de inusmo: XAE216 terminada
+2022-11-04 11:56:01,819:INFO:Cargando inusmo por talle: XAE942
+2022-11-04 11:56:18,367:INFO:Carga de insumo por talle finalizada...
+2022-11-04 11:56:18,367:INFO:Carga de inusmo: XAE942 terminada
+2022-11-04 11:56:24,498:INFO:Cargando el insumo XAL003
+2022-11-04 11:56:42,882:INFO:Carga de inusmo: XAL003 termiada
+2022-11-04 11:56:44,050:INFO:Cargando el insumo XPC000
+2022-11-04 11:57:02,526:INFO:Carga de inusmo: XPC000 termiada
+2022-11-04 11:57:10,336:INFO:Cargando el insumo XAM000
+2022-11-04 11:57:20,554:INFO:Error: object of type 'NoneType' has no len() , <class 'Exception'>
