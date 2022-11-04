@@ -8544,3 +8544,44 @@ Backtrace:
 	RtlGetAppContainerNamedObjectPath [0x774F7BBE+286]
 	RtlGetAppContainerNamedObjectPath [0x774F7B8E+238]
  , <class 'Exception'>
+2022-11-04 10:16:01,824:INFO:...Iniciando...
+2022-11-04 10:16:01,824:INFO:
+
+2022-11-04 10:16:01,824:INFO:====== WebDriver manager ======
+2022-11-04 10:16:03,193:INFO:Current google-chrome version is 107.0.5304
+2022-11-04 10:16:03,193:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
+2022-11-04 10:16:03,501:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
+2022-11-04 10:16:06,642:INFO:Iniciando sesion..
+2022-11-04 10:16:06,811:INFO:Entrando...
+2022-11-04 10:16:06,811:INFO:Cargando file...
+2022-11-04 10:16:27,001:INFO:reading excel..
+2022-11-04 10:16:27,001:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-11-04 10:17:45,829:INFO:Agregando regla - telas corte
+2022-11-04 10:18:04,288:INFO:Agregando insumos telas
+2022-11-04 10:18:07,347:INFO:Cargando el insumo XTH000
+2022-11-04 10:18:31,791:INFO:Cargando el insumo XTH000
+2022-11-04 10:18:56,173:INFO:Cargando el insumo XTH000
+2022-11-04 10:19:20,570:INFO:Cargando el insumo XTH000
+2022-11-04 10:19:44,967:INFO:Cargando el insumo XTH000
+2022-11-04 10:20:06,361:INFO:Carga de insumos terminada
+2022-11-04 10:20:06,361:INFO:Comenzando carga de bordados...
+2022-11-04 10:20:35,728:INFO:Cargando inusmo por talle: XPB000
+2022-11-04 10:20:52,183:INFO:Carga de insumo por talle finalizada...
+2022-11-04 10:20:52,183:INFO:Carga de inusmo: XPB000 terminada
+2022-11-04 10:20:54,216:INFO:Comenzando carga de confeccion...
+2022-11-04 10:21:03,764:INFO:Cargnado insumo por talle...
+2022-11-04 10:21:04,773:INFO:Cargando inusmo por talle: XAE216
+2022-11-04 10:21:31,369:INFO:Cargando inusmo por talle: XAE216
+2022-11-04 10:21:58,026:INFO:Cargando inusmo por talle: XAE216
+2022-11-04 10:22:24,730:INFO:Cargando inusmo por talle: XAE216
+2022-11-04 10:22:51,480:INFO:Cargando inusmo por talle: XAE216
+2022-11-04 10:23:17,237:INFO:Carga de inusmo: XAE216 terminada
+2022-11-04 10:23:18,244:INFO:Cargando inusmo por talle: XAE942
+2022-11-04 10:23:34,775:INFO:Carga de insumo por talle finalizada...
+2022-11-04 10:23:34,776:INFO:Carga de inusmo: XAE942 terminada
+2022-11-04 10:23:40,907:INFO:Cargando el insumo XAL003
+2022-11-04 10:23:59,291:INFO:Carga de inusmo: XAL003 termiada
+2022-11-04 10:24:00,428:INFO:Cargando el insumo XPC000
+2022-11-04 10:24:18,866:INFO:Carga de inusmo: XPC000 termiada
+2022-11-04 10:24:26,636:INFO:Cargando el insumo XAM000
+2022-11-04 10:24:36,854:INFO:Error: object of type 'NoneType' has no len() , <class 'Exception'>
