@@ -660,6 +660,7 @@ class LoadFile:
                 insumo_conf_1 = ws["I76"].value
                 insumo_lav_1 = ws["I77"].value
                 insumo_avios_de_lav_conf_1 = ws["I79"].value
+                insumo_ilustrador_1 = ws["I104"].value
 
                 isCombined1_bordado = ws["L22"]
                 isCombined2_bordado = ws["L24"]
@@ -765,7 +766,12 @@ class LoadFile:
                 """ Plancha """
                 insumo_plancha_1 = ws["K79"].value
 
+                """ GTS """
+                cantidad_gts_1 = ws["J04"].value
+                cantidad_gts_1_cod_2 = ws["K104"].value
+
                 time.sleep(3)
+            
                 lista_colores = []
                 rango_colores = ws["L4":"T4"]
 
@@ -1180,6 +1186,51 @@ class LoadFile:
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
 
+                """ Ilustrador """
+                if insumo_ilustrador_1 is not None:
+                    btn_add_rule.click()
+                    time.sleep(1)
+                    actions.send_keys("800 - PRODUCTO TERMINADO")
+                    time.sleep(1)
+                    actions.send_keys(Keys.ARROW_DOWN)
+                    actions.perform()
+                    actions.send_keys(Keys.ARROW_DOWN)
+                    actions.perform()
+                    actions.send_keys(Keys.ENTER)
+                    actions.perform()
+                    actions.send_keys(Keys.ESCAPE)
+                    actions.perform()
+
+                    time.sleep(3)
+                    nueva_entrada_gts = WebDriverWait(driver, 35).until(
+                        expected_conditions.presence_of_element_located(
+                            (
+                                By.XPATH,
+                                "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div[6]/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button",
+                            )
+                        )
+                    )
+                    nueva_entrada_gts.click()
+                    time.sleep(1)
+                    agregar_insumo.click()
+                    actions.send_keys(Keys.TAB)
+                    actions.perform()
+                    time.sleep(1)
+                    self.load_insumo(
+                        actions,
+                        insumo_ilustrador_1,
+                        "SC.U", cantidad_gts_1
+                    )
+                    actions.send_keys(Keys.ESCAPE)
+                    actions.perform()
+                    logging.info(
+                        f"Carga de inusmo: {insumo_ilustrador_1} termiada"
+                    )
+
+                    actions.send_keys(Keys.ESCAPE)
+                    actions.perform()
+                    actions.send_keys(Keys.ESCAPE)
+                    actions.perform()                
                 # --------------------------------------------------- GUARDA PRIMERA PARTE -----------------------------------------------------
                 time.sleep(2)
                 btn_guardar = driver.find_element(
