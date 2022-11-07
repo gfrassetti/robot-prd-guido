@@ -188,6 +188,7 @@ class LoadFile:
             time.sleep(2)
             actions.send_keys(Keys.ENTER)
             actions.perform()
+            time.sleep(2)
         else:
             actions.send_keys(Keys.ESCAPE)
             actions.perform()
@@ -359,6 +360,7 @@ class LoadFile:
             logging.info("reading excel..")
 
             for index, ficha in enumerate(self.fichas):
+
                 logging.info(f"Cargando ficha: {ficha}")
                 wb = load_workbook(f"./FT_a_procesar/{ficha}", data_only=True)
                 ws = wb.active
@@ -758,15 +760,11 @@ class LoadFile:
                 """ Avios de lav y confecc """
                 cod_color_avios_lav_con_1 = ws["L79"].value
                 cantidad_avios_lav_con_1 = ws["J79"].value
+                cantidad_avios_lav_con_1_cod_2 = ws["K79"].value
 
+                """ Plancha """
+                insumo_plancha_1 = ws["K79"].value
 
-                combinado_elastico_1 = self.loop_cod_color(
-                    rango_cod_color_elastico_1,
-                    lista_cod_color_elastico_1,
-                    isCombined_elastico_1,
-                    rango_cod_color1_str_elastico,
-                    ws,
-                )
                 time.sleep(3)
                 lista_colores = []
                 rango_colores = ws["L4":"T4"]
@@ -1081,7 +1079,7 @@ class LoadFile:
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
 
-                """ Avios de lavado y conf """
+                """ Avios de lav y confeccion """
                 if insumo_avios_de_lav_conf_1 is not None:
                     btn_add_rule.click()
                     time.sleep(1)
@@ -1122,6 +1120,60 @@ class LoadFile:
                     logging.info(
                         f"Carga de inusmo: {insumo_avios_de_lav_conf_1} termiada"
                     )
+
+                    actions.send_keys(Keys.ESCAPE)
+                    actions.perform()
+                    actions.send_keys(Keys.ESCAPE)
+                    actions.perform()
+
+                """ Plancha """
+                lista_insumos_plancha = []
+                cantidades_plancha = []
+                rango_insumo_plancha = ws["I94":"I103"]
+                rango_cantidades_insumo_plancha = ws["J94":"J103"]
+                self.loop(rango_insumo_plancha, lista_insumos_plancha)
+                self.loop(rango_cantidades_insumo_plancha, cantidades_plancha)
+                print(f"Insumos en la lista de plancha: {lista_insumos_plancha}")
+
+                if lista_insumos_plancha[0] is not None:
+                    btn_add_rule.click()
+                    time.sleep(1)
+                    actions.send_keys("750 - PLANCHA")
+                    time.sleep(1)
+                    actions.send_keys(Keys.ARROW_DOWN)
+                    actions.perform()
+                    actions.send_keys(Keys.ARROW_DOWN)
+                    actions.perform()
+                    actions.send_keys(Keys.ENTER)
+                    actions.perform()
+                    actions.send_keys(Keys.ESCAPE)
+                    actions.perform()
+
+                    time.sleep(3)
+
+                    nueva_entrada_plancha = WebDriverWait(driver, 35).until(
+                        expected_conditions.presence_of_element_located(
+                            (
+                                By.XPATH,
+                                "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div[5]/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button",
+                            )
+                        )
+                    )   
+                    time.sleep(3)
+                    nueva_entrada_plancha.click()
+                    time.sleep(1)
+                    for i in lista_insumos_plancha:
+                        agregar_insumo.click()
+                        actions.send_keys(Keys.TAB)
+                        actions.perform()
+                        time.sleep(1)
+                        for c in cantidades_plancha:
+                            self.load_insumo(actions, i, "SC.U", c)
+                            time.sleep(1)
+                            actions.send_keys(Keys.ESCAPE)
+                            actions.perform()
+                            break
+                        time.sleep(2)
 
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
@@ -1428,7 +1480,7 @@ class LoadFile:
                         actions.perform()
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
-                    # ------------------------------------------------------  200 - CONFECCION ----------------------------------------------------------------------------
+                    # ------------------------------------------------------  600 - prep para taller ----------------------------------------------------------------------------
                     logging.info("Comenzando carga de confeccion...")
                     time.sleep(1)
                     btn_add_rule.click()
@@ -1616,6 +1668,153 @@ class LoadFile:
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
 
+                    """ Lavado """
+                    if insumo_lav_1 is not None:
+                        btn_add_rule.click()
+                        time.sleep(1)
+                        actions.send_keys("520 - LAVADO")
+                        time.sleep(1)
+                        actions.send_keys(Keys.ARROW_DOWN)
+                        actions.perform()
+                        actions.send_keys(Keys.ARROW_DOWN)
+                        actions.perform()
+                        actions.send_keys(Keys.ENTER)
+                        actions.perform()
+                        actions.send_keys(Keys.ESCAPE)
+                        actions.perform()
+
+                        time.sleep(3)
+                        nueva_entrada_lavado = WebDriverWait(driver, 35).until(
+                            expected_conditions.presence_of_element_located(
+                                (
+                                    By.XPATH,
+                                    "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div[4]/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button",
+                                )
+                            )
+                        )
+                        nueva_entrada_lavado.click()
+                        time.sleep(1)
+                        agregar_insumo.click()
+                        actions.send_keys(Keys.TAB)
+                        actions.perform()
+                        time.sleep(1)
+                        self.load_insumo(
+                            actions,
+                            insumo_lav_1,
+                            self.split_cod_color(cod_color_lav_1),
+                            cantidad_lav_1,
+                        )
+                        actions.send_keys(Keys.ESCAPE)
+                        actions.perform()
+                        logging.info(f"Carga de inusmo: {insumo_lav_1} termiada")
+
+                        actions.send_keys(Keys.ESCAPE)
+                        actions.perform()
+                        actions.send_keys(Keys.ESCAPE)
+                        actions.perform()
+
+                    """ Avios de lavado y conf """
+                    if insumo_avios_de_lav_conf_1 is not None:
+                        btn_add_rule.click()
+                        time.sleep(1)
+                        actions.send_keys("480 - APROBACION LAVADO")
+                        time.sleep(1)
+                        actions.send_keys(Keys.ARROW_DOWN)
+                        actions.perform()
+                        actions.send_keys(Keys.ARROW_DOWN)
+                        actions.perform()
+                        actions.send_keys(Keys.ENTER)
+                        actions.perform()
+                        actions.send_keys(Keys.ESCAPE)
+                        actions.perform()
+
+                        time.sleep(3)
+                        nueva_entrada_avios_lav_con = WebDriverWait(driver, 35).until(
+                            expected_conditions.presence_of_element_located(
+                                (
+                                    By.XPATH,
+                                    "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div[4]/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button",
+                                )
+                            )
+                        )
+                        nueva_entrada_avios_lav_con.click()
+                        time.sleep(1)
+                        agregar_insumo.click()
+                        actions.send_keys(Keys.TAB)
+                        actions.perform()
+                        time.sleep(1)
+                        self.load_insumo(
+                            actions,
+                            insumo_avios_de_lav_conf_1,
+                            self.split_cod_color(cod_color_avios_lav_con_1),
+                            cantidad_avios_lav_con_1_cod_2,
+                        )
+                        actions.send_keys(Keys.ESCAPE)
+                        actions.perform()
+                        logging.info(
+                            f"Carga de inusmo: {insumo_avios_de_lav_conf_1} termiada"
+                        )
+
+                        actions.send_keys(Keys.ESCAPE)
+                        actions.perform()
+                        actions.send_keys(Keys.ESCAPE)
+                        actions.perform()
+
+                        """ Plancha """
+                        lista_insumos_plancha = []
+                        cantidades_plancha = []
+                        rango_insumo_plancha = ws["I94":"I103"]
+                        rango_cantidades_insumo_plancha = ws["K94":"K103"]
+                        self.loop(rango_insumo_plancha, lista_insumos_plancha)
+                        self.loop(rango_cantidades_insumo_plancha, cantidades_plancha)
+                        print(f"Insumos en la lista de plancha: {lista_insumos_plancha}")
+
+                        if lista_insumos_plancha[0] is not None:
+                            btn_add_rule.click()
+                            time.sleep(1)
+                            actions.send_keys("750 - PLANCHA")
+                            time.sleep(1)
+                            actions.send_keys(Keys.ARROW_DOWN)
+                            actions.perform()
+                            actions.send_keys(Keys.ARROW_DOWN)
+                            actions.perform()
+                            actions.send_keys(Keys.ENTER)
+                            actions.perform()
+                            actions.send_keys(Keys.ESCAPE)
+                            actions.perform()
+
+                            time.sleep(3)
+
+                            nueva_entrada_plancha = WebDriverWait(driver, 35).until(
+                                expected_conditions.presence_of_element_located(
+                                    (
+                                        By.XPATH,
+                                        "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div[5]/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button",
+                                    )
+                                )
+                            )   
+                            time.sleep(3)
+                            nueva_entrada_plancha.click()
+                            time.sleep(1)
+                            for i in lista_insumos_plancha:
+                                agregar_insumo.click()
+                                actions.send_keys(Keys.TAB)
+                                actions.perform()
+                                time.sleep(1)
+                                for c in cantidades_plancha:
+                                    self.load_insumo(actions, i, "SC.U", c)
+                                    f"Carga de inusmo: {i} termiada"
+                                    time.sleep(1)
+                                    actions.send_keys(Keys.ESCAPE)
+                                    actions.perform()
+                                    break
+                                time.sleep(2)
+
+                            actions.send_keys(Keys.ESCAPE)
+                            actions.perform()
+                            actions.send_keys(Keys.ESCAPE)
+                            actions.perform()
+
                     # --------------------------------------------------- GUARDA SEGUNDA PARTE -----------------------------------------------------
                     time.sleep(3)
                     btn_guardar2 = driver.find_element(
@@ -1641,7 +1840,7 @@ class LoadFile:
                     btn_ok2.click()
                     time.sleep(2)
                     btn_close2 = driver.find_element(
-                        By.XPATH, "//div[@id='ext-comp-1663']/div/div/div/div/div"
+                        By.XPATH, "//div[@id='ext-comp-1547']/div/div/div/div/div"
                     )
                     btn_close2.click()
                     time.sleep(2)
