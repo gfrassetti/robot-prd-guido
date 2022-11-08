@@ -767,11 +767,11 @@ class LoadFile:
                 insumo_plancha_1 = ws["K79"].value
 
                 """ GTS """
-                cantidad_gts_1 = ws["J04"].value
+                cantidad_gts_1 = ws["J104"].value
                 cantidad_gts_1_cod_2 = ws["K104"].value
 
                 time.sleep(3)
-            
+
                 lista_colores = []
                 rango_colores = ws["L4":"T4"]
 
@@ -1164,7 +1164,7 @@ class LoadFile:
                                 "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div[5]/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button",
                             )
                         )
-                    )   
+                    )
                     time.sleep(3)
                     nueva_entrada_plancha.click()
                     time.sleep(1)
@@ -1217,20 +1217,16 @@ class LoadFile:
                     actions.perform()
                     time.sleep(1)
                     self.load_insumo(
-                        actions,
-                        insumo_ilustrador_1,
-                        "SC.U", cantidad_gts_1
+                        actions, insumo_ilustrador_1, "SC.U", cantidad_gts_1
                     )
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
-                    logging.info(
-                        f"Carga de inusmo: {insumo_ilustrador_1} termiada"
-                    )
+                    logging.info(f"Carga de inusmo: {insumo_ilustrador_1} termiada")
 
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
                     actions.send_keys(Keys.ESCAPE)
-                    actions.perform()                
+                    actions.perform()
                 # --------------------------------------------------- GUARDA PRIMERA PARTE -----------------------------------------------------
                 time.sleep(2)
                 btn_guardar = driver.find_element(
@@ -1818,7 +1814,9 @@ class LoadFile:
                         rango_cantidades_insumo_plancha = ws["K94":"K103"]
                         self.loop(rango_insumo_plancha, lista_insumos_plancha)
                         self.loop(rango_cantidades_insumo_plancha, cantidades_plancha)
-                        print(f"Insumos en la lista de plancha: {lista_insumos_plancha}")
+                        print(
+                            f"Insumos en la lista de plancha: {lista_insumos_plancha}"
+                        )
 
                         if lista_insumos_plancha[0] is not None:
                             btn_add_rule.click()
@@ -1843,7 +1841,7 @@ class LoadFile:
                                         "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div[5]/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button",
                                     )
                                 )
-                            )   
+                            )
                             time.sleep(3)
                             nueva_entrada_plancha.click()
                             time.sleep(1)
