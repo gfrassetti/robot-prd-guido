@@ -1,1607 +1,248 @@
-2022-11-07 12:57:48,593:INFO:...Iniciando...
-2022-11-07 12:57:48,594:INFO:
+2022-11-25 15:17:29,008:INFO:...Iniciando...
+2022-11-25 15:17:29,008:INFO:
 
-2022-11-07 12:57:48,595:INFO:====== WebDriver manager ======
-2022-11-07 12:57:49,921:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 12:57:49,921:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 12:57:50,087:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 12:57:52,002:INFO:Iniciando sesion..
-2022-11-07 12:57:52,191:INFO:Entrando...
-2022-11-07 12:57:52,191:INFO:Cargando file...
-2022-11-07 12:58:06,213:INFO:reading excel..
-2022-11-07 12:58:06,213:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 12:59:25,092:INFO:Agregando regla - telas corte
-2022-11-07 12:59:43,555:INFO:Agregando insumos telas
-2022-11-07 12:59:46,626:INFO:Cargando el insumo XTH000
-2022-11-07 13:00:11,087:INFO:Cargando el insumo XTH000
-2022-11-07 13:00:35,485:INFO:Cargando el insumo XTH000
-2022-11-07 13:00:59,961:INFO:Cargando el insumo XTH000
-2022-11-07 13:01:24,437:INFO:Cargando el insumo XTH000
-2022-11-07 13:01:45,923:INFO:Carga de insumos terminada
-2022-11-07 13:01:45,924:INFO:Comenzando carga de bordados...
-2022-11-07 13:02:15,369:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 13:02:31,868:INFO:Carga de insumo por talle finalizada...
-2022-11-07 13:02:31,868:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 13:02:33,902:INFO:Comenzando carga de confeccion...
-2022-11-07 13:02:43,420:INFO:Cargnado insumo por talle...
-2022-11-07 13:02:44,430:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:03:11,071:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:03:37,760:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:04:04,448:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:04:31,136:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:04:56,861:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 13:04:57,868:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 13:05:14,446:INFO:Carga de insumo por talle finalizada...
-2022-11-07 13:05:14,446:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 13:05:20,578:INFO:Cargando el insumo XAL003
-2022-11-07 13:05:39,041:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 13:05:40,192:INFO:Cargando el insumo XPC000
-2022-11-07 13:05:58,634:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 13:06:06,431:INFO:Cargando el insumo XAM000
-2022-11-07 13:06:24,790:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 13:07:05,443:INFO:Error: Message: 
+2022-11-25 15:17:29,009:INFO:====== WebDriver manager ======
+2022-11-25 15:17:30,003:INFO:Current google-chrome version is 107.0.5304
+2022-11-25 15:17:30,004:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
+2022-11-25 15:17:30,363:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
+2022-11-25 15:17:32,784:INFO:Iniciando sesion..
+2022-11-25 15:17:33,040:INFO:Entrando...
+2022-11-25 15:17:33,040:INFO:Cargando file...
+2022-11-25 15:17:46,398:INFO:reading excel..
+2022-11-25 15:17:46,399:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-11-25 15:18:25,471:INFO:Agregando regla - telas corte
+2022-11-25 15:18:38,921:INFO:Agregando insumos telas
+2022-11-25 15:18:41,974:INFO:Cargando el insumo XTH000
+2022-11-25 15:19:08,493:INFO:Cargando el insumo XTH000
+2022-11-25 15:19:34,950:INFO:Cargando el insumo XTH000
+2022-11-25 15:20:01,438:INFO:Cargando el insumo XTH000
+2022-11-25 15:20:27,895:INFO:Cargando el insumo XTH000
+2022-11-25 15:20:51,316:INFO:Carga de insumos terminada
+2022-11-25 15:20:51,316:INFO:Comenzando carga de bordados...
+2022-11-25 15:21:22,931:INFO:Cargando inusmo por talle: XPB000
+2022-11-25 15:21:39,447:INFO:Carga de insumo por talle finalizada...
+2022-11-25 15:21:39,447:INFO:Carga de inusmo: XPB000 terminada
+2022-11-25 15:21:41,480:INFO:Comenzando carga de confeccion...
+2022-11-25 15:21:53,150:INFO:Cargnado insumo por talle...
+2022-11-25 15:21:54,161:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:22:20,849:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:22:47,600:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:23:14,429:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:23:41,288:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:24:07,665:INFO:Carga de inusmo: XAE216 terminada
+2022-11-25 15:24:08,671:INFO:Cargando inusmo por talle: XAE942
+2022-11-25 15:24:25,423:INFO:Carga de insumo por talle finalizada...
+2022-11-25 15:24:25,423:INFO:Carga de inusmo: XAE942 terminada
+2022-11-25 15:24:31,568:INFO:Cargando el insumo XAL003
+2022-11-25 15:24:52,034:INFO:Carga de inusmo: XAL003 termiada
+2022-11-25 15:24:53,226:INFO:Cargando el insumo XPC000
+2022-11-25 15:25:13,692:INFO:Carga de inusmo: XPC000 termiada
+2022-11-25 15:25:23,832:INFO:Cargando el insumo XAM000
+2022-11-25 15:25:44,265:INFO:Carga de inusmo: XAM000 termiada
+2022-11-25 15:25:57,240:INFO:Cargando el insumo XEC050
+2022-11-25 15:26:21,761:INFO:Cargando el insumo XEC043
+2022-11-25 15:26:46,345:INFO:Cargando el insumo XEB001
+2022-11-25 15:27:10,913:INFO:Cargando el insumo XEV001
+2022-11-25 15:27:35,589:INFO:Cargando el insumo XEV001
+2022-11-25 15:28:00,234:INFO:Cargando el insumo XEV001
+2022-11-25 15:28:33,828:INFO:Cargando el insumo XPE700
+2022-11-25 15:28:54,248:INFO:Carga de inusmo: XPE700 termiada
+2022-11-25 15:29:11,502:INFO:Ficha:D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm con cod de producto: I23 G - COL1 - 02 guardada
+2022-11-25 15:29:16,521:INFO:Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[37]/div[1]/div/div/div/div"}
+  (Session info: chrome=107.0.5304.107)
 Stacktrace:
 Backtrace:
-	Ordinal0 [0x00E8ACD3+2075859]
-	Ordinal0 [0x00E1EE61+1633889]
-	Ordinal0 [0x00D1B7BD+571325]
-	Ordinal0 [0x00D4AC2F+764975]
-	Ordinal0 [0x00D4AE1B+765467]
-	Ordinal0 [0x00D7D0F2+970994]
-	Ordinal0 [0x00D67364+881508]
-	Ordinal0 [0x00D7B56A+963946]
-	Ordinal0 [0x00D67136+880950]
-	Ordinal0 [0x00D3FEFD+720637]
-	Ordinal0 [0x00D40F3F+724799]
-	GetHandleVerifier [0x0113EED2+2769538]
-	GetHandleVerifier [0x01130D95+2711877]
-	GetHandleVerifier [0x00F1A03A+521194]
-	GetHandleVerifier [0x00F18DA0+516432]
-	Ordinal0 [0x00E2682C+1665068]
-	Ordinal0 [0x00E2B128+1683752]
-	Ordinal0 [0x00E2B215+1683989]
-	Ordinal0 [0x00E36484+1729668]
-	BaseThreadInitThunk [0x75DEFA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77D67BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77D67B8E+238]
+	Ordinal0 [0x009EACD3+2075859]
+	Ordinal0 [0x0097EE61+1633889]
+	Ordinal0 [0x0087B7BD+571325]
+	Ordinal0 [0x008AAC2F+764975]
+	Ordinal0 [0x008AAE1B+765467]
+	Ordinal0 [0x008DD0F2+970994]
+	Ordinal0 [0x008C7364+881508]
+	Ordinal0 [0x008DB56A+963946]
+	Ordinal0 [0x008C7136+880950]
+	Ordinal0 [0x0089FEFD+720637]
+	Ordinal0 [0x008A0F3F+724799]
+	GetHandleVerifier [0x00C9EED2+2769538]
+	GetHandleVerifier [0x00C90D95+2711877]
+	GetHandleVerifier [0x00A7A03A+521194]
+	GetHandleVerifier [0x00A78DA0+516432]
+	Ordinal0 [0x0098682C+1665068]
+	Ordinal0 [0x0098B128+1683752]
+	Ordinal0 [0x0098B215+1683989]
+	Ordinal0 [0x00996484+1729668]
+	BaseThreadInitThunk [0x76C9FEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77157BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77157B8E+238]
  , <class 'Exception'>
-2022-11-07 13:29:48,318:INFO:...Iniciando...
-2022-11-07 13:29:48,319:INFO:
+2022-11-25 15:30:12,063:INFO:...Iniciando...
+2022-11-25 15:30:12,063:INFO:
 
-2022-11-07 13:29:48,319:INFO:====== WebDriver manager ======
-2022-11-07 13:29:49,571:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 13:29:49,571:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 13:29:49,939:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 13:29:51,928:INFO:Iniciando sesion..
-2022-11-07 13:29:52,120:INFO:Entrando...
-2022-11-07 13:29:52,120:INFO:Cargando file...
-2022-11-07 13:30:06,658:INFO:reading excel..
-2022-11-07 13:30:06,658:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 13:31:25,350:INFO:Agregando regla - telas corte
-2022-11-07 13:31:43,838:INFO:Agregando insumos telas
-2022-11-07 13:31:46,898:INFO:Cargando el insumo XTH000
-2022-11-07 13:32:11,373:INFO:Cargando el insumo XTH000
-2022-11-07 13:32:35,770:INFO:Cargando el insumo XTH000
-2022-11-07 13:33:00,152:INFO:Cargando el insumo XTH000
-2022-11-07 13:33:24,565:INFO:Cargando el insumo XTH000
-2022-11-07 13:33:45,990:INFO:Carga de insumos terminada
-2022-11-07 13:33:45,990:INFO:Comenzando carga de bordados...
-2022-11-07 13:34:15,404:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 13:34:31,873:INFO:Carga de insumo por talle finalizada...
-2022-11-07 13:34:31,873:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 13:34:33,916:INFO:Comenzando carga de confeccion...
-2022-11-07 13:34:43,640:INFO:Cargnado insumo por talle...
-2022-11-07 13:34:44,651:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:35:11,432:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:35:38,135:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:36:04,948:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:36:31,668:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:36:57,439:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 13:36:58,445:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 13:37:15,038:INFO:Carga de insumo por talle finalizada...
-2022-11-07 13:37:15,038:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 13:37:21,156:INFO:Cargando el insumo XAL003
-2022-11-07 13:37:39,555:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 13:37:40,692:INFO:Cargando el insumo XPC000
-2022-11-07 13:37:59,085:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 13:38:06,839:INFO:Cargando el insumo XAM000
-2022-11-07 13:38:25,179:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 13:39:05,835:INFO:Error: Message: 
+2022-11-25 15:30:12,064:INFO:====== WebDriver manager ======
+2022-11-25 15:30:12,607:INFO:Current google-chrome version is 107.0.5304
+2022-11-25 15:30:12,607:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
+2022-11-25 15:30:12,736:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
+2022-11-25 15:30:14,554:INFO:Iniciando sesion..
+2022-11-25 15:30:14,877:INFO:Entrando...
+2022-11-25 15:30:14,877:INFO:Cargando file...
+2022-11-25 15:30:27,707:INFO:reading excel..
+2022-11-25 15:30:27,707:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-11-25 15:31:06,683:INFO:Agregando regla - telas corte
+2022-11-25 15:31:20,097:INFO:Agregando insumos telas
+2022-11-25 15:31:23,158:INFO:Cargando el insumo XTH000
+2022-11-25 15:31:49,708:INFO:Cargando el insumo XTH000
+2022-11-25 15:32:16,212:INFO:Cargando el insumo XTH000
+2022-11-25 15:32:42,746:INFO:Cargando el insumo XTH000
+2022-11-25 15:33:09,218:INFO:Cargando el insumo XTH000
+2022-11-25 15:33:32,642:INFO:Carga de insumos terminada
+2022-11-25 15:33:32,642:INFO:Comenzando carga de bordados...
+2022-11-25 15:34:04,269:INFO:Cargando inusmo por talle: XPB000
+2022-11-25 15:34:20,696:INFO:Carga de insumo por talle finalizada...
+2022-11-25 15:34:20,696:INFO:Carga de inusmo: XPB000 terminada
+2022-11-25 15:34:22,725:INFO:Comenzando carga de confeccion...
+2022-11-25 15:34:34,642:INFO:Cargnado insumo por talle...
+2022-11-25 15:34:35,653:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:35:02,434:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:35:29,340:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:35:56,106:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:36:22,919:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:36:48,847:INFO:Carga de inusmo: XAE216 terminada
+2022-11-25 15:36:49,853:INFO:Cargando inusmo por talle: XAE942
+2022-11-25 15:37:06,447:INFO:Carga de insumo por talle finalizada...
+2022-11-25 15:37:06,447:INFO:Carga de inusmo: XAE942 terminada
+2022-11-25 15:37:12,579:INFO:Cargando el insumo XAL003
+2022-11-25 15:37:33,122:INFO:Carga de inusmo: XAL003 termiada
+2022-11-25 15:37:34,314:INFO:Cargando el insumo XPC000
+2022-11-25 15:37:54,810:INFO:Carga de inusmo: XPC000 termiada
+2022-11-25 15:38:04,749:INFO:Cargando el insumo XAM000
+2022-11-25 15:38:25,122:INFO:Carga de inusmo: XAM000 termiada
+2022-11-25 15:38:37,893:INFO:Cargando el insumo XEC050
+2022-11-25 15:39:02,415:INFO:Cargando el insumo XEC043
+2022-11-25 15:39:26,967:INFO:Cargando el insumo XEB001
+2022-11-25 15:39:51,551:INFO:Cargando el insumo XEV001
+2022-11-25 15:40:16,228:INFO:Cargando el insumo XEV001
+2022-11-25 15:40:40,920:INFO:Cargando el insumo XEV001
+2022-11-25 15:41:14,575:INFO:Cargando el insumo XPE700
+2022-11-25 15:41:35,010:INFO:Carga de inusmo: XPE700 termiada
+2022-11-25 15:41:52,290:INFO:Ficha:D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm con cod de producto: I23 G - COL1 - 02 guardada
+2022-11-25 15:42:09,365:INFO:Carga de ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm terminada con codigo de producto:: G0DM00
+2022-11-25 15:42:09,365:INFO:Cargando ficha:D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm con segundo codigo de producto: G0AM05
+2022-11-25 15:42:35,849:INFO:Agregando entrada
+2022-11-25 15:42:38,039:INFO:Cargando insumos...
+2022-11-25 15:42:44,100:INFO:Cargando el insumo XTH000
+2022-11-25 15:43:11,145:INFO:Cargando el insumo XTH000
+2022-11-25 15:43:38,019:INFO:Cargando el insumo XTH000
+2022-11-25 15:44:04,909:INFO:Cargando el insumo XTH000
+2022-11-25 15:44:31,845:INFO:Cargando el insumo XTH000
+2022-11-25 15:44:54,703:INFO:Carga de insumos terminada
+2022-11-25 15:44:58,704:INFO:Comenzando carga de bordados...
+2022-11-25 15:45:21,770:INFO:Cargando inusmo por talle: XPB000
+2022-11-25 15:45:38,690:INFO:Carga de insumo por talle finalizada...
+2022-11-25 15:45:38,690:INFO:Carga de inusmo: XPB000 terminada
+2022-11-25 15:45:40,719:INFO:Comenzando carga de confeccion...
+2022-11-25 15:45:58,161:INFO:Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div[2]/div/div/div/div[1]/div[9]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div[2]/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button"}
+  (Session info: chrome=107.0.5304.107)
 Stacktrace:
 Backtrace:
-	Ordinal0 [0x00E8ACD3+2075859]
-	Ordinal0 [0x00E1EE61+1633889]
-	Ordinal0 [0x00D1B7BD+571325]
-	Ordinal0 [0x00D4AC2F+764975]
-	Ordinal0 [0x00D4AE1B+765467]
-	Ordinal0 [0x00D7D0F2+970994]
-	Ordinal0 [0x00D67364+881508]
-	Ordinal0 [0x00D7B56A+963946]
-	Ordinal0 [0x00D67136+880950]
-	Ordinal0 [0x00D3FEFD+720637]
-	Ordinal0 [0x00D40F3F+724799]
-	GetHandleVerifier [0x0113EED2+2769538]
-	GetHandleVerifier [0x01130D95+2711877]
-	GetHandleVerifier [0x00F1A03A+521194]
-	GetHandleVerifier [0x00F18DA0+516432]
-	Ordinal0 [0x00E2682C+1665068]
-	Ordinal0 [0x00E2B128+1683752]
-	Ordinal0 [0x00E2B215+1683989]
-	Ordinal0 [0x00E36484+1729668]
-	BaseThreadInitThunk [0x75DEFA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77D67BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77D67B8E+238]
+	Ordinal0 [0x009EACD3+2075859]
+	Ordinal0 [0x0097EE61+1633889]
+	Ordinal0 [0x0087B7BD+571325]
+	Ordinal0 [0x008AAC2F+764975]
+	Ordinal0 [0x008AAE1B+765467]
+	Ordinal0 [0x008DD0F2+970994]
+	Ordinal0 [0x008C7364+881508]
+	Ordinal0 [0x008DB56A+963946]
+	Ordinal0 [0x008C7136+880950]
+	Ordinal0 [0x0089FEFD+720637]
+	Ordinal0 [0x008A0F3F+724799]
+	GetHandleVerifier [0x00C9EED2+2769538]
+	GetHandleVerifier [0x00C90D95+2711877]
+	GetHandleVerifier [0x00A7A03A+521194]
+	GetHandleVerifier [0x00A78DA0+516432]
+	Ordinal0 [0x0098682C+1665068]
+	Ordinal0 [0x0098B128+1683752]
+	Ordinal0 [0x0098B215+1683989]
+	Ordinal0 [0x00996484+1729668]
+	BaseThreadInitThunk [0x76C9FEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77157BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77157B8E+238]
  , <class 'Exception'>
-2022-11-07 13:42:16,194:INFO:...Iniciando...
-2022-11-07 13:42:16,195:INFO:
+2022-11-25 15:52:43,580:INFO:...Iniciando...
+2022-11-25 15:52:43,581:INFO:
 
-2022-11-07 13:42:16,195:INFO:====== WebDriver manager ======
-2022-11-07 13:42:17,462:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 13:42:17,462:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 13:42:17,603:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 13:42:19,480:INFO:Iniciando sesion..
-2022-11-07 13:42:19,681:INFO:Entrando...
-2022-11-07 13:42:19,681:INFO:Cargando file...
-2022-11-07 13:42:32,626:INFO:reading excel..
-2022-11-07 13:42:32,626:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 13:43:51,423:INFO:Agregando regla - telas corte
-2022-11-07 13:44:09,890:INFO:Agregando insumos telas
-2022-11-07 13:44:12,941:INFO:Cargando el insumo XTH000
-2022-11-07 13:44:37,369:INFO:Cargando el insumo XTH000
-2022-11-07 13:45:01,770:INFO:Cargando el insumo XTH000
-2022-11-07 13:45:26,167:INFO:Cargando el insumo XTH000
-2022-11-07 13:45:50,611:INFO:Cargando el insumo XTH000
-2022-11-07 13:46:11,988:INFO:Carga de insumos terminada
-2022-11-07 13:46:11,988:INFO:Comenzando carga de bordados...
-2022-11-07 13:46:41,387:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 13:46:57,794:INFO:Carga de insumo por talle finalizada...
-2022-11-07 13:46:57,794:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 13:46:59,825:INFO:Comenzando carga de confeccion...
-2022-11-07 13:47:09,375:INFO:Cargnado insumo por talle...
-2022-11-07 13:47:10,385:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:47:36,995:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:48:03,637:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:48:30,263:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:48:56,967:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:49:22,740:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 13:49:23,746:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 13:49:40,277:INFO:Carga de insumo por talle finalizada...
-2022-11-07 13:49:40,277:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 13:49:46,394:INFO:Cargando el insumo XAL003
-2022-11-07 13:50:04,776:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 13:50:05,915:INFO:Cargando el insumo XPC000
-2022-11-07 13:50:24,389:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 13:51:05,376:INFO:Error: Message: 
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x00E8ACD3+2075859]
-	Ordinal0 [0x00E1EE61+1633889]
-	Ordinal0 [0x00D1B7BD+571325]
-	Ordinal0 [0x00D4AC2F+764975]
-	Ordinal0 [0x00D4AE1B+765467]
-	Ordinal0 [0x00D7D0F2+970994]
-	Ordinal0 [0x00D67364+881508]
-	Ordinal0 [0x00D7B56A+963946]
-	Ordinal0 [0x00D67136+880950]
-	Ordinal0 [0x00D3FEFD+720637]
-	Ordinal0 [0x00D40F3F+724799]
-	GetHandleVerifier [0x0113EED2+2769538]
-	GetHandleVerifier [0x01130D95+2711877]
-	GetHandleVerifier [0x00F1A03A+521194]
-	GetHandleVerifier [0x00F18DA0+516432]
-	Ordinal0 [0x00E2682C+1665068]
-	Ordinal0 [0x00E2B128+1683752]
-	Ordinal0 [0x00E2B215+1683989]
-	Ordinal0 [0x00E36484+1729668]
-	BaseThreadInitThunk [0x75DEFA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77D67BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77D67B8E+238]
- , <class 'Exception'>
-2022-11-07 13:51:33,701:INFO:...Iniciando...
-2022-11-07 13:51:33,701:INFO:
-
-2022-11-07 13:51:33,702:INFO:====== WebDriver manager ======
-2022-11-07 13:51:35,116:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 13:51:35,116:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 13:51:35,272:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 13:51:37,411:INFO:Iniciando sesion..
-2022-11-07 13:51:37,599:INFO:Entrando...
-2022-11-07 13:51:37,599:INFO:Cargando file...
-2022-11-07 13:51:53,164:INFO:reading excel..
-2022-11-07 13:51:53,164:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 13:53:11,977:INFO:Agregando regla - telas corte
-2022-11-07 13:53:30,444:INFO:Agregando insumos telas
-2022-11-07 13:53:33,495:INFO:Cargando el insumo XTH000
-2022-11-07 13:53:57,923:INFO:Cargando el insumo XTH000
-2022-11-07 13:54:22,320:INFO:Cargando el insumo XTH000
-2022-11-07 13:54:46,686:INFO:Cargando el insumo XTH000
-2022-11-07 13:55:11,146:INFO:Cargando el insumo XTH000
-2022-11-07 13:55:32,569:INFO:Carga de insumos terminada
-2022-11-07 13:55:32,569:INFO:Comenzando carga de bordados...
-2022-11-07 13:56:01,985:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 13:56:18,471:INFO:Carga de insumo por talle finalizada...
-2022-11-07 13:56:18,471:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 13:56:20,504:INFO:Comenzando carga de confeccion...
-2022-11-07 13:56:30,238:INFO:Cargnado insumo por talle...
-2022-11-07 13:56:31,249:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:56:58,045:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:57:24,734:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:57:51,468:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:58:18,250:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 13:58:43,991:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 13:58:44,997:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 13:59:01,530:INFO:Carga de insumo por talle finalizada...
-2022-11-07 13:59:01,530:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 13:59:07,676:INFO:Cargando el insumo XAL003
-2022-11-07 13:59:26,079:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 13:59:27,213:INFO:Cargando el insumo XPC000
-2022-11-07 13:59:45,632:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 14:00:26,473:INFO:Error: Message: 
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x00E8ACD3+2075859]
-	Ordinal0 [0x00E1EE61+1633889]
-	Ordinal0 [0x00D1B7BD+571325]
-	Ordinal0 [0x00D4AC2F+764975]
-	Ordinal0 [0x00D4AE1B+765467]
-	Ordinal0 [0x00D7D0F2+970994]
-	Ordinal0 [0x00D67364+881508]
-	Ordinal0 [0x00D7B56A+963946]
-	Ordinal0 [0x00D67136+880950]
-	Ordinal0 [0x00D3FEFD+720637]
-	Ordinal0 [0x00D40F3F+724799]
-	GetHandleVerifier [0x0113EED2+2769538]
-	GetHandleVerifier [0x01130D95+2711877]
-	GetHandleVerifier [0x00F1A03A+521194]
-	GetHandleVerifier [0x00F18DA0+516432]
-	Ordinal0 [0x00E2682C+1665068]
-	Ordinal0 [0x00E2B128+1683752]
-	Ordinal0 [0x00E2B215+1683989]
-	Ordinal0 [0x00E36484+1729668]
-	BaseThreadInitThunk [0x75DEFA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77D67BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77D67B8E+238]
- , <class 'Exception'>
-2022-11-07 14:25:16,871:INFO:...Iniciando...
-2022-11-07 14:25:16,871:INFO:
-
-2022-11-07 14:25:16,872:INFO:====== WebDriver manager ======
-2022-11-07 14:25:18,416:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 14:25:18,416:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 14:25:18,700:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 14:25:20,621:INFO:Iniciando sesion..
-2022-11-07 14:25:20,812:INFO:Entrando...
-2022-11-07 14:25:20,812:INFO:Cargando file...
-2022-11-07 14:25:36,924:INFO:reading excel..
-2022-11-07 14:25:36,924:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 14:26:55,767:INFO:Agregando regla - telas corte
-2022-11-07 14:26:56,836:INFO:Error: Message: element click intercepted: Element <button type="button" id="ext-gen808" class=" x-btn-text button-add">...</button> is not clickable at point (531, 126). Other element would receive the click: <div class="ext-el-mask" id="ext-gen857"></div>
-  (Session info: chrome=107.0.5304.88)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x00E8ACD3+2075859]
-	Ordinal0 [0x00E1EE61+1633889]
-	Ordinal0 [0x00D1B7BD+571325]
-	Ordinal0 [0x00D51499+791705]
-	Ordinal0 [0x00D4F4AC+783532]
-	Ordinal0 [0x00D4D0AB+774315]
-	Ordinal0 [0x00D4BD37+769335]
-	Ordinal0 [0x00D41C76+728182]
-	Ordinal0 [0x00D6731C+881436]
-	Ordinal0 [0x00D415BF+726463]
-	Ordinal0 [0x00D67534+881972]
-	Ordinal0 [0x00D7B56A+963946]
-	Ordinal0 [0x00D67136+880950]
-	Ordinal0 [0x00D3FEFD+720637]
-	Ordinal0 [0x00D40F3F+724799]
-	GetHandleVerifier [0x0113EED2+2769538]
-	GetHandleVerifier [0x01130D95+2711877]
-	GetHandleVerifier [0x00F1A03A+521194]
-	GetHandleVerifier [0x00F18DA0+516432]
-	Ordinal0 [0x00E2682C+1665068]
-	Ordinal0 [0x00E2B128+1683752]
-	Ordinal0 [0x00E2B215+1683989]
-	Ordinal0 [0x00E36484+1729668]
-	BaseThreadInitThunk [0x75DEFA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77D67BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77D67B8E+238]
- , <class 'Exception'>
-2022-11-07 14:27:43,819:INFO:...Iniciando...
-2022-11-07 14:27:43,819:INFO:
-
-2022-11-07 14:27:43,820:INFO:====== WebDriver manager ======
-2022-11-07 14:27:45,135:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 14:27:45,135:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 14:27:45,361:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 14:27:47,114:INFO:Iniciando sesion..
-2022-11-07 14:27:47,299:INFO:Entrando...
-2022-11-07 14:27:47,299:INFO:Cargando file...
-2022-11-07 14:27:59,600:INFO:reading excel..
-2022-11-07 14:27:59,600:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 14:29:18,434:INFO:Agregando regla - telas corte
-2022-11-07 14:29:36,915:INFO:Agregando insumos telas
-2022-11-07 14:29:39,967:INFO:Cargando el insumo XTH000
-2022-11-07 14:30:04,411:INFO:Cargando el insumo XTH000
-2022-11-07 14:30:28,824:INFO:Cargando el insumo XTH000
-2022-11-07 14:30:53,314:INFO:Cargando el insumo XTH000
-2022-11-07 14:31:17,820:INFO:Cargando el insumo XTH000
-2022-11-07 14:31:39,360:INFO:Carga de insumos terminada
-2022-11-07 14:31:39,360:INFO:Comenzando carga de bordados...
-2022-11-07 14:32:08,844:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 14:32:25,282:INFO:Carga de insumo por talle finalizada...
-2022-11-07 14:32:25,282:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 14:32:27,315:INFO:Comenzando carga de confeccion...
-2022-11-07 14:32:37,096:INFO:Cargnado insumo por talle...
-2022-11-07 14:32:38,107:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 14:33:04,794:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 14:33:31,482:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 14:33:58,186:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 14:34:24,905:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 14:34:50,677:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 14:34:51,683:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 14:35:08,233:INFO:Carga de insumo por talle finalizada...
-2022-11-07 14:35:08,233:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 14:35:14,361:INFO:Cargando el insumo XAL003
-2022-11-07 14:35:32,798:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 14:35:33,960:INFO:Cargando el insumo XPC000
-2022-11-07 14:35:52,417:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 14:36:00,215:INFO:Cargando el insumo XAM000
-2022-11-07 14:36:18,555:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 14:36:47,620:INFO:Error: Message: element not interactable
-  (Session info: chrome=107.0.5304.88)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x00E8ACD3+2075859]
-	Ordinal0 [0x00E1EE61+1633889]
-	Ordinal0 [0x00D1B680+571008]
-	Ordinal0 [0x00D4BBD6+768982]
-	Ordinal0 [0x00D41C76+728182]
-	Ordinal0 [0x00D6731C+881436]
-	Ordinal0 [0x00D415BF+726463]
-	Ordinal0 [0x00D67534+881972]
-	Ordinal0 [0x00D7B56A+963946]
-	Ordinal0 [0x00D67136+880950]
-	Ordinal0 [0x00D3FEFD+720637]
-	Ordinal0 [0x00D40F3F+724799]
-	GetHandleVerifier [0x0113EED2+2769538]
-	GetHandleVerifier [0x01130D95+2711877]
-	GetHandleVerifier [0x00F1A03A+521194]
-	GetHandleVerifier [0x00F18DA0+516432]
-	Ordinal0 [0x00E2682C+1665068]
-	Ordinal0 [0x00E2B128+1683752]
-	Ordinal0 [0x00E2B215+1683989]
-	Ordinal0 [0x00E36484+1729668]
-	BaseThreadInitThunk [0x75DEFA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77D67BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77D67B8E+238]
- , <class 'Exception'>
-2022-11-07 14:50:34,803:INFO:...Iniciando...
-2022-11-07 14:50:34,803:INFO:
-
-2022-11-07 14:50:34,803:INFO:====== WebDriver manager ======
-2022-11-07 14:50:36,048:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 14:50:36,049:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 14:50:36,195:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 14:50:38,267:INFO:Iniciando sesion..
-2022-11-07 14:50:38,473:INFO:Entrando...
-2022-11-07 14:50:38,473:INFO:Cargando file...
-2022-11-07 14:50:51,171:INFO:reading excel..
-2022-11-07 14:50:51,171:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 14:52:10,058:INFO:Agregando regla - telas corte
-2022-11-07 14:52:28,523:INFO:Agregando insumos telas
-2022-11-07 14:52:31,576:INFO:Cargando el insumo XTH000
-2022-11-07 14:52:55,989:INFO:Cargando el insumo XTH000
-2022-11-07 14:53:20,402:INFO:Cargando el insumo XTH000
-2022-11-07 14:53:44,815:INFO:Cargando el insumo XTH000
-2022-11-07 14:54:09,305:INFO:Cargando el insumo XTH000
-2022-11-07 14:54:30,699:INFO:Carga de insumos terminada
-2022-11-07 14:54:30,699:INFO:Comenzando carga de bordados...
-2022-11-07 14:55:00,097:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 14:55:16,615:INFO:Carga de insumo por talle finalizada...
-2022-11-07 14:55:16,615:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 14:55:18,650:INFO:Comenzando carga de confeccion...
-2022-11-07 14:55:28,443:INFO:Cargnado insumo por talle...
-2022-11-07 14:55:29,454:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 14:55:56,125:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 14:56:22,892:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 14:56:49,641:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 14:57:16,484:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 14:57:42,241:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 14:57:43,247:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 14:57:59,810:INFO:Carga de insumo por talle finalizada...
-2022-11-07 14:57:59,810:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 14:58:05,926:INFO:Cargando el insumo XAL003
-2022-11-07 14:58:24,339:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 14:58:25,509:INFO:Cargando el insumo XPC000
-2022-11-07 14:58:43,948:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 14:58:51,687:INFO:Cargando el insumo XAM000
-2022-11-07 14:59:10,069:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 15:03:37,165:INFO:Error: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.88)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x00E8ACD3+2075859]
-	Ordinal0 [0x00E1EE61+1633889]
-	Ordinal0 [0x00D1B7BD+571325]
-	Ordinal0 [0x00D02E1A+470554]
-	Ordinal0 [0x00D6AA0B+895499]
-	Ordinal0 [0x00D7AC96+961686]
-	Ordinal0 [0x00D67136+880950]
-	Ordinal0 [0x00D3FEFD+720637]
-	Ordinal0 [0x00D40F3F+724799]
-	GetHandleVerifier [0x0113EED2+2769538]
-	GetHandleVerifier [0x01130D95+2711877]
-	GetHandleVerifier [0x00F1A03A+521194]
-	GetHandleVerifier [0x00F18DA0+516432]
-	Ordinal0 [0x00E2682C+1665068]
-	Ordinal0 [0x00E2B128+1683752]
-	Ordinal0 [0x00E2B215+1683989]
-	Ordinal0 [0x00E36484+1729668]
-	BaseThreadInitThunk [0x75DEFA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77D67BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77D67B8E+238]
- , <class 'Exception'>
-2022-11-07 15:03:39,723:INFO:...Iniciando...
-2022-11-07 15:03:39,724:INFO:
-
-2022-11-07 15:03:39,724:INFO:====== WebDriver manager ======
-2022-11-07 15:03:41,020:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 15:03:41,021:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 15:03:41,178:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 15:03:43,072:INFO:Iniciando sesion..
-2022-11-07 15:03:43,301:INFO:Entrando...
-2022-11-07 15:03:43,302:INFO:Cargando file...
-2022-11-07 15:03:55,840:INFO:reading excel..
-2022-11-07 15:03:55,841:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 15:05:14,737:INFO:Agregando regla - telas corte
-2022-11-07 15:05:33,229:INFO:Agregando insumos telas
-2022-11-07 15:05:36,286:INFO:Cargando el insumo XTH000
-2022-11-07 15:06:00,714:INFO:Cargando el insumo XTH000
-2022-11-07 15:06:25,096:INFO:Cargando el insumo XTH000
-2022-11-07 15:06:49,493:INFO:Cargando el insumo XTH000
-2022-11-07 15:07:13,890:INFO:Cargando el insumo XTH000
-2022-11-07 15:07:35,266:INFO:Carga de insumos terminada
-2022-11-07 15:07:35,266:INFO:Comenzando carga de bordados...
-2022-11-07 15:08:04,635:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 15:08:21,057:INFO:Carga de insumo por talle finalizada...
-2022-11-07 15:08:21,058:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 15:08:23,090:INFO:Comenzando carga de confeccion...
-2022-11-07 15:08:32,624:INFO:Cargnado insumo por talle...
-2022-11-07 15:08:33,633:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 15:09:00,384:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 15:09:27,104:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 15:09:53,931:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 15:10:20,822:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 15:10:46,687:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 15:10:47,693:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 15:11:04,255:INFO:Carga de insumo por talle finalizada...
-2022-11-07 15:11:04,255:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 15:11:10,388:INFO:Cargando el insumo XAL003
-2022-11-07 15:11:28,988:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 15:11:30,126:INFO:Cargando el insumo XPC000
-2022-11-07 15:11:48,577:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 15:11:56,458:INFO:Cargando el insumo XAM000
-2022-11-07 15:12:14,875:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 15:12:25,469:INFO:Error: load_insumo() missing 1 required positional argument: 'cantidad' , <class 'Exception'>
-2022-11-07 15:16:33,718:INFO:...Iniciando...
-2022-11-07 15:16:33,718:INFO:
-
-2022-11-07 15:16:33,719:INFO:====== WebDriver manager ======
-2022-11-07 15:16:34,984:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 15:16:34,985:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 15:16:35,282:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 15:16:37,130:INFO:Iniciando sesion..
-2022-11-07 15:16:37,330:INFO:Entrando...
-2022-11-07 15:16:37,331:INFO:Cargando file...
-2022-11-07 15:18:53,412:INFO:Error: Message: 
- , <class 'Exception'>
-2022-11-07 15:18:58,195:INFO:...Iniciando...
-2022-11-07 15:18:58,196:INFO:
-
-2022-11-07 15:18:58,196:INFO:====== WebDriver manager ======
-2022-11-07 15:18:59,510:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 15:18:59,510:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 15:18:59,609:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 15:19:35,335:INFO:...Iniciando...
-2022-11-07 15:19:35,336:INFO:
-
-2022-11-07 15:19:35,336:INFO:====== WebDriver manager ======
-2022-11-07 15:19:36,566:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 15:19:36,567:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 15:19:36,667:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 16:03:06,193:INFO:...Iniciando...
-2022-11-07 16:03:06,194:INFO:
-
-2022-11-07 16:03:06,194:INFO:====== WebDriver manager ======
-2022-11-07 16:03:07,484:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 16:03:07,484:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 16:03:07,781:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 16:03:54,232:INFO:...Iniciando...
-2022-11-07 16:03:54,232:INFO:
-
-2022-11-07 16:03:54,232:INFO:====== WebDriver manager ======
-2022-11-07 16:03:59,655:INFO:...Iniciando...
-2022-11-07 16:03:59,655:INFO:
-
-2022-11-07 16:03:59,655:INFO:====== WebDriver manager ======
-2022-11-07 16:04:00,921:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 16:04:00,921:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 16:04:01,033:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 16:04:47,603:INFO:...Iniciando...
-2022-11-07 16:04:47,603:INFO:
-
-2022-11-07 16:04:47,603:INFO:====== WebDriver manager ======
-2022-11-07 16:04:48,936:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 16:04:48,936:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 16:04:49,047:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 16:05:30,182:INFO:...Iniciando...
-2022-11-07 16:05:30,182:INFO:
-
-2022-11-07 16:05:30,183:INFO:====== WebDriver manager ======
-2022-11-07 16:05:31,422:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 16:05:31,422:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 16:05:31,521:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 16:07:41,985:INFO:...Iniciando...
-2022-11-07 16:07:41,985:INFO:
-
-2022-11-07 16:07:41,985:INFO:====== WebDriver manager ======
-2022-11-07 16:07:43,249:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 16:07:43,249:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 16:07:43,367:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 16:13:51,560:INFO:...Iniciando...
-2022-11-07 16:13:51,561:INFO:
-
-2022-11-07 16:13:51,561:INFO:====== WebDriver manager ======
-2022-11-07 16:13:52,937:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 16:13:52,944:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 16:13:53,105:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 16:29:04,923:INFO:...Iniciando...
-2022-11-07 16:29:04,963:INFO:
-
-2022-11-07 16:29:04,963:INFO:====== WebDriver manager ======
-2022-11-07 16:29:06,238:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 16:29:06,239:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 16:29:06,442:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 16:36:54,480:INFO:...Iniciando...
-2022-11-07 16:36:54,480:INFO:
-
-2022-11-07 16:36:54,481:INFO:====== WebDriver manager ======
-2022-11-07 16:36:55,747:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 16:36:55,747:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 16:36:55,892:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 16:36:58,788:INFO:Iniciando sesion..
-2022-11-07 16:36:58,961:INFO:Entrando...
-2022-11-07 16:36:58,961:INFO:Cargando file...
-2022-11-07 16:37:12,260:INFO:reading excel..
-2022-11-07 16:37:12,260:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 16:38:31,384:INFO:Agregando regla - telas corte
-2022-11-07 16:38:49,853:INFO:Agregando insumos telas
-2022-11-07 16:38:52,902:INFO:Cargando el insumo XTH000
-2022-11-07 16:39:17,330:INFO:Cargando el insumo XTH000
-2022-11-07 16:39:41,711:INFO:Cargando el insumo XTH000
-2022-11-07 16:40:06,078:INFO:Cargando el insumo XTH000
-2022-11-07 16:40:30,474:INFO:Cargando el insumo XTH000
-2022-11-07 16:40:51,836:INFO:Carga de insumos terminada
-2022-11-07 16:40:51,836:INFO:Comenzando carga de bordados...
-2022-11-07 16:41:21,204:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 16:41:37,625:INFO:Carga de insumo por talle finalizada...
-2022-11-07 16:41:37,626:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 16:41:39,659:INFO:Comenzando carga de confeccion...
-2022-11-07 16:41:49,162:INFO:Cargnado insumo por talle...
-2022-11-07 16:41:50,186:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 16:42:16,781:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 16:42:43,408:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 16:43:10,064:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 16:43:36,769:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 16:44:02,463:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 16:44:03,469:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 16:44:19,952:INFO:Carga de insumo por talle finalizada...
-2022-11-07 16:44:19,952:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 16:44:26,070:INFO:Cargando el insumo XAL003
-2022-11-07 16:44:44,437:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 16:44:45,576:INFO:Cargando el insumo XPC000
-2022-11-07 16:45:03,962:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 16:45:11,691:INFO:Cargando el insumo XAM000
-2022-11-07 16:45:30,005:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 16:45:40,563:INFO:Cargando el insumo XEC050
-2022-11-07 16:45:58,910:INFO:Cargando el insumo XEC050
-2022-11-07 16:46:17,276:INFO:Cargando el insumo XEC050
-2022-11-07 16:46:35,464:INFO:Cargando el insumo XEC050
-2022-11-07 16:46:51,820:INFO:Error: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.88)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x007CACD3+2075859]
-	Ordinal0 [0x0075EE61+1633889]
-	Ordinal0 [0x0065B7BD+571325]
-	Ordinal0 [0x00642E1A+470554]
-	Ordinal0 [0x006AAA0B+895499]
-	Ordinal0 [0x006BAC96+961686]
-	Ordinal0 [0x006A7136+880950]
-	Ordinal0 [0x0067FEFD+720637]
-	Ordinal0 [0x00680F3F+724799]
-	GetHandleVerifier [0x00A7EED2+2769538]
-	GetHandleVerifier [0x00A70D95+2711877]
-	GetHandleVerifier [0x0085A03A+521194]
-	GetHandleVerifier [0x00858DA0+516432]
-	Ordinal0 [0x0076682C+1665068]
-	Ordinal0 [0x0076B128+1683752]
-	Ordinal0 [0x0076B215+1683989]
-	Ordinal0 [0x00776484+1729668]
-	BaseThreadInitThunk [0x76E1FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77227BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77227B8E+238]
- , <class 'Exception'>
-2022-11-07 16:46:56,402:INFO:...Iniciando...
-2022-11-07 16:46:56,402:INFO:
-
-2022-11-07 16:46:56,402:INFO:====== WebDriver manager ======
-2022-11-07 16:46:57,640:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 16:46:57,640:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 16:46:57,788:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 16:46:59,623:INFO:Iniciando sesion..
-2022-11-07 16:46:59,769:INFO:Entrando...
-2022-11-07 16:46:59,769:INFO:Cargando file...
-2022-11-07 16:47:37,022:INFO:Error: Message: 
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x007CACD3+2075859]
-	Ordinal0 [0x0075EE61+1633889]
-	Ordinal0 [0x0065B7BD+571325]
-	Ordinal0 [0x0068AC2F+764975]
-	Ordinal0 [0x0068AE1B+765467]
-	Ordinal0 [0x006BD0F2+970994]
-	Ordinal0 [0x006A7364+881508]
-	Ordinal0 [0x006BB56A+963946]
-	Ordinal0 [0x006A7136+880950]
-	Ordinal0 [0x0067FEFD+720637]
-	Ordinal0 [0x00680F3F+724799]
-	GetHandleVerifier [0x00A7EED2+2769538]
-	GetHandleVerifier [0x00A70D95+2711877]
-	GetHandleVerifier [0x0085A03A+521194]
-	GetHandleVerifier [0x00858DA0+516432]
-	Ordinal0 [0x0076682C+1665068]
-	Ordinal0 [0x0076B128+1683752]
-	Ordinal0 [0x0076B215+1683989]
-	Ordinal0 [0x00776484+1729668]
-	BaseThreadInitThunk [0x76E1FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77227BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77227B8E+238]
- , <class 'Exception'>
-2022-11-07 16:50:51,281:INFO:...Iniciando...
-2022-11-07 16:50:51,282:INFO:
-
-2022-11-07 16:50:51,282:INFO:====== WebDriver manager ======
-2022-11-07 16:50:52,539:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 16:50:52,539:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 16:50:52,811:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 16:50:54,669:INFO:Iniciando sesion..
-2022-11-07 16:50:54,837:INFO:Entrando...
-2022-11-07 16:50:54,838:INFO:Cargando file...
-2022-11-07 16:51:06,722:INFO:reading excel..
-2022-11-07 16:51:06,722:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 16:52:25,533:INFO:Agregando regla - telas corte
-2022-11-07 16:52:43,979:INFO:Agregando insumos telas
-2022-11-07 16:52:47,036:INFO:Cargando el insumo XTH000
-2022-11-07 16:53:11,434:INFO:Cargando el insumo XTH000
-2022-11-07 16:53:35,815:INFO:Cargando el insumo XTH000
-2022-11-07 16:54:00,197:INFO:Cargando el insumo XTH000
-2022-11-07 16:54:24,610:INFO:Cargando el insumo XTH000
-2022-11-07 16:54:45,955:INFO:Carga de insumos terminada
-2022-11-07 16:54:45,955:INFO:Comenzando carga de bordados...
-2022-11-07 16:55:15,309:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 16:55:31,684:INFO:Carga de insumo por talle finalizada...
-2022-11-07 16:55:31,684:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 16:55:33,701:INFO:Comenzando carga de confeccion...
-2022-11-07 16:55:43,190:INFO:Cargnado insumo por talle...
-2022-11-07 16:55:44,199:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 16:56:10,810:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 16:56:37,421:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 16:57:04,109:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 16:57:30,782:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 16:57:56,555:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 16:57:57,561:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 16:58:14,060:INFO:Carga de insumo por talle finalizada...
-2022-11-07 16:58:14,060:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 16:58:20,178:INFO:Cargando el insumo XAL003
-2022-11-07 16:58:38,545:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 16:58:39,684:INFO:Cargando el insumo XPC000
-2022-11-07 16:58:58,070:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 16:59:05,815:INFO:Cargando el insumo XAM000
-2022-11-07 16:59:24,129:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 16:59:34,640:INFO:Cargando el insumo XEC050
-2022-11-07 16:59:52,989:INFO:Cargando el insumo XEC050
-2022-11-07 17:01:54,604:INFO:...Iniciando...
-2022-11-07 17:01:54,605:INFO:
-
-2022-11-07 17:01:54,605:INFO:====== WebDriver manager ======
-2022-11-07 17:01:55,840:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 17:01:55,840:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 17:01:56,001:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 17:01:57,895:INFO:Iniciando sesion..
-2022-11-07 17:01:58,073:INFO:Entrando...
-2022-11-07 17:01:58,073:INFO:Cargando file...
-2022-11-07 17:02:10,654:INFO:reading excel..
-2022-11-07 17:02:10,654:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 17:03:29,465:INFO:Agregando regla - telas corte
-2022-11-07 17:03:47,934:INFO:Agregando insumos telas
-2022-11-07 17:03:50,983:INFO:Cargando el insumo XTH000
-2022-11-07 17:04:15,381:INFO:Cargando el insumo XTH000
-2022-11-07 17:04:39,778:INFO:Cargando el insumo XTH000
-2022-11-07 17:05:04,207:INFO:Cargando el insumo XTH000
-2022-11-07 17:05:28,588:INFO:Cargando el insumo XTH000
-2022-11-07 17:05:49,934:INFO:Carga de insumos terminada
-2022-11-07 17:05:49,934:INFO:Comenzando carga de bordados...
-2022-11-07 17:06:19,333:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 17:06:35,739:INFO:Carga de insumo por talle finalizada...
-2022-11-07 17:06:35,739:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 17:06:37,772:INFO:Comenzando carga de confeccion...
-2022-11-07 17:06:47,291:INFO:Cargnado insumo por talle...
-2022-11-07 17:06:48,301:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:07:14,864:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:07:41,522:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:08:08,179:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:08:34,867:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:09:00,546:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 17:09:01,552:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 17:09:18,098:INFO:Carga de insumo por talle finalizada...
-2022-11-07 17:09:18,098:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 17:09:24,201:INFO:Cargando el insumo XAL003
-2022-11-07 17:09:42,582:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 17:09:43,706:INFO:Cargando el insumo XPC000
-2022-11-07 17:10:02,099:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 17:10:09,853:INFO:Cargando el insumo XAM000
-2022-11-07 17:10:28,183:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 17:10:38,710:INFO:Cargando el insumo XEC050
-2022-11-07 17:10:57,058:INFO:Cargando el insumo XEC050
-2022-11-07 17:11:15,441:INFO:Cargando el insumo XEC050
-2022-11-07 17:11:33,700:INFO:Cargando el insumo XEC050
-2022-11-07 17:11:51,843:INFO:Cargando el insumo XEC050
-2022-11-07 17:12:10,007:INFO:Cargando el insumo XEC050
-2022-11-07 17:12:30,278:INFO:Cargando el insumo XEC043
-2022-11-07 17:13:33,730:INFO:...Iniciando...
-2022-11-07 17:13:33,730:INFO:
-
-2022-11-07 17:13:33,730:INFO:====== WebDriver manager ======
-2022-11-07 17:13:35,001:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 17:13:35,002:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 17:13:35,162:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 17:13:37,037:INFO:Iniciando sesion..
-2022-11-07 17:13:37,214:INFO:Entrando...
-2022-11-07 17:13:37,214:INFO:Cargando file...
-2022-11-07 17:13:50,202:INFO:reading excel..
-2022-11-07 17:13:50,202:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 17:15:08,939:INFO:Agregando regla - telas corte
-2022-11-07 17:15:27,369:INFO:Agregando insumos telas
-2022-11-07 17:15:30,426:INFO:Cargando el insumo XTH000
-2022-11-07 17:15:56,837:INFO:Cargando el insumo XTH000
-2022-11-07 17:16:23,215:INFO:Cargando el insumo XTH000
-2022-11-07 17:16:49,609:INFO:Cargando el insumo XTH000
-2022-11-07 17:17:16,019:INFO:Cargando el insumo XTH000
-2022-11-07 17:17:39,440:INFO:Carga de insumos terminada
-2022-11-07 17:17:39,440:INFO:Comenzando carga de bordados...
-2022-11-07 17:18:08,855:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 17:18:25,229:INFO:Carga de insumo por talle finalizada...
-2022-11-07 17:18:25,229:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 17:18:27,246:INFO:Comenzando carga de confeccion...
-2022-11-07 17:18:36,781:INFO:Cargnado insumo por talle...
-2022-11-07 17:18:37,791:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:19:04,370:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:19:31,012:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:19:57,717:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:20:24,390:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:20:50,084:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 17:20:51,090:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 17:21:07,601:INFO:Carga de insumo por talle finalizada...
-2022-11-07 17:21:07,601:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 17:21:13,707:INFO:Cargando el insumo XAL003
-2022-11-07 17:21:34,080:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 17:21:35,210:INFO:Cargando el insumo XPC000
-2022-11-07 17:21:55,596:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 17:22:03,338:INFO:Cargando el insumo XAM000
-2022-11-07 17:22:23,677:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 17:22:34,221:INFO:Cargando el insumo XEC050
-2022-11-07 17:22:54,563:INFO:Cargando el insumo XEC050
-2022-11-07 17:23:14,935:INFO:Cargando el insumo XEC050
-2022-11-07 17:23:35,152:INFO:Cargando el insumo XEC050
-2022-11-07 17:23:55,370:INFO:Cargando el insumo XEC050
-2022-11-07 17:24:15,572:INFO:Cargando el insumo XEC050
-2022-11-07 17:24:21,766:INFO:Error: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.88)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x007CACD3+2075859]
-	Ordinal0 [0x0075EE61+1633889]
-	Ordinal0 [0x0065B7BD+571325]
-	Ordinal0 [0x00642E1A+470554]
-	Ordinal0 [0x006AAA0B+895499]
-	Ordinal0 [0x006BAC96+961686]
-	Ordinal0 [0x006A7136+880950]
-	Ordinal0 [0x0067FEFD+720637]
-	Ordinal0 [0x00680F3F+724799]
-	GetHandleVerifier [0x00A7EED2+2769538]
-	GetHandleVerifier [0x00A70D95+2711877]
-	GetHandleVerifier [0x0085A03A+521194]
-	GetHandleVerifier [0x00858DA0+516432]
-	Ordinal0 [0x0076682C+1665068]
-	Ordinal0 [0x0076B128+1683752]
-	Ordinal0 [0x0076B215+1683989]
-	Ordinal0 [0x00776484+1729668]
-	BaseThreadInitThunk [0x76E1FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77227BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77227B8E+238]
- , <class 'Exception'>
-2022-11-07 17:24:39,903:INFO:...Iniciando...
-2022-11-07 17:24:39,903:INFO:
-
-2022-11-07 17:24:39,904:INFO:====== WebDriver manager ======
-2022-11-07 17:24:41,142:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 17:24:41,142:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 17:24:41,291:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 17:24:43,265:INFO:Iniciando sesion..
-2022-11-07 17:24:43,449:INFO:Entrando...
-2022-11-07 17:24:43,449:INFO:Cargando file...
-2022-11-07 17:24:56,948:INFO:reading excel..
-2022-11-07 17:24:56,948:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 17:26:15,701:INFO:Agregando regla - telas corte
-2022-11-07 17:26:34,131:INFO:Agregando insumos telas
-2022-11-07 17:26:37,188:INFO:Cargando el insumo XTH000
-2022-11-07 17:27:03,644:INFO:Cargando el insumo XTH000
-2022-11-07 17:27:30,039:INFO:Cargando el insumo XTH000
-2022-11-07 17:27:56,464:INFO:Cargando el insumo XTH000
-2022-11-07 17:28:22,936:INFO:Cargando el insumo XTH000
-2022-11-07 17:28:46,309:INFO:Carga de insumos terminada
-2022-11-07 17:28:46,309:INFO:Comenzando carga de bordados...
-2022-11-07 17:29:15,647:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 17:29:32,033:INFO:Carga de insumo por talle finalizada...
-2022-11-07 17:29:32,033:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 17:29:34,075:INFO:Comenzando carga de confeccion...
-2022-11-07 17:29:43,558:INFO:Cargnado insumo por talle...
-2022-11-07 17:29:44,568:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:30:11,117:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:30:37,742:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:31:04,369:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:31:31,043:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:31:56,753:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 17:31:57,759:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 17:32:14,242:INFO:Carga de insumo por talle finalizada...
-2022-11-07 17:32:14,242:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 17:32:20,360:INFO:Cargando el insumo XAL003
-2022-11-07 17:32:40,748:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 17:32:41,878:INFO:Cargando el insumo XPC000
-2022-11-07 17:33:02,280:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 17:33:09,960:INFO:Cargando el insumo XAM000
-2022-11-07 17:33:30,299:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 17:33:40,843:INFO:Cargando el insumo XEC050
-2022-11-07 17:34:02,219:INFO:Cargando el insumo XEC050
-2022-11-07 17:34:23,437:INFO:Cargando el insumo XEC050
-2022-11-07 17:34:44,686:INFO:Cargando el insumo XEC050
-2022-11-07 17:35:05,839:INFO:Cargando el insumo XEC050
-2022-11-07 17:35:26,987:INFO:Cargando el insumo XEC050
-2022-11-07 17:35:50,143:INFO:Error: Message: element not interactable
-  (Session info: chrome=107.0.5304.88)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x007CACD3+2075859]
-	Ordinal0 [0x0075EE61+1633889]
-	Ordinal0 [0x0065B680+571008]
-	Ordinal0 [0x0068BBD6+768982]
-	Ordinal0 [0x00681C76+728182]
-	Ordinal0 [0x006A731C+881436]
-	Ordinal0 [0x006815BF+726463]
-	Ordinal0 [0x006A7534+881972]
-	Ordinal0 [0x006BB56A+963946]
-	Ordinal0 [0x006A7136+880950]
-	Ordinal0 [0x0067FEFD+720637]
-	Ordinal0 [0x00680F3F+724799]
-	GetHandleVerifier [0x00A7EED2+2769538]
-	GetHandleVerifier [0x00A70D95+2711877]
-	GetHandleVerifier [0x0085A03A+521194]
-	GetHandleVerifier [0x00858DA0+516432]
-	Ordinal0 [0x0076682C+1665068]
-	Ordinal0 [0x0076B128+1683752]
-	Ordinal0 [0x0076B215+1683989]
-	Ordinal0 [0x00776484+1729668]
-	BaseThreadInitThunk [0x76E1FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77227BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77227B8E+238]
- , <class 'Exception'>
-2022-11-07 17:36:13,759:INFO:...Iniciando...
-2022-11-07 17:36:13,760:INFO:
-
-2022-11-07 17:36:13,760:INFO:====== WebDriver manager ======
-2022-11-07 17:36:15,028:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 17:36:15,028:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 17:36:15,357:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 17:36:17,244:INFO:Iniciando sesion..
-2022-11-07 17:36:17,417:INFO:Entrando...
-2022-11-07 17:36:17,417:INFO:Cargando file...
-2022-11-07 17:36:30,940:INFO:reading excel..
-2022-11-07 17:36:30,940:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 17:37:49,724:INFO:Agregando regla - telas corte
-2022-11-07 17:38:08,196:INFO:Agregando insumos telas
-2022-11-07 17:38:11,242:INFO:Cargando el insumo XTH000
-2022-11-07 17:38:37,668:INFO:Cargando el insumo XTH000
-2022-11-07 17:39:04,062:INFO:Cargando el insumo XTH000
-2022-11-07 17:39:30,440:INFO:Cargando el insumo XTH000
-2022-11-07 17:39:56,897:INFO:Cargando el insumo XTH000
-2022-11-07 17:40:20,301:INFO:Carga de insumos terminada
-2022-11-07 17:40:20,301:INFO:Comenzando carga de bordados...
-2022-11-07 17:40:49,685:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 17:41:06,136:INFO:Carga de insumo por talle finalizada...
-2022-11-07 17:41:06,137:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 17:41:08,153:INFO:Comenzando carga de confeccion...
-2022-11-07 17:41:17,689:INFO:Cargnado insumo por talle...
-2022-11-07 17:41:18,699:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:41:45,340:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:42:11,982:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:42:38,671:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:43:05,343:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:43:31,053:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 17:43:32,060:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 17:43:48,621:INFO:Carga de insumo por talle finalizada...
-2022-11-07 17:43:48,622:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 17:43:54,738:INFO:Cargando el insumo XAL003
-2022-11-07 17:44:15,126:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 17:44:16,241:INFO:Cargando el insumo XPC000
-2022-11-07 17:44:36,658:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 17:44:44,384:INFO:Cargando el insumo XAM000
-2022-11-07 17:45:04,723:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 17:45:15,299:INFO:Cargando el insumo XEC050
-2022-11-07 17:45:36,675:INFO:Cargando el insumo XEC050
-2022-11-07 17:45:57,909:INFO:Cargando el insumo XEC050
-2022-11-07 17:46:19,157:INFO:Cargando el insumo XEC050
-2022-11-07 17:46:37,393:INFO:Error: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.88)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x007CACD3+2075859]
-	Ordinal0 [0x0075EE61+1633889]
-	Ordinal0 [0x0065B7BD+571325]
-	Ordinal0 [0x00642E1A+470554]
-	Ordinal0 [0x006AAA0B+895499]
-	Ordinal0 [0x006BAC96+961686]
-	Ordinal0 [0x006A7136+880950]
-	Ordinal0 [0x0067FEFD+720637]
-	Ordinal0 [0x00680F3F+724799]
-	GetHandleVerifier [0x00A7EED2+2769538]
-	GetHandleVerifier [0x00A70D95+2711877]
-	GetHandleVerifier [0x0085A03A+521194]
-	GetHandleVerifier [0x00858DA0+516432]
-	Ordinal0 [0x0076682C+1665068]
-	Ordinal0 [0x0076B128+1683752]
-	Ordinal0 [0x0076B215+1683989]
-	Ordinal0 [0x00776484+1729668]
-	BaseThreadInitThunk [0x76E1FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77227BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77227B8E+238]
- , <class 'Exception'>
-2022-11-07 17:46:40,107:INFO:...Iniciando...
-2022-11-07 17:46:40,107:INFO:
-
-2022-11-07 17:46:40,108:INFO:====== WebDriver manager ======
-2022-11-07 17:46:41,374:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 17:46:41,374:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 17:46:41,521:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 17:46:43,326:INFO:Iniciando sesion..
-2022-11-07 17:46:43,522:INFO:Entrando...
-2022-11-07 17:46:43,523:INFO:Cargando file...
-2022-11-07 17:46:55,346:INFO:reading excel..
-2022-11-07 17:46:55,346:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 17:48:14,254:INFO:Agregando regla - telas corte
-2022-11-07 17:48:32,683:INFO:Agregando insumos telas
-2022-11-07 17:48:35,741:INFO:Cargando el insumo XTH000
-2022-11-07 17:49:02,182:INFO:Cargando el insumo XTH000
-2022-11-07 17:49:28,591:INFO:Cargando el insumo XTH000
-2022-11-07 17:49:55,001:INFO:Cargando el insumo XTH000
-2022-11-07 17:50:21,441:INFO:Cargando el insumo XTH000
-2022-11-07 17:50:44,830:INFO:Carga de insumos terminada
-2022-11-07 17:50:44,830:INFO:Comenzando carga de bordados...
-2022-11-07 17:51:14,214:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 17:51:30,604:INFO:Carga de insumo por talle finalizada...
-2022-11-07 17:51:30,605:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 17:51:32,636:INFO:Comenzando carga de confeccion...
-2022-11-07 17:51:42,125:INFO:Cargnado insumo por talle...
-2022-11-07 17:51:43,136:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:52:09,683:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:52:36,324:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:53:02,981:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:53:29,655:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 17:53:55,364:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 17:53:56,371:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 17:54:12,885:INFO:Carga de insumo por talle finalizada...
-2022-11-07 17:54:12,885:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 17:54:19,003:INFO:Cargando el insumo XAL003
-2022-11-07 17:54:39,391:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 17:54:40,521:INFO:Cargando el insumo XPC000
-2022-11-07 17:55:00,908:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 17:55:08,618:INFO:Cargando el insumo XAM000
-2022-11-07 17:55:28,956:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 17:55:39,470:INFO:Cargando el insumo XEC050
-2022-11-07 17:56:03,975:INFO:Cargando el insumo XEC043
-2022-11-07 17:56:28,481:INFO:Cargando el insumo XEB001
-2022-11-07 17:56:53,018:INFO:Cargando el insumo XEV001
-2022-11-07 17:57:17,585:INFO:Cargando el insumo XEV001
-2022-11-07 17:57:42,215:INFO:Cargando el insumo XEV001
-2022-11-07 17:58:24,955:INFO:Ficha:D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm con cod de producto: I23 G - COL1 - 02 guardada
-2022-11-07 17:58:29,971:INFO:Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='ext-comp-1505']/div/div/div/div/div"}
-  (Session info: chrome=107.0.5304.88)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x007CACD3+2075859]
-	Ordinal0 [0x0075EE61+1633889]
-	Ordinal0 [0x0065B7BD+571325]
-	Ordinal0 [0x0068AC2F+764975]
-	Ordinal0 [0x0068AE1B+765467]
-	Ordinal0 [0x006BD0F2+970994]
-	Ordinal0 [0x006A7364+881508]
-	Ordinal0 [0x006BB56A+963946]
-	Ordinal0 [0x006A7136+880950]
-	Ordinal0 [0x0067FEFD+720637]
-	Ordinal0 [0x00680F3F+724799]
-	GetHandleVerifier [0x00A7EED2+2769538]
-	GetHandleVerifier [0x00A70D95+2711877]
-	GetHandleVerifier [0x0085A03A+521194]
-	GetHandleVerifier [0x00858DA0+516432]
-	Ordinal0 [0x0076682C+1665068]
-	Ordinal0 [0x0076B128+1683752]
-	Ordinal0 [0x0076B215+1683989]
-	Ordinal0 [0x00776484+1729668]
-	BaseThreadInitThunk [0x76E1FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77227BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77227B8E+238]
- , <class 'Exception'>
-2022-11-07 18:30:41,022:INFO:...Iniciando...
-2022-11-07 18:30:41,023:INFO:
-
-2022-11-07 18:30:41,023:INFO:====== WebDriver manager ======
-2022-11-07 18:30:42,355:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 18:30:42,355:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 18:30:42,646:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 18:30:44,784:INFO:Iniciando sesion..
-2022-11-07 18:30:44,968:INFO:Entrando...
-2022-11-07 18:30:44,968:INFO:Cargando file...
-2022-11-07 18:30:58,212:INFO:reading excel..
-2022-11-07 18:30:58,212:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 18:32:16,965:INFO:Agregando regla - telas corte
-2022-11-07 18:32:35,427:INFO:Agregando insumos telas
-2022-11-07 18:32:38,482:INFO:Cargando el insumo XTH000
-2022-11-07 18:33:04,907:INFO:Cargando el insumo XTH000
-2022-11-07 18:33:31,285:INFO:Cargando el insumo XTH000
-2022-11-07 18:33:57,680:INFO:Cargando el insumo XTH000
-2022-11-07 18:34:24,105:INFO:Cargando el insumo XTH000
-2022-11-07 18:34:47,494:INFO:Carga de insumos terminada
-2022-11-07 18:34:47,494:INFO:Comenzando carga de bordados...
-2022-11-07 18:35:16,862:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 18:35:33,267:INFO:Carga de insumo por talle finalizada...
-2022-11-07 18:35:33,267:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 18:35:35,284:INFO:Comenzando carga de confeccion...
-2022-11-07 18:35:44,789:INFO:Cargnado insumo por talle...
-2022-11-07 18:35:45,799:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 18:36:12,346:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 18:36:38,957:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 18:37:05,599:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 18:37:32,303:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 18:37:58,028:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 18:37:59,035:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 18:38:15,518:INFO:Carga de insumo por talle finalizada...
-2022-11-07 18:38:15,518:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 18:38:21,636:INFO:Cargando el insumo XAL003
-2022-11-07 18:38:42,023:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 18:38:43,138:INFO:Cargando el insumo XPC000
-2022-11-07 18:39:03,525:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 18:39:11,266:INFO:Cargando el insumo XAM000
-2022-11-07 18:39:31,588:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 18:39:42,087:INFO:Cargando el insumo XEC050
-2022-11-07 18:40:06,561:INFO:Cargando el insumo XEC043
-2022-11-07 18:40:31,051:INFO:Cargando el insumo XEB001
-2022-11-07 18:40:55,557:INFO:Cargando el insumo XEV001
-2022-11-07 18:41:20,093:INFO:Cargando el insumo XEV001
-2022-11-07 18:41:44,722:INFO:Cargando el insumo XEV001
-2022-11-07 18:42:16,008:INFO:Cargando el insumo XPE700
-2022-11-07 18:42:36,455:INFO:Carga de inusmo: XPE700 termiada
-2022-11-07 18:42:55,682:INFO:Ficha:D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm con cod de producto: I23 G - COL1 - 02 guardada
-2022-11-07 18:43:00,696:INFO:Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='ext-comp-1505']/div/div/div/div/div"}
-  (Session info: chrome=107.0.5304.88)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x007CACD3+2075859]
-	Ordinal0 [0x0075EE61+1633889]
-	Ordinal0 [0x0065B7BD+571325]
-	Ordinal0 [0x0068AC2F+764975]
-	Ordinal0 [0x0068AE1B+765467]
-	Ordinal0 [0x006BD0F2+970994]
-	Ordinal0 [0x006A7364+881508]
-	Ordinal0 [0x006BB56A+963946]
-	Ordinal0 [0x006A7136+880950]
-	Ordinal0 [0x0067FEFD+720637]
-	Ordinal0 [0x00680F3F+724799]
-	GetHandleVerifier [0x00A7EED2+2769538]
-	GetHandleVerifier [0x00A70D95+2711877]
-	GetHandleVerifier [0x0085A03A+521194]
-	GetHandleVerifier [0x00858DA0+516432]
-	Ordinal0 [0x0076682C+1665068]
-	Ordinal0 [0x0076B128+1683752]
-	Ordinal0 [0x0076B215+1683989]
-	Ordinal0 [0x00776484+1729668]
-	BaseThreadInitThunk [0x76E1FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77227BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77227B8E+238]
- , <class 'Exception'>
-2022-11-07 19:15:19,121:INFO:...Iniciando...
-2022-11-07 19:15:19,121:INFO:
-
-2022-11-07 19:15:19,121:INFO:====== WebDriver manager ======
-2022-11-07 19:15:20,337:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 19:15:20,337:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 19:15:20,488:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 19:15:22,315:INFO:Iniciando sesion..
-2022-11-07 19:15:22,500:INFO:Entrando...
-2022-11-07 19:15:22,500:INFO:Cargando file...
-2022-11-07 19:15:35,475:INFO:reading excel..
-2022-11-07 19:15:35,475:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 19:16:54,321:INFO:Agregando regla - telas corte
-2022-11-07 19:17:12,766:INFO:Agregando insumos telas
-2022-11-07 19:17:15,824:INFO:Cargando el insumo XTH000
-2022-11-07 19:17:42,296:INFO:Cargando el insumo XTH000
-2022-11-07 19:18:08,707:INFO:Cargando el insumo XTH000
-2022-11-07 19:18:35,117:INFO:Cargando el insumo XTH000
-2022-11-07 19:19:01,527:INFO:Cargando el insumo XTH000
-2022-11-07 19:19:24,917:INFO:Carga de insumos terminada
-2022-11-07 19:19:24,917:INFO:Comenzando carga de bordados...
-2022-11-07 19:19:54,317:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 19:20:10,692:INFO:Carga de insumo por talle finalizada...
-2022-11-07 19:20:10,692:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 19:20:12,710:INFO:Comenzando carga de confeccion...
-2022-11-07 19:20:22,213:INFO:Cargnado insumo por talle...
-2022-11-07 19:20:23,223:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:20:49,803:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:21:16,445:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:21:43,087:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:22:09,761:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:22:35,472:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 19:22:36,478:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 19:22:52,978:INFO:Carga de insumo por talle finalizada...
-2022-11-07 19:22:52,978:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 19:22:59,111:INFO:Cargando el insumo XAL003
-2022-11-07 19:23:19,469:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 19:23:20,583:INFO:Cargando el insumo XPC000
-2022-11-07 19:23:40,970:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 19:23:48,697:INFO:Cargando el insumo XAM000
-2022-11-07 19:24:09,036:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 19:24:19,550:INFO:Cargando el insumo XEC050
-2022-11-07 19:24:44,010:INFO:Cargando el insumo XEC043
-2022-11-07 19:25:08,532:INFO:Cargando el insumo XEB001
-2022-11-07 19:25:33,023:INFO:Cargando el insumo XEV001
-2022-11-07 19:25:57,575:INFO:Cargando el insumo XEV001
-2022-11-07 19:26:22,205:INFO:Cargando el insumo XEV001
-2022-11-07 19:27:26,667:INFO:Error: Message: 
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x007CACD3+2075859]
-	Ordinal0 [0x0075EE61+1633889]
-	Ordinal0 [0x0065B7BD+571325]
-	Ordinal0 [0x0068AC2F+764975]
-	Ordinal0 [0x0068AE1B+765467]
-	Ordinal0 [0x006BD0F2+970994]
-	Ordinal0 [0x006A7364+881508]
-	Ordinal0 [0x006BB56A+963946]
-	Ordinal0 [0x006A7136+880950]
-	Ordinal0 [0x0067FEFD+720637]
-	Ordinal0 [0x00680F3F+724799]
-	GetHandleVerifier [0x00A7EED2+2769538]
-	GetHandleVerifier [0x00A70D95+2711877]
-	GetHandleVerifier [0x0085A03A+521194]
-	GetHandleVerifier [0x00858DA0+516432]
-	Ordinal0 [0x0076682C+1665068]
-	Ordinal0 [0x0076B128+1683752]
-	Ordinal0 [0x0076B215+1683989]
-	Ordinal0 [0x00776484+1729668]
-	BaseThreadInitThunk [0x76E1FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77227BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77227B8E+238]
- , <class 'Exception'>
-2022-11-07 19:28:02,763:INFO:...Iniciando...
-2022-11-07 19:28:02,764:INFO:
-
-2022-11-07 19:28:02,764:INFO:====== WebDriver manager ======
-2022-11-07 19:28:04,004:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 19:28:04,005:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 19:28:04,315:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 19:28:06,305:INFO:Iniciando sesion..
-2022-11-07 19:28:06,490:INFO:Entrando...
-2022-11-07 19:28:06,491:INFO:Cargando file...
-2022-11-07 19:28:20,044:INFO:reading excel..
-2022-11-07 19:28:20,045:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 19:29:38,781:INFO:Agregando regla - telas corte
-2022-11-07 19:29:57,247:INFO:Agregando insumos telas
-2022-11-07 19:30:00,299:INFO:Cargando el insumo XTH000
-2022-11-07 19:30:26,724:INFO:Cargando el insumo XTH000
-2022-11-07 19:30:53,103:INFO:Cargando el insumo XTH000
-2022-11-07 19:31:19,498:INFO:Cargando el insumo XTH000
-2022-11-07 19:31:45,939:INFO:Cargando el insumo XTH000
-2022-11-07 19:32:09,297:INFO:Carga de insumos terminada
-2022-11-07 19:32:09,297:INFO:Comenzando carga de bordados...
-2022-11-07 19:32:38,666:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 19:32:55,074:INFO:Carga de insumo por talle finalizada...
-2022-11-07 19:32:55,075:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 19:32:57,104:INFO:Comenzando carga de confeccion...
-2022-11-07 19:33:06,593:INFO:Cargnado insumo por talle...
-2022-11-07 19:33:07,603:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:33:34,228:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:34:00,870:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:34:27,543:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:34:54,232:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:35:19,958:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 19:35:20,964:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 19:35:37,449:INFO:Carga de insumo por talle finalizada...
-2022-11-07 19:35:37,449:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 19:35:43,566:INFO:Cargando el insumo XAL003
-2022-11-07 19:36:03,953:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 19:36:05,068:INFO:Cargando el insumo XPC000
-2022-11-07 19:36:25,454:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 19:36:33,196:INFO:Cargando el insumo XAM000
-2022-11-07 19:36:53,520:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 19:37:04,018:INFO:Cargando el insumo XEC050
-2022-11-07 19:37:27,385:INFO:Error: Message: element not interactable
-  (Session info: chrome=107.0.5304.88)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x007CACD3+2075859]
-	Ordinal0 [0x0075EE61+1633889]
-	Ordinal0 [0x0065B680+571008]
-	Ordinal0 [0x0068BBD6+768982]
-	Ordinal0 [0x00681C76+728182]
-	Ordinal0 [0x006A731C+881436]
-	Ordinal0 [0x006815BF+726463]
-	Ordinal0 [0x006A7534+881972]
-	Ordinal0 [0x006BB56A+963946]
-	Ordinal0 [0x006A7136+880950]
-	Ordinal0 [0x0067FEFD+720637]
-	Ordinal0 [0x00680F3F+724799]
-	GetHandleVerifier [0x00A7EED2+2769538]
-	GetHandleVerifier [0x00A70D95+2711877]
-	GetHandleVerifier [0x0085A03A+521194]
-	GetHandleVerifier [0x00858DA0+516432]
-	Ordinal0 [0x0076682C+1665068]
-	Ordinal0 [0x0076B128+1683752]
-	Ordinal0 [0x0076B215+1683989]
-	Ordinal0 [0x00776484+1729668]
-	BaseThreadInitThunk [0x76E1FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77227BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77227B8E+238]
- , <class 'Exception'>
-2022-11-07 19:37:43,814:INFO:...Iniciando...
-2022-11-07 19:37:43,814:INFO:
-
-2022-11-07 19:37:43,814:INFO:====== WebDriver manager ======
-2022-11-07 19:37:45,117:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 19:37:45,117:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 19:37:45,268:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 19:37:47,124:INFO:Iniciando sesion..
-2022-11-07 19:37:47,302:INFO:Entrando...
-2022-11-07 19:37:47,303:INFO:Cargando file...
-2022-11-07 19:38:00,369:INFO:reading excel..
-2022-11-07 19:38:00,369:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 19:39:19,179:INFO:Agregando regla - telas corte
-2022-11-07 19:39:37,638:INFO:Agregando insumos telas
-2022-11-07 19:39:40,697:INFO:Cargando el insumo XTH000
-2022-11-07 19:40:07,137:INFO:Cargando el insumo XTH000
-2022-11-07 19:40:33,531:INFO:Cargando el insumo XTH000
-2022-11-07 19:40:59,910:INFO:Cargando el insumo XTH000
-2022-11-07 19:41:26,335:INFO:Cargando el insumo XTH000
-2022-11-07 19:41:49,708:INFO:Carga de insumos terminada
-2022-11-07 19:41:49,708:INFO:Comenzando carga de bordados...
-2022-11-07 19:42:19,108:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 19:42:35,529:INFO:Carga de insumo por talle finalizada...
-2022-11-07 19:42:35,529:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 19:42:37,561:INFO:Comenzando carga de confeccion...
-2022-11-07 19:42:47,096:INFO:Cargnado insumo por talle...
-2022-11-07 19:42:48,106:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:43:14,685:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:43:41,373:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:44:07,999:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:44:34,703:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 19:45:00,398:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 19:45:01,404:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 19:45:18,011:INFO:Carga de insumo por talle finalizada...
-2022-11-07 19:45:18,012:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 19:45:24,129:INFO:Cargando el insumo XAL003
-2022-11-07 19:45:44,502:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 19:45:45,616:INFO:Cargando el insumo XPC000
-2022-11-07 19:46:06,018:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 19:46:13,760:INFO:Cargando el insumo XAM000
-2022-11-07 19:46:34,082:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 19:46:44,674:INFO:Cargando el insumo XEC050
-2022-11-07 19:47:09,164:INFO:Cargando el insumo XEC043
-2022-11-07 19:47:33,669:INFO:Cargando el insumo XEB001
-2022-11-07 19:47:58,175:INFO:Cargando el insumo XEV001
-2022-11-07 19:48:22,758:INFO:Cargando el insumo XEV001
-2022-11-07 19:48:47,418:INFO:Cargando el insumo XEV001
-2022-11-07 19:49:18,751:INFO:Cargando el insumo XPE700
-2022-11-07 19:49:39,107:INFO:Error: load_insumo() missing 1 required positional argument: 'cantidad' , <class 'Exception'>
-2022-11-07 20:07:58,513:INFO:...Iniciando...
-2022-11-07 20:07:58,513:INFO:
-
-2022-11-07 20:07:58,514:INFO:====== WebDriver manager ======
-2022-11-07 20:07:59,969:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 20:07:59,970:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 20:08:00,125:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 20:08:02,735:INFO:Iniciando sesion..
-2022-11-07 20:08:03,079:INFO:Entrando...
-2022-11-07 20:08:03,079:INFO:Cargando file...
-2022-11-07 20:08:16,695:INFO:reading excel..
-2022-11-07 20:08:16,695:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 20:09:36,656:INFO:Agregando regla - telas corte
-2022-11-07 20:09:55,283:INFO:Agregando insumos telas
-2022-11-07 20:09:58,344:INFO:Cargando el insumo XTH000
-2022-11-07 20:10:24,879:INFO:Cargando el insumo XTH000
-2022-11-07 20:10:51,306:INFO:Cargando el insumo XTH000
-2022-11-07 20:11:17,778:INFO:Cargando el insumo XTH000
-2022-11-07 20:11:44,220:INFO:Cargando el insumo XTH000
-2022-11-07 20:12:07,610:INFO:Carga de insumos terminada
-2022-11-07 20:12:07,610:INFO:Comenzando carga de bordados...
-2022-11-07 20:12:37,056:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 20:12:53,505:INFO:Carga de insumo por talle finalizada...
-2022-11-07 20:12:53,505:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 20:12:55,528:INFO:Comenzando carga de confeccion...
-2022-11-07 20:13:05,154:INFO:Cargnado insumo por talle...
-2022-11-07 20:13:06,167:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 20:13:32,884:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 20:13:59,652:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 20:14:26,437:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 20:14:53,246:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 20:15:19,066:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 20:15:20,073:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 20:15:36,683:INFO:Carga de insumo por talle finalizada...
-2022-11-07 20:15:36,683:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 20:15:42,815:INFO:Cargando el insumo XAL003
-2022-11-07 20:16:03,234:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 20:16:04,380:INFO:Cargando el insumo XPC000
-2022-11-07 20:16:24,892:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 20:16:32,803:INFO:Cargando el insumo XAM000
-2022-11-07 20:16:53,162:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 20:17:03,828:INFO:Cargando el insumo XEC050
-2022-11-07 20:17:28,335:INFO:Cargando el insumo XEC043
-2022-11-07 20:17:52,887:INFO:Cargando el insumo XEB001
-2022-11-07 20:18:17,503:INFO:Cargando el insumo XEV001
-2022-11-07 20:18:42,210:INFO:Cargando el insumo XEV001
-2022-11-07 20:19:06,872:INFO:Cargando el insumo XEV001
-2022-11-07 20:19:38,453:INFO:Cargando el insumo XPE700
-2022-11-07 20:19:58,897:INFO:Carga de inusmo: XPE700 termiada
-2022-11-07 20:20:18,139:INFO:Error: Message: element not interactable
-  (Session info: chrome=107.0.5304.88)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x007CACD3+2075859]
-	Ordinal0 [0x0075EE61+1633889]
-	Ordinal0 [0x0065B680+571008]
-	Ordinal0 [0x0068BBD6+768982]
-	Ordinal0 [0x00681C76+728182]
-	Ordinal0 [0x006A731C+881436]
-	Ordinal0 [0x006815BF+726463]
-	Ordinal0 [0x006A7534+881972]
-	Ordinal0 [0x006BB56A+963946]
-	Ordinal0 [0x006A7136+880950]
-	Ordinal0 [0x0067FEFD+720637]
-	Ordinal0 [0x00680F3F+724799]
-	GetHandleVerifier [0x00A7EED2+2769538]
-	GetHandleVerifier [0x00A70D95+2711877]
-	GetHandleVerifier [0x0085A03A+521194]
-	GetHandleVerifier [0x00858DA0+516432]
-	Ordinal0 [0x0076682C+1665068]
-	Ordinal0 [0x0076B128+1683752]
-	Ordinal0 [0x0076B215+1683989]
-	Ordinal0 [0x00776484+1729668]
-	BaseThreadInitThunk [0x76E1FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77227BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77227B8E+238]
- , <class 'Exception'>
-2022-11-07 20:26:48,416:INFO:...Iniciando...
-2022-11-07 20:26:48,416:INFO:
-
-2022-11-07 20:26:48,416:INFO:====== WebDriver manager ======
-2022-11-07 20:26:49,754:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 20:26:49,755:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 20:26:50,133:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 20:26:52,158:INFO:Iniciando sesion..
-2022-11-07 20:26:52,382:INFO:Entrando...
-2022-11-07 20:26:52,383:INFO:Cargando file...
-2022-11-07 20:27:05,450:INFO:reading excel..
-2022-11-07 20:27:05,450:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 20:28:24,546:INFO:Agregando regla - telas corte
-2022-11-07 20:28:43,041:INFO:Agregando insumos telas
-2022-11-07 20:28:46,111:INFO:Cargando el insumo XTH000
-2022-11-07 20:29:12,615:INFO:Cargando el insumo XTH000
-2022-11-07 20:29:39,025:INFO:Cargando el insumo XTH000
-2022-11-07 20:30:05,435:INFO:Cargando el insumo XTH000
-2022-11-07 20:30:31,891:INFO:Cargando el insumo XTH000
-2022-11-07 20:30:55,282:INFO:Carga de insumos terminada
-2022-11-07 20:30:55,282:INFO:Comenzando carga de bordados...
-2022-11-07 20:31:24,634:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 20:31:41,055:INFO:Carga de insumo por talle finalizada...
-2022-11-07 20:31:41,055:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 20:31:43,073:INFO:Comenzando carga de confeccion...
-2022-11-07 20:31:52,608:INFO:Cargnado insumo por talle...
-2022-11-07 20:31:53,618:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 20:32:20,213:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 20:32:46,917:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 20:33:13,605:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 20:33:40,325:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 20:34:06,081:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 20:34:07,088:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 20:34:23,601:INFO:Carga de insumo por talle finalizada...
-2022-11-07 20:34:23,601:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 20:34:29,705:INFO:Cargando el insumo XAL003
-2022-11-07 20:34:50,126:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 20:34:51,393:INFO:Cargando el insumo XPC000
-2022-11-07 20:35:11,843:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 20:35:19,631:INFO:Cargando el insumo XAM000
-2022-11-07 20:35:40,003:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 20:35:50,639:INFO:Cargando el insumo XEC050
-2022-11-07 20:36:15,176:INFO:Cargando el insumo XEC043
-2022-11-07 20:36:39,729:INFO:Cargando el insumo XEB001
-2022-11-07 20:37:04,297:INFO:Cargando el insumo XEV001
-2022-11-07 20:37:28,864:INFO:Cargando el insumo XEV001
-2022-11-07 20:37:53,572:INFO:Cargando el insumo XEV001
-2022-11-07 20:38:24,998:INFO:Cargando el insumo XPE700
-2022-11-07 20:38:45,402:INFO:Carga de inusmo: XPE700 termiada
-2022-11-07 20:39:04,708:INFO:Ficha:D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm con cod de producto: I23 G - COL1 - 02 guardada
-2022-11-07 20:39:09,736:INFO:Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='ext-comp-1505']/div/div/div/div/div"}
-  (Session info: chrome=107.0.5304.88)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x007CACD3+2075859]
-	Ordinal0 [0x0075EE61+1633889]
-	Ordinal0 [0x0065B7BD+571325]
-	Ordinal0 [0x0068AC2F+764975]
-	Ordinal0 [0x0068AE1B+765467]
-	Ordinal0 [0x006BD0F2+970994]
-	Ordinal0 [0x006A7364+881508]
-	Ordinal0 [0x006BB56A+963946]
-	Ordinal0 [0x006A7136+880950]
-	Ordinal0 [0x0067FEFD+720637]
-	Ordinal0 [0x00680F3F+724799]
-	GetHandleVerifier [0x00A7EED2+2769538]
-	GetHandleVerifier [0x00A70D95+2711877]
-	GetHandleVerifier [0x0085A03A+521194]
-	GetHandleVerifier [0x00858DA0+516432]
-	Ordinal0 [0x0076682C+1665068]
-	Ordinal0 [0x0076B128+1683752]
-	Ordinal0 [0x0076B215+1683989]
-	Ordinal0 [0x00776484+1729668]
-	BaseThreadInitThunk [0x76E1FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77227BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77227B8E+238]
- , <class 'Exception'>
-2022-11-07 21:20:39,242:INFO:...Iniciando...
-2022-11-07 21:20:39,248:INFO:
-
-2022-11-07 21:20:39,249:INFO:====== WebDriver manager ======
-2022-11-07 21:20:40,679:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 21:20:40,679:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 21:20:41,328:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 21:20:43,885:INFO:Iniciando sesion..
-2022-11-07 21:20:44,084:INFO:Entrando...
-2022-11-07 21:20:44,084:INFO:Cargando file...
-2022-11-07 21:20:59,094:INFO:reading excel..
-2022-11-07 21:20:59,094:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 21:22:18,744:INFO:Agregando regla - telas corte
-2022-11-07 21:22:37,179:INFO:Agregando insumos telas
-2022-11-07 21:22:40,231:INFO:Cargando el insumo XTH000
-2022-11-07 21:23:06,688:INFO:Cargando el insumo XTH000
-2022-11-07 21:23:33,099:INFO:Cargando el insumo XTH000
-2022-11-07 21:23:59,508:INFO:Cargando el insumo XTH000
-2022-11-07 21:24:26,073:INFO:Cargando el insumo XTH000
-2022-11-07 21:24:49,462:INFO:Carga de insumos terminada
-2022-11-07 21:24:49,462:INFO:Comenzando carga de bordados...
-2022-11-07 21:25:18,878:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 21:25:35,298:INFO:Carga de insumo por talle finalizada...
-2022-11-07 21:25:35,298:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 21:25:37,315:INFO:Comenzando carga de confeccion...
-2022-11-07 21:25:46,804:INFO:Cargnado insumo por talle...
-2022-11-07 21:25:47,830:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 21:26:14,457:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 21:26:41,098:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 21:27:07,803:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 21:27:34,523:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 21:28:00,342:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 21:28:01,348:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 21:28:17,911:INFO:Carga de insumo por talle finalizada...
-2022-11-07 21:28:17,911:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 21:28:24,027:INFO:Cargando el insumo XAL003
-2022-11-07 21:28:44,416:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 21:28:45,546:INFO:Cargando el insumo XPC000
-2022-11-07 21:29:05,981:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 21:29:13,814:INFO:Cargando el insumo XAM000
-2022-11-07 21:29:34,168:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 21:29:44,682:INFO:Cargando el insumo XEC050
-2022-11-07 21:30:09,172:INFO:Cargando el insumo XEC043
-2022-11-07 21:30:33,678:INFO:Cargando el insumo XEB001
-2022-11-07 21:30:58,261:INFO:Cargando el insumo XEV001
-2022-11-07 21:31:22,845:INFO:Cargando el insumo XEV001
-2022-11-07 21:31:47,506:INFO:Cargando el insumo XEV001
-2022-11-07 21:32:18,885:INFO:Cargando el insumo XPE700
-2022-11-07 21:32:39,273:INFO:Carga de inusmo: XPE700 termiada
-2022-11-07 21:32:58,545:INFO:Ficha:D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm con cod de producto: I23 G - COL1 - 02 guardada
-2022-11-07 21:33:50,371:INFO:...Iniciando...
-2022-11-07 21:33:50,371:INFO:
-
-2022-11-07 21:33:50,371:INFO:====== WebDriver manager ======
-2022-11-07 21:33:51,693:INFO:Current google-chrome version is 107.0.5304
-2022-11-07 21:33:51,693:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
-2022-11-07 21:33:51,837:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
-2022-11-07 21:33:53,731:INFO:Iniciando sesion..
-2022-11-07 21:33:53,954:INFO:Entrando...
-2022-11-07 21:33:53,954:INFO:Cargando file...
-2022-11-07 21:34:06,444:INFO:reading excel..
-2022-11-07 21:34:06,445:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
-2022-11-07 21:35:25,368:INFO:Agregando regla - telas corte
-2022-11-07 21:35:43,829:INFO:Agregando insumos telas
-2022-11-07 21:35:46,886:INFO:Cargando el insumo XTH000
-2022-11-07 21:36:13,342:INFO:Cargando el insumo XTH000
-2022-11-07 21:36:39,721:INFO:Cargando el insumo XTH000
-2022-11-07 21:37:06,131:INFO:Cargando el insumo XTH000
-2022-11-07 21:37:32,556:INFO:Cargando el insumo XTH000
-2022-11-07 21:37:55,946:INFO:Carga de insumos terminada
-2022-11-07 21:37:55,946:INFO:Comenzando carga de bordados...
-2022-11-07 21:38:25,376:INFO:Cargando inusmo por talle: XPB000
-2022-11-07 21:38:41,767:INFO:Carga de insumo por talle finalizada...
-2022-11-07 21:38:41,767:INFO:Carga de inusmo: XPB000 terminada
-2022-11-07 21:38:43,783:INFO:Comenzando carga de confeccion...
-2022-11-07 21:38:53,288:INFO:Cargnado insumo por talle...
-2022-11-07 21:38:54,297:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 21:39:20,923:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 21:39:47,549:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 21:40:14,238:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 21:40:40,926:INFO:Cargando inusmo por talle: XAE216
-2022-11-07 21:41:06,653:INFO:Carga de inusmo: XAE216 terminada
-2022-11-07 21:41:07,659:INFO:Cargando inusmo por talle: XAE942
-2022-11-07 21:41:24,158:INFO:Carga de insumo por talle finalizada...
-2022-11-07 21:41:24,159:INFO:Carga de inusmo: XAE942 terminada
-2022-11-07 21:41:30,276:INFO:Cargando el insumo XAL003
-2022-11-07 21:41:50,664:INFO:Carga de inusmo: XAL003 termiada
-2022-11-07 21:41:51,763:INFO:Cargando el insumo XPC000
-2022-11-07 21:42:12,196:INFO:Carga de inusmo: XPC000 termiada
-2022-11-07 21:42:19,906:INFO:Cargando el insumo XAM000
-2022-11-07 21:42:40,250:INFO:Carga de inusmo: XAM000 termiada
-2022-11-07 21:42:50,853:INFO:Cargando el insumo XEC050
-2022-11-07 21:43:15,343:INFO:Cargando el insumo XEC043
-2022-11-07 21:43:39,880:INFO:Cargando el insumo XEB001
-2022-11-07 21:44:04,464:INFO:Cargando el insumo XEV001
-2022-11-07 21:44:29,249:INFO:Cargando el insumo XEV001
-2022-11-07 21:44:53,879:INFO:Cargando el insumo XEV001
-2022-11-07 21:45:25,538:INFO:Cargando el insumo XPE700
-2022-11-07 21:45:45,922:INFO:Carga de inusmo: XPE700 termiada
-2022-11-07 21:46:05,201:INFO:Ficha:D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm con cod de producto: I23 G - COL1 - 02 guardada
-2022-11-07 21:46:10,230:INFO:Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='ext-comp-1505']/div/div/div/div/div"}
-  (Session info: chrome=107.0.5304.88)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x007CACD3+2075859]
-	Ordinal0 [0x0075EE61+1633889]
-	Ordinal0 [0x0065B7BD+571325]
-	Ordinal0 [0x0068AC2F+764975]
-	Ordinal0 [0x0068AE1B+765467]
-	Ordinal0 [0x006BD0F2+970994]
-	Ordinal0 [0x006A7364+881508]
-	Ordinal0 [0x006BB56A+963946]
-	Ordinal0 [0x006A7136+880950]
-	Ordinal0 [0x0067FEFD+720637]
-	Ordinal0 [0x00680F3F+724799]
-	GetHandleVerifier [0x00A7EED2+2769538]
-	GetHandleVerifier [0x00A70D95+2711877]
-	GetHandleVerifier [0x0085A03A+521194]
-	GetHandleVerifier [0x00858DA0+516432]
-	Ordinal0 [0x0076682C+1665068]
-	Ordinal0 [0x0076B128+1683752]
-	Ordinal0 [0x0076B215+1683989]
-	Ordinal0 [0x00776484+1729668]
-	BaseThreadInitThunk [0x76E1FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77227BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x77227B8E+238]
- , <class 'Exception'>
+2022-11-25 15:52:43,581:INFO:====== WebDriver manager ======
+2022-11-25 15:52:44,132:INFO:Current google-chrome version is 107.0.5304
+2022-11-25 15:52:44,133:INFO:Get LATEST chromedriver version for 107.0.5304 google-chrome
+2022-11-25 15:52:44,262:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\107.0.5304.62\chromedriver.exe] found in cache
+2022-11-25 15:52:46,055:INFO:Iniciando sesion..
+2022-11-25 15:52:46,259:INFO:Entrando...
+2022-11-25 15:52:46,259:INFO:Cargando file...
+2022-11-25 15:52:58,745:INFO:reading excel..
+2022-11-25 15:52:58,745:INFO:Cargando ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm
+2022-11-25 15:53:37,722:INFO:Agregando regla - telas corte
+2022-11-25 15:53:51,077:INFO:Agregando insumos telas
+2022-11-25 15:53:54,121:INFO:Cargando el insumo XTH000
+2022-11-25 15:54:20,578:INFO:Cargando el insumo XTH000
+2022-11-25 15:54:46,988:INFO:Cargando el insumo XTH000
+2022-11-25 15:55:13,429:INFO:Cargando el insumo XTH000
+2022-11-25 15:55:39,870:INFO:Cargando el insumo XTH000
+2022-11-25 15:56:03,355:INFO:Carga de insumos terminada
+2022-11-25 15:56:03,355:INFO:Comenzando carga de bordados...
+2022-11-25 15:56:34,920:INFO:Cargando inusmo por talle: XPB000
+2022-11-25 15:56:51,435:INFO:Carga de insumo por talle finalizada...
+2022-11-25 15:56:51,435:INFO:Carga de inusmo: XPB000 terminada
+2022-11-25 15:56:53,469:INFO:Comenzando carga de confeccion...
+2022-11-25 15:57:05,510:INFO:Cargnado insumo por talle...
+2022-11-25 15:57:06,521:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:57:33,303:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:58:00,146:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:58:26,881:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:58:53,663:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 15:59:19,528:INFO:Carga de inusmo: XAE216 terminada
+2022-11-25 15:59:20,535:INFO:Cargando inusmo por talle: XAE942
+2022-11-25 15:59:37,116:INFO:Carga de insumo por talle finalizada...
+2022-11-25 15:59:37,116:INFO:Carga de inusmo: XAE942 terminada
+2022-11-25 15:59:43,260:INFO:Cargando el insumo XAL003
+2022-11-25 16:00:03,710:INFO:Carga de inusmo: XAL003 termiada
+2022-11-25 16:00:04,841:INFO:Cargando el insumo XPC000
+2022-11-25 16:00:25,275:INFO:Carga de inusmo: XPC000 termiada
+2022-11-25 16:00:35,229:INFO:Cargando el insumo XAM000
+2022-11-25 16:00:55,602:INFO:Carga de inusmo: XAM000 termiada
+2022-11-25 16:01:08,420:INFO:Cargando el insumo XEC050
+2022-11-25 16:01:32,957:INFO:Cargando el insumo XEC043
+2022-11-25 16:01:57,526:INFO:Cargando el insumo XEB001
+2022-11-25 16:02:22,125:INFO:Cargando el insumo XEV001
+2022-11-25 16:02:46,755:INFO:Cargando el insumo XEV001
+2022-11-25 16:03:11,524:INFO:Cargando el insumo XEV001
+2022-11-25 16:03:45,009:INFO:Cargando el insumo XPE700
+2022-11-25 16:04:05,444:INFO:Carga de inusmo: XPE700 termiada
+2022-11-25 16:04:22,779:INFO:Ficha:D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm con cod de producto: I23 G - COL1 - 02 guardada
+2022-11-25 16:04:39,845:INFO:Carga de ficha: D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm terminada con codigo de producto:: G0DM00
+2022-11-25 16:04:39,845:INFO:Cargando ficha:D55-I23-GRISINO MPG-CONJUNTO MUECA PURO - IMPRESO.xlsm con segundo codigo de producto: G0AM05
+2022-11-25 16:05:06,360:INFO:Agregando entrada
+2022-11-25 16:05:08,543:INFO:Cargando insumos...
+2022-11-25 16:05:14,611:INFO:Cargando el insumo XTH000
+2022-11-25 16:05:41,516:INFO:Cargando el insumo XTH000
+2022-11-25 16:06:08,344:INFO:Cargando el insumo XTH000
+2022-11-25 16:06:35,234:INFO:Cargando el insumo XTH000
+2022-11-25 16:07:02,170:INFO:Cargando el insumo XTH000
+2022-11-25 16:07:25,000:INFO:Carga de insumos terminada
+2022-11-25 16:07:29,014:INFO:Comenzando carga de bordados...
+2022-11-25 16:07:51,971:INFO:Cargando inusmo por talle: XPB000
+2022-11-25 16:08:08,812:INFO:Carga de insumo por talle finalizada...
+2022-11-25 16:08:08,812:INFO:Carga de inusmo: XPB000 terminada
+2022-11-25 16:08:10,846:INFO:Comenzando carga de confeccion...
+2022-11-25 16:08:29,187:INFO:Cargnado insumo por talle...
+2022-11-25 16:08:30,196:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 16:08:57,658:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 16:09:25,183:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 16:09:52,738:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 16:10:20,232:INFO:Cargando inusmo por talle: XAE216
+2022-11-25 16:10:46,871:INFO:Carga de inusmo: XAE216 terminada
+2022-11-25 16:10:49,890:INFO:Cargando inusmo por talle: XAE942
+2022-11-25 16:11:06,916:INFO:Carga de insumo por talle finalizada...
+2022-11-25 16:11:06,916:INFO:Carga de inusmo: XAE942 terminada
+2022-11-25 16:11:13,080:INFO:Cargando el insumo XAL003
+2022-11-25 16:11:33,809:INFO:Carga de inusmo: XAL003 termiada
+2022-11-25 16:11:34,985:INFO:Cargando el insumo XPC000
+2022-11-25 16:11:45,528:INFO:Error: object of type 'NoneType' has no len() , <class 'Exception'>
